@@ -1,6 +1,6 @@
 # ELEN0445 Microgrids
 
-This a course on microgrids and local energy communities given at Master's level at ULiège.
+This is a course on microgrids and local energy communities given at Master's level at ULiège.
 This course is still **UNDER CONSTRUCTION** because the master in electrical engineering, focus on electric power and energy systems, has been reorganized. The goal of this course is to be applied and practical, with lab visits and a few manipulations, sizing of installations, etc.
 
 Prerequisites: 
@@ -15,6 +15,8 @@ Teaching assistants:
  - Selmane Dakir
  - Jonathan Dumas
 
+We will interact through eCampus (videos, notifications, homeworks, questions, etc.). 
+
 # Lectures 
 
 | Date | Topic |
@@ -22,7 +24,7 @@ Teaching assistants:
 | September 16 | Lecture 1: [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md) |
 | September 23 | Lecture 2: [Microgrid architectures - offgrid microgrid](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md) <br> Assignment: draw a schematic of the example board |
 | September 30 | Lecture 3: [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices.md) <br> Assignment: implement a solar MPTT algorithm|
-| October 7 | Lecture 4: [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md)  <br> Assignment: designing a PV+storage installation with SMA sunny explorer tool|
+| October 7 | Lecture 4: [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md)  <br> Assignment: design a PV+storage installation with SMA sunny explorer tool|
 | October 14 | Lecture 5: [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/?p=optimization.md) |
 | October 21 | Lecture 6: [Demand side management](https://bcornelusse.github.io/ELEN0445-microgrids/?p=dsm.md) <br> Assignment: home energy management| 
 | October 28 | Lecture 7: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/?p=sizing.md)  <br> Assignment: home energy planning |
