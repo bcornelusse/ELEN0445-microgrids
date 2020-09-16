@@ -21,7 +21,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 
 | Date | Topic |
 | --- | --- |
-| September 16 | Lecture 1: [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version |
+| September 16 | Lecture 1: [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) |
 | September 23 | Lecture 2: [Microgrid architectures - offgrid microgrid](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md) <br> Assignment: draw a schematic of the example board |
 | September 30 | Lecture 3: [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices.md) <br> Assignment: implement a solar MPTT algorithm|
 | October 7 | Lecture 4: [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md)  <br> Assignment: design a PV+storage installation with SMA sunny explorer tool|
