@@ -23,15 +23,12 @@ important for operation, both from a technical point of view and from an economi
 ---
 
 ## AC grids
+
 - Most microgrids are AC
 - Most microgrids are three-phase!
  - Equipments in general require less components per unit of power transferred
  - Easy to generate a rotating field for motors
- - three-phase power transfer is a constant expression (if the phases are balanced) 
-
----
-
-## Do I insert the slide on 3 phase power?
+ - (Three-phase power transfer is a constant expression (if the phases are balanced))
 
 ---
 
@@ -77,7 +74,7 @@ Source: website of Studer-innotec
 
 # DC microgrids
 
--The distribution system is DC
+- The distribution system is DC
  - Requires DC to DC converters to adapt voltage to devices
  - DC to AC to power AC loads, or to inject in the public grid
  - AC to DC to convert AC generation to DC (e.g. from public grid to microgrid)
@@ -87,11 +84,14 @@ Source: website of Studer-innotec
 
 ## DC vs AC: pros
 
-- DC systems enable a simpler integration of DERs, since many of them are either DC by nature or require a DC interface anyway
+- DC systems enable a simpler integration of distributed energy resources (DERs*), since many of them are either DC by nature or require a DC interface anyway
 - Parallel distributed architectures are simpler to realize in DC:
  - unnecessary frequency control and phase synchronization
 - Frequency control is not necessary in DC systems
  - unwanted harmonic content may by easier to filter too
+
+
+*DER: sources of electric power that are not directly connected to a bulk power transmission system. Distributed energy resources include both generators and energy storage technologies. (T.Ackermann, G.Andersson, and L.Söder, “Distributed Generation: A Definition,” Electric Power Systems Research, vol. 57, issue 3, April 2001, pp. 195–204.)
 
 ---
 
