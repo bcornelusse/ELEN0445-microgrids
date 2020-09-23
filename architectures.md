@@ -28,7 +28,7 @@ An alternating current (AC) microgrid is a microgrid where components are couple
 - Most microgrids are AC
 - Typically, AC microgrids where the demand > 5kW are three-phase!
  - Required if you want to connect to the public grid (in Belgium)
- - Equipments in general require less components per unit of power transferred
+ - Equipment in general require less components per unit of power transferred
  - Easy to generate a rotating field for motors
  - (Three-phase power transfer is a constant expression, if the phases are balanced)
  
@@ -44,14 +44,18 @@ Let's take the example of a house or a small company that is running at low-volt
 
 ## Grid topologies
 
-Most common: radial architecture
+Most common: **radial** architecture
  - Subject to availability issues (one single path to a load)
 
 Alternatives:
- - provide a redundant path to each load
- - provide spatially diverse paths
- - ring-type distribution
- - ladder type distribution
+ 1. provide a **redundant path** to each load (more robust than radial)
+ 2. provide **spatially diverse paths** (more robust than 1)
+ 3. **ring-type** distribution (Can isolate a fault and still feed all but problematic zone)
+ 4. **ladder type** distribution (yet more connection possibilities)
+
+Note: a more complex system also needs more complex protection schemes. 
+
+See chapter 7 of the reference book for more information.
 
 ---
 
@@ -120,29 +124,38 @@ class: middle, center, black-slide
 
 ## Characterizing power distribution architectures based on how power conversion is performed
 
-- Centralized: power conversion is performed at a single power electronic interface
+- Centralized: power conversion is performed at a single power electronic interface. Example:
+.grid[
+.kol-1-2[.width-80[![](figures/solax.png)]]
+.kol-1-2[.width-80[![](figures/solax_descr.png)]]
+]
 - Distributed: power conversion functions are spread among converters
  - may lead to parallel or cascade structures
 
+.footnote[Source:https://www.alma-solarshop.com/solax-power-inverter/982-hybrid-solax-inverter-x1-50t-hv.html]
+
 ---
 
-# Grid-forming inverter
+## Grid-following inverter
 
-TODO
+- If connected to a battery, means that the battery is controllable, i.e. can absorb or deliver power depending on a setpoint.
+- Of course also depending on the availability of generation / demand and of another device to regulate the imbalances.
 
-- Frequency control
+.center.width-80[![](figures/scheme_grid_following_inverter.png)]
+
+.footnote[Source: Paolone, M., et al. (2020). Fundamentals of power systems modelling in the presence of converter-interfaced generation. Electric Power Systems Research, 189(April), 106811.]
+
+---
+
+## Grid-forming inverter
+
+- Frequency and voltage control
 - Synchronisation (PLL)
 - If connected to a battery, means that the battery follows the residual between generation and demand.
 
----
+"Grid-forming inverters are able to operate AC grids with or without rotating machines. In the past, they have been successfully deployed in inverter dominated island grids or in uninterruptable power supply (UPS) systems. It is expected that with increasing shares of inverter-based electrical power generation, grid-forming inverters will also become relevant for interconnected power systems. In contrast to conventional current-controlled inverters, grid-forming inverters do not immediately follow the grid voltage. They form voltage phasors that have an inertial behavior. In consequence, they can inherently deliver momentary reserve and increase power grid resilience."
 
-# Grid-following inverter
-
-TODO
-
-- If connected to a battery, means that the battery is controllable, i.e. can absorb or deliver power dependeing on a setpoint.
-- Of course also depending on the availability of generation / demang and of another device to regulate the imbalances.
-
+.footnote[Source: Unruh, P., Nuschke, M., Strauß, P., & Welck, F. (2020). Overview on grid-forming inverter control methods. Energies, 13(10)]
 ---
 
 class: middle, center
@@ -151,7 +164,97 @@ class: middle, center
 
 ---
 
-TODO
+## Synergrid
+
+Synergrid is the federation of electricity and gas network operators in Belgium. Synergrid establishes prescriptions for a series of topics related to distribution systems. 
+
+In the "Technical Prescription C10/11 of Synergrid, edition 2.1 (01.09.2019) (English translation)", you can find the rules that apply to a new installation.
+
+"This document C10/11 lays down the technical requirements relating to the connection of power generating plants capable to operate in parallel to the distribution network. The objectives of this
+document are the following:
+- ensuring proper operation of the distribution networks;
+- improving the safety of staff active in these networks;
+- protecting the distribution network’s infrastructure;
+- and contributing to the general system stability. "
+
+---
+
+## Application domain of C10/11
+
+Applies to:
+- Plants < 25MW connected to the distribution grid
+- Any energy source 
+- Without limitation regarding the possibility of actually injecting energy to the distribution network; this means, for example, that it is also applicable to power-generating
+plants equipped with a zero export relay. (...)
+- ...
+
+But not to:
+- Off-grid systems
+- Backup systems (not actually able to feed in the grid)
+- ... (elevators)
+
+---
+## Special cases 
+
+A power backup system (as specified in § 4.1.9) will only operate in parallel with the distribution network for a short time in the following sporadic cases: 
+
+- During tests
+- In case of islanding / reconnection after a network faults (*"make-before-break"*)
+- ...
+
+There are maximum durations depending on the cases.
+
+--
+
+In case of *infringment*, either:
+.grid[ 
+.kol-1-2[
+- all rules of C10/11 apply to the backup system
+- or parallel operation made impossible
+]
+.kol-1-2[<iframe src="https://giphy.com/embed/x6RunS9u1L3AA" width="240" height="135" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>]
+]
+
+---
+
+## Maximum power limits for a small power-generating plant
+
+.center.width-80[![](figures/max_power_limits_C10.png)]
+
+ - Each power-generating unit must be equipped with an *automatic separation system*
+ - If the power-generating plant includes an energy storage system,
+   - an *EnFluRi* sensor must be provided to control the power injected on the distribution network. 
+   - the EnFluRi sensor is a directional power sensor having a communication link with the energy storage system. 
+   - the power injected into the distribution network is limited to the maximum power of the other means of power-generation. 
+
+---
+
+## Settings of the automatic separation system (Annex C)
+
+.center.width-80[![](figures/settings_ASS.png)]
+
+
+---
+
+## Syncrocheck 
+
+The power-generating units which synchronize with the voltage on the distribution network (such as synchronous machines, island equipment ...), have to be equipped with a synchrocheck relay
+(equipped with a synchroscope) of a type homologated by Synergrid. 
+
+The synchrocheck is set as follows unless determined otherwise by the DSO:
+- Voltage difference < 5 %
+- Phase difference < 5°
+- Observation time = 0,5 seconds
+
+---
+
+## Technical basic requirements regarding the power generating units (Annex D)
+
+E.g. Specific for a small power-generating plant (D.7.1.1)
+
+By default, the power generation unit must operate according to the following rules:
+- When the voltage $\leq 105 \% U\_n$ : $\cos \phi = 1 (Q=0)$
+- When the voltage $ > 105 \% U\_n $ : free operation with $1 \geq \cos \phi > 0.9$ under-excited. (no overexcited operation allowed)
 
 
 ---
@@ -195,47 +298,20 @@ class: middle, center
 ]
 
 ---
-
-## E.g. Studer-innotec VarioString series
-
-Do I keep it?
-
-Source: website of Studer-innotec
-
-
----
-
-## Exemple 1 from Studer
-
-TODO
-
----
-
-## Exemple 2 from Studer
-
-TODO
-
----
 class: middle, center
-## Off grid case design
+## A first microgrid demonstration 
+# Off grid case design
 
 ---
 
-# Parts
+# Assignment
 
-- Solar charge controller (30 A)
-- PV panel
-- Battery
-- Inverter (1500 W)
-
-- Buses
-- cables: 
- - inverter DC side: < 1m, 25 $mm^2$, up to 160 A (1920 VA)
- - solar charge controller, 1m, 6 $mm^2$, up to 40 A
-
-- Fuses:
-
-
+By temas of 2, write a little report and draw an electrical diagram of the demonstration board:
+- wiring diagram
+- protections
+- equipment ratings (voltage, current, power)
+- cable sections
+- try to get some datasheets to understand how components work, can do and cannot do
 
 ---
 
