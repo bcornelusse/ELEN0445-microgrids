@@ -300,13 +300,13 @@ class: middle, center
 ---
 class: middle, center
 ## A first microgrid demonstration 
-# Off grid case design
+# Off-grid case design
 
 ---
 
 # Assignment
 
-By temas of 2, write a little report and draw an electrical diagram of the demonstration board:
+By teams of 2, write a little report and draw an electrical diagram of the demonstration board:
 - wiring diagram
 - protections
 - equipment ratings (voltage, current, power)
