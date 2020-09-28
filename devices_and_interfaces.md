@@ -93,6 +93,44 @@ Different types:
 
 ---
 
+## Transistors
+
+- Bipolar junction transistors (BJT)
+ - Historically used as amplifiers in their active region of operation
+ - Can also be used as a switch, in the saturation region
+ - High power, but high losses
+- Field effect transistors (MOSFET)
+ - High speed and high efficiency at low voltage.
+ - Isolated gate (field effect)
+ - Commonly used for low voltage converters
+
+---
+
+## Insulated Gate Bipolar Transistor (IGBT)
+
+- Most common device for high power DC-DC converters and inverters from medium to high voltages
+- Combination of BJT and MOSFET
+- Now replaces thyristors in most medium to high power applications
+
+---
+
+# Characterization of power electronics devices
+
+*DC component*: 
+- Integral of the output signal over a full AC input cycle.
+- In case of a rectifier, this is the power that is really transmitted from source to load.
+
+--
+
+*Total Harmonic Distortion*:
+THD = ratio of the total signal, including harmonics, to the desired frequency component:
+
+$$THD = \sqrt{\frac{F^2\_{RMS}-F^2\_{RMS,1}}{F^2\_{RMS}}}$$
+
+IEEE standard 519–1992, “Recommended Practices and Requirements for Harmonic Control in Electrical Power Systems”, states that the voltage THD is limited to 5% for general systems and is only up to 20% for dedicated systems
+
+---
+
 class: middle, center
 # Power generation sources
 
