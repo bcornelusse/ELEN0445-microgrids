@@ -95,6 +95,7 @@ Requires a network signal to work!
 class: middle, center, black-slide
 
 <iframe width="600" height="450" src="https://www.youtube.com/embed/883JgMK9EGg" frameborder="0" allowfullscreen></iframe>
+
 Automatic transfer switch principle
 
 ---
@@ -298,13 +299,14 @@ class: middle, center
 ]
 
 ---
+
 class: middle, center
 ## A first microgrid demonstration 
 # Off-grid case design
 
 ---
 
-# Assignment
+## Assignment
 
 By teams of 2, write a little report and draw an electrical diagram of the demonstration board:
 - wiring diagram
