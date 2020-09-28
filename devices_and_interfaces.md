@@ -234,13 +234,111 @@ q2 is a controllable switch and q2 is a diode
 - Current source inverter: $v\_{AC} > v\_{DC}$
 - Impedance source inverter : for a wide variation of $v\_{AC} \leq v\_{DC}$
 
-.center.width-500[![](figures/principle_inverter.png)]
+.center.width-50[![](figures/principle_inverter.png)]
 
 ---
 
 
 class: middle, center
 # Power generation sources
+
+---
+
+# Wind turbines
+
+- Wind turbines convert the mechanical power of wind into electrical power.
+- The power of the wind can be derived from its kinetic energy
+  $$ E_w = \frac{1}{2} m v^2$$ 
+  As power is the time derivative of energy, we have, assumming the speed is constant:
+  $$P_w = \frac{dE_w}{dt} = \frac{1}{2} \frac{dm}{dt} v^2$$
+   And
+  $\frac{dm}{dt} = \rho A v$ with $A$ the area crossed by the wind,
+  and $\rho$ is the mass of air by unit of volume. This yields
+  $$ P_w = \frac{1}{2} \rho A v^3 $$
+
+---
+
+## Power conversion
+
+ Only a fraction of the wind power is harvested by the blades.
+Actually, the energy harvested is function of the speed of the air
+  that enters the blades, $v_u$, and speed of the air that leaves the
+  blades, $v_d$: $$P_b = \frac{1}{2} \frac{dm}{dt}(v_u^2 - v_d^2)$$
+
+Approximating $\frac{dm}{dt}$ by $\rho A \frac{v_u-v_d}{2}$ and
+defining the coeffitient $\lambda_w$ as
+$$ \lambda_w = \frac{v_d}{v_u} $$
+
+Then the power harvested by the turbine can be written as
+$$P_b = \frac{1}{2} \rho A \frac{v_u - \lambda_w v_u}{2} (v_u^2 - \lambda_w^2 v_u^2)$$
+
+---
+
+## Turbine efficiency
+
+If we define the coefficient
+$$ C_p = \frac{1}{2} (1+\lambda_w) (1-\lambda_w^2)$$ Then
+$$P_b = \frac{1}{2} C_p \rho A v_u^3$$
+
+*Betz limit*:
+
+- It can be shown that there is a theoretical limit for $C_p$ at
+  $$\frac{16}{27} = 59.2\%$$
+- This limit is reached for $\lambda_w = 1/3$.
+
+---
+
+## Efficiency of different technologies as a function of tip-speed ratio (TSR)
+
+.center.width-80[![](figures/Betz.png)]
+
+TSR = rotor tip speed / wind speed.
+
+---
+
+## Electromechanical conversion
+So far, we have only been talking about mechanical power conversion!
+
+Several types of generators can be used to convert mechanical power into electrical power:
+- Synchronous machine
+- DC machine
+- Induction machine
+- Doubly fed induction machine
+
+Brushless variants of (some of) these machines can be used to decrease maintenance needs, through permanent magnets. Those cannot be used for large size generators (> several hundreds of kW).
+
+
+---
+
+## Power electronics interface
+
+Most of the time, and especially in microgrids operation, these generators are coupled with power electronics to generate power with an appropriate shape:
+- the output of the generator goes through a DC convertion
+stage (rectifier if AC generator, DC-DC if DC generator) to
+cope with wind speed variations
+- if the distribution grid is AC, then there is an additional
+inverter stage.
+
+Power electronics are also used
+- to maximize the energy harvested, especially for low-to-medium
+power generators (instead of adapting rotor speed through
+e.g. controlling blade pitch):
+- to limit the power output at high wind speeds to avoid
+degradation
+
+---
+
+## Wind generator operating characteristic
+
+.center.width-80[![](figures/WT_curve.png)]
+
+---
+
+# Photovoltaic generation
+
+A PV cell is composed of semiconductor material. Photons emitted by the sun interact with the semiconducting material in two ways:
+1. photons directly transmit energy to electrons and allow them to move into the conduction band.
+2. a thermally generated current as in a p-n junction (diode).
 
 ---
 
