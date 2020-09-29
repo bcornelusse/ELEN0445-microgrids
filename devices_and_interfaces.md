@@ -15,7 +15,7 @@ Bertrand Cornélusse<br>
 ## Content of this lecture
 
 In this lecture we review 
-- the main types of components that can be used as sources in microgrids
+- the main types of components that can be used as sources in microgrids (storage will be the topic of another lecture)
 - their power electronics interfaces
 
 ---
@@ -59,7 +59,7 @@ Ideal switch model:
 
 ## Realistic switch model
 <br><br><br>
-.center.width-50[![](figures/ideal_switch.png)]
+.center.width-50[![](figures/realistic_switch.png)]
 
 ---
 
@@ -69,6 +69,8 @@ Ideal switch model:
 
 - Current flows from anode to cathode when forward biased: $i>0 \Rightarrow v=0 $
 - No current when reversed bias: $v<0 \Rightarrow i=0$
+
+Not really controllable, hence not suited for all applications.
 
 ---
 
@@ -95,15 +97,23 @@ Different types:
 
 ## Transistors
 
-- Bipolar junction transistors (BJT)
- - Historically used as amplifiers in their active region of operation
- - Can also be used as a switch, in the saturation region
- - High power, but high losses
-- Field effect transistors (MOSFET)
- - High speed and high efficiency at low voltage.
- - Isolated gate (field effect)
- - Commonly used for low voltage converters
-
+.grid[
+.kol-1-2[
+Bipolar junction transistors (BJT)
+<br>
+.center.width-40[![](figures/BJT_symbol_NPN.svg)]
+- Historically used as amplifiers in their active region of operation
+- Can also be used as a switch, in the saturation region
+- High power, but high losses
+]
+.kol-1-2[
+Field effect transistors (MOSFET)
+<br>
+.center.width-40[![](figures/Mosfet-zp.svg)]
+- High speed and high efficiency at low voltage.
+- Isolated gate (field effect)
+- Commonly used for low voltage converters
+]]
 ---
 
 ## Insulated Gate Bipolar Transistor (IGBT)
@@ -112,15 +122,20 @@ Different types:
 - Combination of BJT and MOSFET
 - Now replaces thyristors in most medium to high power applications
 
+.center.width-20[![](figures/igbt-001_1_en.webp)]
+
+
 ---
 
-# Characterization of power electronics devices
+## Characterization of power electronics devices
 
 *DC component*: 
 - Integral of the output signal over a full AC input cycle.
 - In case of a rectifier, this is the power that is really transmitted from source to load.
 
 --
+
+count: false
 
 *Total Harmonic Distortion*:
 THD = ratio of the total signal, including harmonics, to the desired frequency component:
@@ -156,7 +171,7 @@ DC component: $V\_{DC} = \frac{V_p}{2 \pi} \int_0^\pi \sin(t) dt = -\frac{V_p}{2
 .center.width-90[![](figures/full_bridge_1P.png)]
 
 - DC component twice of the half bridge
-- But Large harmonic current in the input AC current
+- But large harmonic current in the input AC current
 - DC output not controllable
 
 ---
@@ -176,6 +191,14 @@ DC component: $V\_{DC} = \frac{V_p}{2 \pi} \int_0^\pi \sin(t) dt = -\frac{V_p}{2
 ## Recap with more realistic components
 
 .center.width-100[![](figures/recap_rectifiers.png)]
+
+---
+
+class: middle, center
+
+## 6-pulse rectifier (3-phase source)
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/WVI8Z7p_rdY" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -209,20 +232,35 @@ Only one switch ON at a time!
 
 ---
 
+class: middle, center
+
+## PWM exemple video
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/5nwNKPs2gco" frameborder="0" allowfullscreen></iframe>
+
+---
+
 ## Converter types
 
 .grid[
 .kol-1-2[*BUCK*
 
-q1 is a controllable switch and q2 is a diode
-.center.width-80[![](figures/buck1.png)]
-.center.width-80[![](figures/buck2.png)]]
+$q\_1$ is a controllable switch and $q\_2$ is a diode
+.center.width-60[![](figures/buck1.png)]
+.center.width-80[![](figures/buck2.png)]
+$v\_h = 48 V$ (DC), duty cycle = 50%
+]
 .kol-1-2[*BOOST*
 
-q2 is a controllable switch and q2 is a diode
-.center.width-80[![](figures/boost1.png)]
-.center.width-80[![](figures/boost2.png)]]
+$q\_2$ is a controllable switch and $q\_1$ is a diode
+.center.width-60[![](figures/boost1.png)]
+.center.width-70[![](figures/boost2.png)]
+$v\_l = 24 V$ (DC), duty cycle = 50%
+
 ]
+]
+
+Transient analysis concepts from [ELEC0053](https://github.com/bcornelusse/livre_circuits_electriques_ELEC0053) can be used to study these systems.
 
 ---
 
@@ -238,6 +276,21 @@ q2 is a controllable switch and q2 is a diode
 
 ---
 
+class: middle, center
+
+## How an inverter works
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/qVeERT4nyz8" frameborder="0" allowfullscreen></iframe>
+
+---
+
+class: middle, center
+
+## 6-pulse inverter (3-phase)
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/jOquS6uqpeY" frameborder="0" allowfullscreen></iframe>
+
+---
 
 class: middle, center
 # Power generation sources
@@ -296,6 +349,14 @@ TSR = rotor tip speed / wind speed.
 
 ---
 
+class: middle, center
+
+## Electromechanical conversion
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/JJr4PIuQp2w" frameborder="0" allowfullscreen></iframe>
+
+---
+
 ## Electromechanical conversion
 So far, we have only been talking about mechanical power conversion!
 
@@ -306,7 +367,6 @@ Several types of generators can be used to convert mechanical power into electri
 - Doubly fed induction machine
 
 Brushless variants of (some of) these machines can be used to decrease maintenance needs, through permanent magnets. Those cannot be used for large size generators (> several hundreds of kW).
-
 
 ---
 
@@ -342,7 +402,7 @@ A PV cell is composed of semiconductor material. Photons emitted by the sun inte
 
 ---
 
-class: middle, center, black-slide
+class: middle, center
 
 <iframe width="600" height="450" src="https://www.youtube.com/embed/L_q6LRgKpTw" frameborder="0" allowfullscreen></iframe>
 
@@ -357,11 +417,28 @@ class: middle, center, black-slide
 .kol-1-2[Source: https://en.wikipedia.org/wiki/Maximum_power_point_tracking]
 ]
 
+
+---
+
+class: middle, center
+
+.center.width-100[![](figures/best-research-cell-efficiencies_20200925.png)]
+
+.footnote[Source: https://www.nrel.gov/pv/cell-efficiency.html]
+
 ---
 
 ## Equivalent electrical model
 
-TODO
+.center.width-60[![](figures/Solar_cell_equivalent_circuit.svg)]
+
+- "It can be shown that for a high-quality solar cell (low $R\_S$ and $I\_0$ (diode parameter), and high $R\_{SH}$) the short-circuit current $I\_{SC} \approx I\_L$"
+- The open-circuit voltage is approximately equal to the voltage accross the diode
+- Both are function of irradiance and temperature
+
+
+
+.footnote[Source: https://en.wikipedia.org/wiki/Theory_of_solar_cells]
 
 ---
 
@@ -538,12 +615,19 @@ ICEs follow an *Otto* thermodynamic cycle.
 
 class: middle, center
 # Implementing a solar MPPT algorithm
+## Assignment
+
+---
+
+class: middle, center
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/0ItjKs7aJFM" frameborder="0" allowfullscreen></iframe>
 
 ---
 
 ## Assignment
 
-By teams of 2, 
+By teams of 2, **to be completed**
 
 ---
 
