@@ -614,7 +614,7 @@ ICEs follow an *Otto* thermodynamic cycle.
 ---
 
 class: middle, center
-# Implementing a solar MPPT algorithm
+# Implementing solar MPPT algorithms
 ## Assignment
 
 ---
@@ -627,7 +627,7 @@ class: middle, center
 
 ## Assignment
 
-By teams of 2, **to be completed**
+See the pdf on the course website for the details.
 
 ---
 
