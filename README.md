@@ -23,15 +23,16 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | --- | --- |
 | September 16 | Lecture 1: [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) |
 | September 23 | Lecture 2: [Microgrid architectures - offgrid microgrid](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version, link to the [video](https://vimeo.com/461332158/b11a5a74c7) <br> Assignment: draw a schematic of the example board (see lecture slides, submit on ecampus)|
-| September 30 | Lecture 3: [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e)<br> Assignment: implement a solar MPTT algorithm  (submit on ecampus)|
-| October 7 | Lecture 4: [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md)  <br> Assignment: design a PV+storage installation with SMA sunny explorer tool|
-| October 14 | Lecture 5: [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf) |
-| October 21 | Lecture 6: [Demand side management](https://bcornelusse.github.io/ELEN0445-microgrids/?p=dsm.md) <br> Assignment: home energy management| 
-| October 28 | Lecture 7: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/?p=sizing.md)  <br> Assignment: home energy planning |
-| November 18 | Lecture 8: [Forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/?p=forecasting.md) 
-| November 25 | Lecture 9: [Probabilistic forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/?p=probabilistic_forecasting.md) <br> Assignment: forecast PV generation |
-| December 2 | Lecture 10: [Local energy communities](https://bcornelusse.github.io/ELEN0445-microgrids/?p=lec.md) |
-| December 9 | Lecture 11: [TBD](https://bcornelusse.github.io/ELEN0445-microgrids/?p=TBD.md) |
+| September 30 | Lecture 3: [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e)<br> Assignment 2: implement a solar MPTT algorithm  (submit on ecampus)|
+| October 7 | Q&A session for assignment 2 <br> Lecture 4: [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video]() |
+| October 14 | Assignment 3 and Q&A session: design a PV+storage installation with SMA sunny explorer tool |
+| October 21 | Lecture 5: [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf) |
+| October 28 | Lecture 6: [Demand side management](https://bcornelusse.github.io/ELEN0445-microgrids/?p=dsm.md) <br> Assignment: home energy management| 
+| November 18 | Lecture 7: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/?p=sizing.md)  <br> Assignment: home energy planning |
+| November 25 | Lecture 8: [Forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/?p=forecasting.md) 
+| December 2 | Lecture 9: [Probabilistic forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/?p=probabilistic_forecasting.md) <br> Assignment: forecast PV generation |
+| December 9 | Lecture 10: [Local energy communities](https://bcornelusse.github.io/ELEN0445-microgrids/?p=lec.md) |
+| December 14 | If needed |
 
 
 # talk-template
