@@ -32,7 +32,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | November 25 | Lecture 8: [Forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/?p=forecasting.md) 
 | December 2 | Lecture 9: [Probabilistic forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/?p=probabilistic_forecasting.md) <br> Assignment: forecast PV generation |
 | December 9 | Lecture 10: [Local energy communities](https://bcornelusse.github.io/ELEN0445-microgrids/?p=lec.md) |
-| December 14 | If needed |
+| December 16 | If needed |
 
 
 # talk-template
