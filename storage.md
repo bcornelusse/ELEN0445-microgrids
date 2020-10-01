@@ -3,7 +3,7 @@ count: false
 
 # Microgrids
 
-Energy storage
+Electricity storage
 
 <br><br>
 
@@ -14,9 +14,7 @@ Bertrand Cornélusse<br>
 
 # What we will do in this lecture
 
-We will review the main storage techgnologies and get an overview of their main properties.
-
-The focus on energy storage technologies, management, and conversion requirements: 
+We will review the main storage technologies and get an overview of their main properties.
  - short electrochemistry and physical analysis 
  - mostly how specific characteristics of each particular technology
 affect microgrid design, planning, and operation.
