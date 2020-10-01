@@ -48,7 +48,7 @@ Sources and forms of energy vary widely, leading to the emergence of many differ
 
 ---
 
-# Power delivery vs energy delivery
+## Power delivery vs energy delivery
 
 .center.width-60[![](figures/storage_power_vs_energy_density.png)]
 
@@ -56,7 +56,7 @@ High power/energy ratio required to compensate lack of dynamics for load and gen
 
 ---
 
-# Physical constitution of a battery
+## Physical constitution of a battery
 
  - Electrodes: cathode  and anode
   - cathode: from where conventional current (+ charges) leaves -> + electrode *if* generator.
@@ -75,58 +75,7 @@ Example: standard 12V lead-acid battery: six 2V cells in series within an enclos
 
 class: middle, center
 
-# Capacitors and supercapacitors
-
----
-
-## Capacitors 
-
-- Energy stored in electrostatic form (electrical field).
-- Charge (electrons) stored on electrode surfaces.
-- Dielectric inserted between electrodes to increase capacity.
-- Two common designs: ceramic/film capacitors and electrolytic capacitors (with much higher capacity). 
-
----
-
-## Schematic of common capacitor technologies 
-
-.center.width-80[![](figures/capacitor.png)]
-
----
-
-## Supercapacitors 
-
-- Super and ultra capacitors are synonyms. Capacitors and super capacitors are different. 
-- Energy stored in electrostatic form (electrical field).
-- Charge (ions) adsorbed on porous activated carbon electrode surfaces bound to current collector.
-- Ions transferred through electrolyte from one electrode to the other.
-- Porous separator inserted between electrodes. 
-
----
-
-## Schematic & working principle of super capacitor technology
-
-.center.width-60[![](figures/supercapacitor.png)]
-
-
----
-
-## E.g. Maxwell ultracapacitors
-
-.center.width-90[![](figures/maxwell_supercaps.png)]
-[Description](https://www.maxwell.com/products/ultracapacitors/cells#18)
-
----
-
-class: middle, center
-
 # Lead-acid batteries
-
----
-
-class: middle, center, black-slide
-
-<iframe width="600" height="450" src="https://www.youtube.com/embed/rhIRD5YVNbs" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -136,7 +85,13 @@ class: middle, center, black-slide
  - Lead dioxide $PbO\_2$ (positive electrode)
  - Sulfuric acid $H\_2SO\_4$ and water in the electrolyte
  
-Chemical reactions omitted.
+Chemical reactions in the next video.
+
+---
+
+class: middle, center, black-slide
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/rhIRD5YVNbs" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -363,6 +318,65 @@ Complex strategies exist to maximize the efficiency and the safety of the proces
  - Voltage measurment
  - Kalman filtering
  - Technology specific methods.
+
+---
+
+class: middle, center
+
+# Capacitors and supercapacitors
+
+---
+
+## Capacitors 
+
+- Energy stored in electrostatic form (electrical field).
+- Charge (electrons) stored on electrode surfaces.
+- Dielectric inserted between electrodes to increase capacity.
+- Two common designs: ceramic/film capacitors and electrolytic capacitors (with much higher capacity). 
+
+---
+
+## Schematic of common capacitor technologies 
+
+.center.width-60[![](figures/capacitor.png)]
+
+---
+
+## Supercapacitors 
+
+- Super and ultra capacitors are synonyms. Capacitors and super capacitors are different. 
+- Energy stored in electrostatic form (electrical field).
+- Charge (ions) adsorbed on porous activated carbon electrode surfaces bound to current collector.
+- Ions transferred through electrolyte from one electrode to the other.
+- Porous separator inserted between electrodes. 
+
+---
+
+## Schematic & working principle of super capacitor technology
+
+.center.width-50[![](figures/supercapacitor.png)]
+
+
+---
+
+## E.g. Maxwell ultracapacitors
+
+.center.width-90[![](figures/maxwell_supercaps.png)]
+[Description](https://www.maxwell.com/products/ultracapacitors/cells#18)
+
+---
+
+## Size comparison
+
+.grid[
+.kol-1-2[.center.width-100[![](figures/real_capacitor.webp)]<br>Capacitor of 1F: cylinder with
+- diameter = 7.6 cm 
+- length = 14.3 cm]
+.kol-1-2[.center.width-10[![](figures/real_ultracap.png)]<br>Ultracapacitor of *3*F: cylinder with
+- diameter = 0.8 cm 
+- length = 2cm]
+]
+---
 
 ???
 
