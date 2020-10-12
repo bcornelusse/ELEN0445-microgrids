@@ -29,7 +29,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | October 21 | Lecture 5: [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf) |
 | October 28 | Lecture 6: [Demand side management](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-4-operating_a_microgrid.pdf) (to be modified this year) <br> Assignment: home energy management| 
 | November 18 | Lecture 7: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-5-sizing_a_microgrid-v3.pdf) (to be modified this year) <br> Assignment: home energy planning |
-| November 25 | Lecture 8: [Forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/20191002-ELEN0445-1-microgrids-forecasting-lesson.pdf) 
+| November 25 | Lecture 8: [Forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/20191002-ELEN0445-1-microgrids-forecasting-lesson.pdf) (to be modified this year) |
 | December 2 | Lecture 9: Probabilistic forecasting (new this year) <br> Assignment: forecast PV generation |
 | December 9 | Lecture 10: [Local energy communities](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-6-community_microgrids-v4.pdf) (to be modified this year) |
 | December 16 | If needed |
