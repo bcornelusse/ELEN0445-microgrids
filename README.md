@@ -27,11 +27,11 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | October 7 | Q&A session for assignment 2 <br> Lecture 4: [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) |
 | October 14 | Assignment 3 and Q&A session: design a PV+storage installation with SMA sunny explorer tool |
 | October 21 | Lecture 5: [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf) |
-| October 28 | Lecture 6: [Demand side management](https://bcornelusse.github.io/ELEN0445-microgrids/?p=dsm.md) <br> Assignment: home energy management| 
-| November 18 | Lecture 7: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/?p=sizing.md)  <br> Assignment: home energy planning |
-| November 25 | Lecture 8: [Forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/?p=forecasting.md) 
-| December 2 | Lecture 9: [Probabilistic forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/?p=probabilistic_forecasting.md) <br> Assignment: forecast PV generation |
-| December 9 | Lecture 10: [Local energy communities](https://bcornelusse.github.io/ELEN0445-microgrids/?p=lec.md) |
+| October 28 | Lecture 6: [Demand side management](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-4-operating_a_microgrid.pdf) (to be modified this year) <br> Assignment: home energy management| 
+| November 18 | Lecture 7: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-5-sizing_a_microgrid-v3.pdf) (to be modified this year) <br> Assignment: home energy planning |
+| November 25 | Lecture 8: [Forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/20191002-ELEN0445-1-microgrids-forecasting-lesson.pdf) 
+| December 2 | Lecture 9: Probabilistic forecasting (new this year) <br> Assignment: forecast PV generation |
+| December 9 | Lecture 10: [Local energy communities](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-6-community_microgrids-v4.pdf) (to be modified this year) |
 | December 16 | If needed |
 
 
