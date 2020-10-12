@@ -3,7 +3,7 @@ count: false
 
 # Microgrids
 
-Energy storage
+Electricity storage
 
 <br><br>
 
@@ -14,7 +14,10 @@ Bertrand Cornélusse<br>
 
 # What we will do in this lecture
 
-
+We will review the main storage technologies and get an overview of their main properties.
+ - short electrochemistry and physical analysis 
+ - mostly how specific characteristics of each particular technology
+affect microgrid design, planning, and operation.
 
 ---
 
@@ -28,16 +31,7 @@ Sources and forms of energy vary widely, leading to the emergence of many differ
 
 ---
 
-# Focus 
-Focus on energy storage technologies, management, and conversion
-requirements: 
- - short electrochemistry and physical analysis 
- - mostly how specific characteristics of each particular technology
-affect microgrid design, planning, and operation.
-
----
-
-# Currently available technology
+## Currently available technology
 
 
 - Batteries
@@ -52,15 +46,15 @@ affect microgrid design, planning, and operation.
 
 ---
 
-# Power delivery vs energy delivery
+## Power delivery vs energy delivery
 
-.width-80[![](figures/storage_power_vs_energy_density.png)]
+.center.width-60[![](figures/storage_power_vs_energy_density.png)]
 
 High power/energy ratio required to compensate lack of dynamics for load and generation following.
 
 ---
 
-# Physical constitution of a battery
+## Physical constitution of a battery
 
  - Electrodes: cathode  and anode
   - cathode: from where conventional current (+ charges) leaves -> + electrode *if* generator.
@@ -79,52 +73,17 @@ Example: standard 12V lead-acid battery: six 2V cells in series within an enclos
 
 class: middle, center
 
-# Capacitors and supercapacitors
-
----
-
-# Capacitors 
-
-- Energy stored in electrostatic form (electrical field).
-- Charge (electrons) stored on electrode surfaces.
-- Dielectric inserted between electrodes to increase capacity.
-- Two common designs: ceramic/film capacitors and electrolytic capacitors (with much higher capacity). 
-
----
-
-# Schematic of common capacitor technologies 
-
-.center.width-80[![](figures/capacitor.png)]
-
----
-
-# Supercapacitors 
-
-- Super and ultra capacitors are synonyms. Capacitors and super capacitors are different. 
-- Energy stored in electrostatic form (electrical field).
-- Charge (ions) adsorbed on porous activated carbon electrode surfaces bound to current collector.
-- Ions transferred through electrolyte from one electrode to the other.
-- Porous separator inserted between electrodes. 
-
----
-
-# Schematic & working principle of super capacitor technology
-
-.center.width-60[![](figures/supercapacitor.png)]
-
-
----
-
-# E.g. Maxwell ultracapacitors
-
-.center.width-90[![](figures/maxwell_supercaps.png)]
-[Description](https://www.maxwell.com/products/ultracapacitors/cells#18)
-
----
-
-class: middle, center
-
 # Lead-acid batteries
+
+---
+
+## Composition
+
+ - Lead $Pb$ (negative electrode)
+ - Lead dioxide $PbO\_2$ (positive electrode)
+ - Sulfuric acid $H\_2SO\_4$ and water in the electrolyte
+ 
+Chemical reactions in the next video.
 
 ---
 
@@ -134,17 +93,7 @@ class: middle, center, black-slide
 
 ---
 
-# Composition
-
- - Lead $Pb$ (negative electrode)
- - Lead dioxide $PbO\_2$ (positive electrode)
- - Sulfuric acid $H\_2SO\_4$ and water in the electrolyte
- 
-Chemical reactions omitted.
-
----
-
-# What limits the cycle-life?
+## What limits the cycle-life?
 
 During discharge, both electrode reactions create PbSo4 (*lead sulphate*) that coats the electrodes
 - Lead sulphate is not totally removed when charging
@@ -159,12 +108,12 @@ charged at a float voltage higher than the nominal voltage (2V).
 
 ---
 
-# Nernst equation recap
+## Nernst equation recap
 
 The relationship between battery-stored energy or capacity and electrolyte solution
 concentration is given by Nernst equation
 
-$$E = E^0 + \frac{kT}{q} \ln\{Q\}
+$$E = E^0 + \frac{kT}{q} \ln(Q)$$
 
 - $E^0$ is the energy at a standard 1 molar concentration
 - $k$ is the Boltzmann constant, 
@@ -175,7 +124,7 @@ Stored energy is heavily dependent not only on the molar concentration but also 
 
 ---
 
-# Efficiency
+## Efficiency
 
 The overal efficiency
 $$\eta = \eta\_V \eta\_C$$
@@ -185,7 +134,7 @@ is the product of
 
 ---
 
-# Efficiency varies with usage
+## Efficiency varies with usage
 
 Battery capacity is indicated in Ah (ampere-hour) (or Wh) for a given
 discharge rate, which at full capacity is often 8 or 10 hours. 
@@ -195,7 +144,7 @@ battery is discharged faster (Peukert’s Effect).
 
 ---
 
-# Efficiency and technologies, from [Victron's website](https://www.victronenergy.com/upload/documents/Datasheet-GEL-and-AGM-Batteries-EN.pdf): 
+## Efficiency and technologies, from [Victron's website](https://www.victronenergy.com/upload/documents/Datasheet-GEL-and-AGM-Batteries-EN.pdf): 
 
 1. VRLA technology: stands for Valve Regulated Lead Acid, which means that the batteries are sealed. Gas will escape through the safety valves only in case of overcharging or cell failure. VRLA batteries are maintenance free for life.
 2. Sealed (VRLA) AGM Batteries: AGM stands for Absorbent Glass Mat. In these batteries the electrolyte is absorbed into a glass-fibre mat between the plates by capillary action. (...) more suitable for short-time delivery of high currents than gel batteries.
@@ -242,11 +191,13 @@ Do it yourself
 
 ---
 
-[Victron's lithium batteries](https://www.victronenergy.com/upload/documents/Datasheet-12,8-&-25,6-Volt-lithium-iron-phosphate-batteries-Smart-EN.pdf)
+class: middle, center, black-slide
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/Rp8Hspi4BC4" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-# Battery Management System
+## Battery Management System
 
 - Modern battery storage systems are equipped with a battery management system (BMS).
 - The BMS serves two main purposes:
@@ -256,9 +207,11 @@ Do it yourself
 
 ---
 
-# Comparison of Li-Ion Battery Technologies
+## Comparison of Li-Ion Battery Technologies
 
 .center.width-100[![](figures/comparison_Li.png)]
+
+[Victron's lithium batteries](https://www.victronenergy.com/upload/documents/Datasheet-12,8-&-25,6-Volt-lithium-iron-phosphate-batteries-Smart-EN.pdf)
 
 ---
 
@@ -294,7 +247,7 @@ class: middle, center
 # Essential Battery Parameters
 
 ---
-# Capacity, SOC & Voltage
+## Capacity, SOC & Voltage
 
 - Capacity reflects total amount of charge (Ah) that can be theoretically stored in device.
 - State of charge (SOC) reflects amount of charge available at given time instant, usually expressed as percentage of capacity.
@@ -304,7 +257,7 @@ class: middle, center
 
 ---
 
-# Current & C-rate
+## Current & C-rate
 
 - Current (A) is the main excitation signal in batteries as voltage is imposed by system physics.
 - C-rate is a standardized metric quantifying applied current intensity. This alternative scale is derived from the constant current intensity needed to fully charge/discharge the battery over a given time period, usually 1h.
@@ -313,7 +266,7 @@ class: middle, center
 
 ---
 
-# Degradation & Health
+## Degradation & Health
 
 - Battery performances typically decrease over lifetime, in a process known as degradation.
 - Main degradation types:
@@ -323,7 +276,7 @@ class: middle, center
 
 ---
 
-# Battery models in practice
+## Battery models in practice
 
 Highly dependent of the application : 
 - for sizing or planning problems, a simple tank model may be enough (for sizing, see how to evaluate capacity degradation on the next slide)
@@ -333,7 +286,7 @@ Highly dependent of the application :
 
 ---
 
-# Simple model of energy capacity degradation as a function of the number of cycles
+## Simple model of energy capacity degradation as a function of the number of cycles
 
 For Li-ion batteries, a simple throughput model is in general enough to evaluate the number of cycles:
 
@@ -345,7 +298,7 @@ $a$ is a parameter determined experimentally.
 
 ---
 
-# Charging strategies
+## Charging strategies
 
 Charging strategies refer to the way current and voltage are controled over time to charge a battery.
 
@@ -357,23 +310,75 @@ Complex strategies exist to maximize the efficiency and the safety of the proces
 
 ---
 
-# State of charge estimation
+## State of charge estimation
 
  - Coulomb counting
  - Voltage measurment
  - Kalman filtering
  - Technology specific methods.
 
-
 ---
 
 class: middle, center
 
-# Comparison of the main battery types
+# Capacitors and supercapacitors
 
 ---
 
-**Summarize and update table 6.1**
+## Capacitors 
+
+- Energy stored in electrostatic form (electrical field).
+- Charge (electrons) stored on electrode surfaces.
+- Dielectric inserted between electrodes to increase capacity.
+- Two common designs: ceramic/film capacitors and electrolytic capacitors (with much higher capacity). 
+
+---
+
+## Schematic of common capacitor technologies 
+
+.center.width-60[![](figures/capacitor.png)]
+
+---
+
+## Supercapacitors 
+
+- Super and ultra capacitors are synonyms. Capacitors and super capacitors are different. 
+- Energy stored in electrostatic form (electrical field).
+- Charge (ions) adsorbed on porous activated carbon electrode surfaces bound to current collector.
+- Ions transferred through electrolyte from one electrode to the other.
+- Porous separator inserted between electrodes. 
+
+---
+
+## Schematic & working principle of super capacitor technology
+
+.center.width-50[![](figures/supercapacitor.png)]
+
+
+---
+
+## E.g. Maxwell ultracapacitors
+
+.center.width-90[![](figures/maxwell_supercaps.png)]
+[Description](https://www.maxwell.com/products/ultracapacitors/cells#18)
+
+---
+
+## Size comparison
+
+.grid[
+.kol-1-2[.center.width-100[![](figures/real_capacitor.webp)]<br>Capacitor of 1F: cylinder with
+- diameter = 7.6 cm 
+- length = 14.3 cm]
+.kol-1-2[.center.width-10[![](figures/real_ultracap.png)]<br>Ultracapacitor of *3*F: cylinder with
+- diameter = 0.8 cm 
+- length = 2cm]
+]
+---
+
+???
+
+# Comparison of the main battery types
 
 For lead-acid and LiFePO4, Vanadium redox
 
@@ -385,13 +390,6 @@ Max DoD
 Discharge time range
 Cost (EUR/kWh)
 Efficiency
-
----
-
-class: middle, center, black-slide
-
-<iframe width="600" height="450" src="https://www.youtube.com/embed/Rp8Hspi4BC4" frameborder="0" allowfullscreen></iframe>
-
 
 ---
 
