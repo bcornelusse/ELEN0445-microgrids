@@ -24,11 +24,13 @@ Side goals:
 
 ---
 
-# Sizing without storage
+# Sizing to feed electricity to the grid
 
 All the energy generated is fed to the grid at a given fee of 130 EUR / MWh.
 
 Use an all-in cost of the PV installation of 800 EUR/kWp (relatively large installation).
+
+No storage is needed.
 
 
 ---
@@ -36,6 +38,7 @@ Use an all-in cost of the PV installation of 800 EUR/kWp (relatively large insta
 ## Choose a building
 
 - **TODO** List of buildings 
+- B28
 
 ---
 
@@ -55,22 +58,22 @@ Use an all-in cost of the PV installation of 800 EUR/kWp (relatively large insta
 
 ---
 
-
-
 #  Sizing with self-consumtpion
 
  - **TODO** Obtain consumption data from ULiège’s buildings
- - **TODO** See how to insert them in SMA sunny design web
- - **TODO** test to see the difference
+ - Insert them in SMA sunny design web in a self-consumption design
+ - Analyze the difference with the "feed to grid case"
 
 ---
 
 # Sizing with storage and self-consumtpion
 
- - **TODO** Redo the analysis and determine how much storage power / energy you would need fct of the cost
+ - Redo the analysis and determine how much storage power / energy you would need as a function of the costs
+ - use costs of 300 EUR/kWh andd 100 EUR/kW for the batteries
 
 ---
 
 # Report
 
- - SMA sizing reports
+- Write a little report with your observations
+- Include SMA sizing reports in a zip (with meaningful names for the different analyses).
