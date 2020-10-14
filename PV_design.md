@@ -20,7 +20,7 @@ Learn how to size a PV system installation
 Side goals:
 - evaluate the potential of the ULiège buildings
 - compare to their consumption
-- evauate the benefit of storage 
+- evaluate the benefit of storage 
 
 ---
 
@@ -32,13 +32,20 @@ Use an all-in cost of the PV installation of 800 EUR/kWp (relatively large insta
 
 No storage is needed.
 
-
 ---
 
 ## Choose a building
 
-- **TODO** List of buildings 
 - B28
+- B5a
+- B7a
+- B8
+- B15
+- B28
+- B30
+- B31
+- B33
+- B62
 
 ---
 
@@ -60,7 +67,7 @@ No storage is needed.
 
 #  Sizing with self-consumtpion
 
- - **TODO** Obtain consumption data from ULiège’s buildings
+ - Get the consumption data from ULiège building assigned to you : https://dox.uliege.be/index.php/s/vp5MYT58xA0ehEu
  - Insert them in SMA sunny design web in a self-consumption design
  - Analyze the difference with the "feed to grid case"
 
@@ -69,6 +76,13 @@ No storage is needed.
 # Sizing with storage and self-consumtpion
 
  - Redo the analysis and determine how much storage power / energy you would need as a function of the costs
+ - use costs of 300 EUR/kWh andd 100 EUR/kW for the batteries
+
+---
+
+# Sizing with off-grid mode
+
+ - Redo the analysis and determine how much storage power / energy and diesel generator you would need as a function of the costs
  - use costs of 300 EUR/kWh andd 100 EUR/kW for the batteries
 
 ---
