@@ -37,8 +37,16 @@ No storage is needed.
 
 ## Choose a building
 
-- **TODO** List of buildings 
 - B28
+- B5a
+- B7a
+- B8
+- B15
+- B28
+- B30
+- B31
+- B33
+- B62
 
 ---
 
