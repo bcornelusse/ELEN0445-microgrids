@@ -29,8 +29,8 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | October 21 | Lecture 5: [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf), [linear programming video](https://vimeo.com/470341870/615ef20e80), [MILP video](https://vimeo.com/470525624/7fdaadad42) |
 | October 28 | Lecture 6: [Demand side management](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/planning_and_demand_side_management.pdf), Videos: [introduction](https://vimeo.com/472957961/e8b30191ef), [operational planning](https://vimeo.com/472974147/dde178a9a6), [demand side management](https://vimeo.com/473025149/af239bec55) <br> Assignment: home energy management (see eCampus) and a video [here](https://vimeo.com/473410170/f58100565f).| 
 | November 18 | Lecture 7: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-5-sizing_a_microgrid-v3.pdf) (to be modified this year) <br> Assignment: home energy planning |
-| November 25 | Lecture 8: [Forecasting](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/20191002-ELEN0445-1-microgrids-forecasting-lesson.pdf) (to be modified this year) |
-| December 2 | Lecture 9: Probabilistic forecasting (new this year) <br> Assignment: forecast PV generation |
+| November 25 | Lecture 8: [Introduction to Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-1.pdf) (Video: will be recorded during live session) <br> [Assignment: Point and Probabilistic forecast of PV generation](pdf/2020-ELEN0445-1-microgrids-forecasting-assignement.pdf)|
+| December 2 | Lecture 9: [Introduction to Probabilistic Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-2.pdf) (Video: will be recorded during live session) |
 | December 9 | Lecture 10: [Local energy communities](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-6-community_microgrids-v4.pdf) (to be modified this year) |
 | December 16 | If needed |
 
