@@ -31,7 +31,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | November 18 | Lecture 7: [Introduction to Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-1.pdf) ([Video](https://www.youtube.com/channel/UCpgd8WMQXcXkMw1KCsXdPhA)) <br> [Assignment: Point and Probabilistic forecast of PV generation](pdf/2020-ELEN0445-1-microgrids-forecasting-assignement.pdf) ([Video](https://youtu.be/lppy-atOisM))|
 | November 25 | Lecture 8: [Introduction to Probabilistic Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-2.pdf) (Video: will be recorded during live session) |
 | December 2 |  Q&A session |
-| December 9 | Lecture 9: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-5-sizing_a_microgrid-v3.pdf)  <br> Bonus assignment: home energy planning |
+| December 9 | Lecture 9: [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-5-sizing_a_microgrid-v4.pdf)  <br> Bonus assignment: home energy planning |
 | December 16 | If needed |
 
 
