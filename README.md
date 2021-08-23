@@ -1,7 +1,7 @@
 # ELEN0445 Microgrids
 
 This is a course on microgrids and local energy communities given at Master's level at ULiège.
-This course is still **UNDER CONSTRUCTION** because the master in electrical engineering, focus on electric power and energy systems, has been reorganized. The goal of this course is to be applied and practical, with lab visits and a few manipulations, sizing of installations, etc.
+The goal of this course is to be applied and practical, with lab visits and a few manipulations, sizing of installations, etc.
 
 Prerequisites: 
  - Notions of electrical circuits analysis (https://github.com/bcornelusse/livre_circuits_electriques_ELEC0053/)
@@ -17,7 +17,12 @@ Teaching assistants:
 
 We will interact through eCampus (videos, notifications, homeworks, questions, etc.). 
 
-# Lectures 
+# Lectures 2021-2022
+| Date | Topic |
+| --- | --- |
+| September 16 | Lecture 1: [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
+
+# Lectures 2020-2021
 
 | Date | Topic |
 | --- | --- |
