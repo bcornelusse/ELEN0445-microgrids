@@ -20,7 +20,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 # Lectures 2021-2022
 | Date | Topic |
 | --- | --- |
-| September 16 | Lecture 1: [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
+| September 15 | Lecture 1: [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
 
 # Lectures 2020-2021
 
