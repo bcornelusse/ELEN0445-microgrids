@@ -22,9 +22,9 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | --- | --- | --- |
 | September 15 | 1 | [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
 | September 22 | 2 |  [Microgrid architectures - offgrid microgrid](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version, link to the [video](https://vimeo.com/461332158/b11a5a74c7) (2020)|
-|              | Assignment 1 : microgrid description (submit on ecampus)|
+|              |   |Assignment 1 : microgrid description (submit on ecampus)|
 | September 29 | 3 | [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)|
-|              | Assignment 2 : implement a solar MPTT algorithm (submit on ecampus)|
+|              |   | Assignment 2 : implement a solar MPTT algorithm (submit on ecampus)|
 | October 6    | 4 | [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
 | October 13   | 5  | |
 | October 20   | 6  | |
