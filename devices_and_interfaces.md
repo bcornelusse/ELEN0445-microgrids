@@ -592,14 +592,16 @@ A microtrubines thus requires a **rectifier** (+ inverter if connected to an AC 
 
 ---
 
-# Internal combustion engines (ICEs)
+# Internal combustion engines (ICEs) a.k.a. Gensets
 
 ICEs are widespread:
 - low capital cost,
-- low operation.footnote(Fuel may nevertheless be very expensive in some parts of the world) and maintenance cost
+- low operation and maintenance costs*
 - can be easily moved from one place to another
 - Can be designed to work with a variety of fuels
 - Units of several kW to several MW.
+
+*Fuel may nevertheless be very expensive in some parts of the world.
 
 ---
 
@@ -607,9 +609,12 @@ ICEs are widespread:
 
 1. Intake (induction) stroke
 2. Compression stroke
-3. Power stroke: combustion/expansion 4. Exhaust stroke
+3. Power stroke: combustion/expansion 
+4. Exhaust stroke
 
 ICEs follow an *Otto* thermodynamic cycle.
+
+[Example product](https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/may-2021/3238071_PG_spec_4R0080DS55_55kVA_3B_50Hz_Iveco.pdf/_jcr_content/renditions/original./3238071_PG_spec_4R0080DS55_55kVA_3B_50Hz_Iveco.pdf)
 
 ---
 
