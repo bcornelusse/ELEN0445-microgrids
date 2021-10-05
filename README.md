@@ -27,8 +27,9 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   | Assignment 2 : implement a solar MPTT algorithm (description and submission on ecampus)|
 | October 6    | 4 | Q&A on assignment 2 |
 |              |   | [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
-| October 13   | 5  | [Assignment 3 (to be updated)](https://bcornelusse.github.io/ELEN0445-microgrids/?p=PV_design.md) and Q&A session: design a PV+storage installation with SMA sunny explorer tool |
-| October 20   | 6  | [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf), [linear programming video](https://vimeo.com/470341870/615ef20e80), [MILP video](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/)|
+| October 13   | 5  | [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf), [linear programming video](https://vimeo.com/470341870/615ef20e80), [MILP video](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/)|
+|              |    | Assignment 2 presentation by students | 
+| October 20   | 6  | [Assignment 3 (to be updated)](https://bcornelusse.github.io/ELEN0445-microgrids/?p=PV_design.md) and Q&A session: design a PV+storage installation with SMA sunny explorer tool |
 | October 27   | 7  | |
 | November 10  | 8 |  |
 | November 17  | 9 |  |
