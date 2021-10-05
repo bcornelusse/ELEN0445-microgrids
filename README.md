@@ -17,7 +17,7 @@ Teaching assistants:
 
 We will interact through eCampus (videos, notifications, homeworks, questions, etc.). 
 
-# Lectures 2021-2022
+# Lectures of 2021-2022
 | Date | Lecture | Topic |
 | --- | --- | --- |
 | September 15 | 1 | [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
@@ -42,7 +42,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 
 
 
-# Lectures 2020-2021
+# Past Lectures of 2020-2021
 
 | Date | Topic |
 | --- | --- |
