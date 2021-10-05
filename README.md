@@ -29,7 +29,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   | [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
 | October 13   | 5  | [Assignment 3 (to be updated)](https://bcornelusse.github.io/ELEN0445-microgrids/?p=PV_design.md) and Q&A session: design a PV+storage installation with SMA sunny explorer tool|
 | October 20   | 6  | Presentation of assignment 2 by students. |
-| October 27   | 7  | Lecture 7: [Introduction to Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-1.pdf) ([Video](https://www.youtube.com/channel/UCpgd8WMQXcXkMw1KCsXdPhA)) 
+| October 27   | 7  | [Introduction to Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-1.pdf) ([Video](https://www.youtube.com/channel/UCpgd8WMQXcXkMw1KCsXdPhA)) 
 |              |    | [Assignment: Point and Probabilistic forecast of PV generation](pdf/2020-ELEN0445-1-microgrids-forecasting-assignement.pdf) ([Video](https://youtu.be/lppy-atOisM)) |
 | November 10  | 8 | [Introduction to Probabilistic Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-2.pdf) ([Video](https://youtu.be/-I_uPhs76Xk)) |
 |              |   | Presentation of Assignment 3 by students. |
