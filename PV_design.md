@@ -15,12 +15,12 @@ Bertrand Cornélusse<br>
 
 Learn how to size a PV system installation
 - we will use a free tool from SMA: https://www.sunnydesignweb.com/
-- we will dive in the details of the PV system installation
+- we will dive into the details of the PV system installation
 
 Side goals:
 - evaluate the potential of the ULiège buildings
 - compare to their consumption
-- evaluate the benefit of storage 
+- evaluate the benefit of storage
 
 ---
 
@@ -58,38 +58,38 @@ No storage is needed.
 
 ## Choose the inverters
 
- - Organize the PV strings to meet a trade-off between cost and energy-yield (for the amount of PV panels defined previously)
+ - Organize the PV strings to meet a trade-off between cost and energy yield (for the amount of PV panels defined previously)
  - What are the constraints to connect the strings
  - What is a polystring configuration?
- - What is the minimal power rating of the inverter you can use for the given amount of PV panels ? What's his energy yield?
+ - What is the minimal power rating of the inverter you can use for the given amount of PV panels? What is his energy yield?
 
 ---
 
-#  2. Sizing with self-consumtpion
+#  2. Sizing with self-consumption
 
- - Get the consumption data from ULiège building assigned to you : https://dox.uliege.be/index.php/s/vp5MYT58xA0ehEu
+ - Get the consumption data from ULiège building assigned to you: https://dox.uliege.be/index.php/s/vp5MYT58xA0ehEu
  - Insert them in SMA sunny design web in a self-consumption design
- - Analyze the difference with the "feed to grid case"
+ - Analyze the difference with the "feed to grid case."
  - You buy electricity at 150 EUR/MWh
- - There is no net-metering, it is a dual-flow meter
+ - There is no net metering, it is a dual-flow meter
 
 ---
 
-# 3. Sizing with storage and self-consumtpion
+# 3. Sizing with storage and self-consumption
 
- - Redo the analysis and determine how much storage power / energy you would need as a function of the costs
- - use costs of 300 EUR/kWh andd 100 EUR/kW for the batteries
+ - Redo the analysis and determine how much storage power/energy you would need as a function of the costs
+ - use costs of 300 EUR/kWh and 100 EUR/kW for the batteries
 
 ---
 
 # 4. Sizing with off-grid mode
 
- - Redo the analysis and determine how much storage power / energy and diesel generator you would need as a function of the costs
- - use costs of 300 EUR/kWh andd 100 EUR/kW for the batteries
+ - Redo the analysis and determine how much storage power/energy and diesel generator you would need as a function of the costs
+ - use costs of 300 EUR/kWh and 100 EUR/kW for the batteries
 
 ---
 
 # Report
 
-- Write a little report with your observations for the 4 cases you have analyzed
+- Write a little presentation with your answers to the listed questions
 - Include SMA sizing reports in a zip (with meaningful names for the different analyses).
