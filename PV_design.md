@@ -67,7 +67,7 @@ No storage is needed.
 
 #  2. Sizing with self-consumption
 
- - Get the consumption data from ULiège building assigned to you: https://dox.uliege.be/index.php/s/vp5MYT58xA0ehEu
+ - Get the consumption data from ULiège building assigned to you: https://dox.uliege.be/index.php/s/lKWKs02hQzuopm0
  - Insert them in SMA sunny design web in a self-consumption design
  - Analyze the difference with the "feed to grid case."
  - You buy electricity at 150 EUR/MWh
