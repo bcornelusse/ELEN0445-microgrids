@@ -29,9 +29,9 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   | [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
 | October 13   | 5  | [Assignment 3](https://bcornelusse.github.io/ELEN0445-microgrids/?p=PV_design.md) ([pdf](pdf/PV_design.pdf) version) and Q&A session: design a PV+storage installation with SMA sunny explorer tool|
 | October 20   | 6  | Presentation of assignment 2 by students. |
-| October 27   | 7  | [Introduction to Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-1.pdf) ([Video](https://www.youtube.com/channel/UCpgd8WMQXcXkMw1KCsXdPhA)) 
-|              |    | [Assignment: Point and Probabilistic forecast of PV generation](pdf/2020-ELEN0445-1-microgrids-forecasting-assignement.pdf) ([Video](https://youtu.be/lppy-atOisM)) |
-| November 10  | 8 | [Introduction to Probabilistic Forecasting](pdf/2020-ELEN0445-1-microgrids-forecasting-lesson-2.pdf) ([Video](https://youtu.be/-I_uPhs76Xk)) |
+| October 27   | 7  | Introduction to forecasting, lecture-1 available on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) ([Video of the lecture last year, not up to date!](https://www.youtube.com/channel/UCpgd8WMQXcXkMw1KCsXdPhA)) 
+|              |    | [Assignment: Point and Probabilistic forecast of PV generation](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) ([Video](https://youtu.be/lppy-atOisM)) |
+| November 10  | 8 | Introduction to probabilistic forecasting, lecture-2 available on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) ([Video of the lecture year, not up to date!](https://youtu.be/-I_uPhs76Xk)) |
 |              |   | Presentation of Assignment 3 by students. |
 | November 17  | 9 | [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf), [linear programming video](https://vimeo.com/470341870/615ef20e80), [MILP video](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) |
 | November 24  | 10 | [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-5-sizing_a_microgrid-v4.pdf) |
