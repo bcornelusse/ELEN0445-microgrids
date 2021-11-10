@@ -36,9 +36,9 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | November 17  | 9 | [Introduction to mathematical programming](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/intro_math_programming-v1.pdf), [linear programming video](https://vimeo.com/470341870/615ef20e80), [MILP video](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) |
 | November 24  | 10 | [Microgrid sizing ](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/ELEN0445-1-microgrids-5-sizing_a_microgrid-v4.pdf) |
 |              |    | [Demand side management](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/planning_and_demand_side_management.pdf), Videos: [introduction](https://vimeo.com/472957961/e8b30191ef), [operational planning](https://vimeo.com/472974147/dde178a9a6), [demand side management](https://vimeo.com/473025149/af239bec55)
-| December 1   | 11 | Presentation of Assignment 4 by students.  |
-| December 8   | 12 | If needed |
-| January session  |  | Presentation of assignment 5 by students. |
+| December 1   | 11 | Q&A session, if needed.  |
+| December 8   | 12 | Presentation of Assignment 4 by students. |
+| January exam session  |  | Presentation of assignment 5 by students. |
 
 
 
