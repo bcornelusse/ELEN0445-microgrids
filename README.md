@@ -39,6 +39,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   | MIP modeling exercises: [exercises pdf](pdf/MIP_exercises.pdf), [exercise 1 notebook](https://colab.research.google.com/drive/1dVQyXylIrwJvaD23hY2p1_xkplJfROqm?usp=sharing), [exercise 2 notebook](https://colab.research.google.com/drive/1UoUrG6N2I5RxA5g0IpXCH09gnsGybezG?usp=sharing) |
 |              |   |  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) |
 | November 24  | 10 | [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) |
+|              |   | Assignment 5 statement (not yet there) |
 | December 1   | 11 | Q&A session, if needed.  |
 | December 8   | 12 | Presentation of Assignment 4 by students. |
 | January exam session  |  | Presentation of assignment 5 by students. |
