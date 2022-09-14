@@ -11,7 +11,7 @@ Prerequisites:
 Instructor: 
  - Bertrand Cornélusse
 
-Teaching assistants:
+Teaching assistant:
  - Thomas Stegen
 
 We will interact through eCampus (videos, notifications, homeworks, questions, etc.). 
