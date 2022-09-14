@@ -118,6 +118,11 @@ In this course, unless stated otherwise, we (almost) neglect the network connect
 
 This means mainly that we neglect losses, and other electrical phenomena that can be caused by the impedance of the cables connecting the devices.
 
+Why?
+
+ - because network modeling is the topic of other courses (ELEC0447, ELEC0448)
+ - because we will focus on other aspects not covered in these courses: MPPT, forecasting, operational planning, sizing.
+
 ---
 
 ## Schematically
@@ -139,7 +144,8 @@ The
 - development of distributed generation, 
 - decreasing costs of storage means, 
 - evolution of communication and sensing technologies 
-open new options to the conventional distribution of electric energy, and new options for integrating distributed generation smoothly in constantly evolving energy and ancillary services markets.
+
+open new options to the conventional distribution of electric energy and new possibilities for integrating distributed generation smoothly in constantly evolving energy and ancillary services markets.
 
 Energy markets and ancillary services markets defined on the next slides.
 
@@ -150,7 +156,7 @@ Energy markets and ancillary services markets defined on the next slides.
 .kol-1-2[
 - Energy markets organize the sales and purchases of the electricity commodity
 - They are organized by time frame (futures, day-ahead, intra-day)
-- By actively participating to the market, you can obtain the electricity at the price you are willing to pay, or sell only if profitable.]
+- By actively participating in the market, you can obtain the electricity at the price you are willing to pay or sell only if profitable.]
 .kol-1-2[.center.width-100[![](figures/DAM.png)]
 ]]
 
@@ -161,7 +167,7 @@ Energy markets and ancillary services markets defined on the next slides.
 
 ## System operators
 
-Market operators, retailers and producers should not be confused with System operators (SO):
+Market operators, retailers and producers should not be confused with System operators (SOs):
 - E.g. ELIA is the Belgian Transmission System Operator (TSO)
 - E.g. Resa and ORES are Distribution System Operators (DSOs) in the Walloon region
 
@@ -169,7 +175,7 @@ Market operators, retailers and producers should not be confused with System ope
 
 ##  Ancillary services markets
 
-- Ancillary services (AS) are offered by entities that have the ability to modulate their generation or consumption, within respecified boundaries and time frame, to help the system:
+- Ancillary services (AS) are offered by entities that have the ability to modulate their generation or consumption, within prespecified boundaries and time frame, to help the system:
  - for balancing generation and demand
  - for relieving congestions
  - for voltage support
@@ -357,10 +363,9 @@ class: middle, center
 
 ---
 
-## Evaluation: oral exam + assignments
+## Evaluation: Assignments with small reports and oral presentations.
 
- - 40 % for the oral exam
- - 60 % for the assignments (see course webpage)
+ - 5 assignments (see course webpage)
 
 ---
 
