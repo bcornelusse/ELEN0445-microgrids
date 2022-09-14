@@ -12,20 +12,19 @@ Instructor:
  - Bertrand Cornélusse
 
 Teaching assistants:
- - Selmane Dakir
- - Jonathan Dumas
+ - Thomas Stegen
 
 We will interact through eCampus (videos, notifications, homeworks, questions, etc.). 
 
-# Lectures of 2021-2022
+# Lectures of 2022-2023
 | Date | Lecture | Topic |
 | --- | --- | --- |
-| September 15 | 1 | [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
-| September 22 | 2 |  [Microgrid architectures - offgrid microgrid](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version, link to the [video](https://vimeo.com/461332158/b11a5a74c7) (2020)|
+| September 14 | 1 | [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
+| September 21 | 2 |  [Microgrid architectures - offgrid microgrid](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version, link to the [video](https://vimeo.com/461332158/b11a5a74c7) (2020)|
 |              |   |Assignment 1 : microgrid description (submit on ecampus)|
-| September 29 | 3 | [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)|
+| September 28 | 3 | [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)|
 |              |   | Assignment 2 : implement a solar MPTT algorithm (description and submission on ecampus)|
-| October 6    | 4 | Q&A on assignment 2 |
+| October 5    | 4 | Q&A on assignment 2 |
 |              |   | [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
 | October 13   | 5  | [Assignment 3](https://bcornelusse.github.io/ELEN0445-microgrids/?p=PV_design.md) ([pdf](pdf/PV_design.pdf) version) and Q&A session: design a PV+storage installation with SMA sunny explorer tool|
 | October 20   | 6  | Presentation of assignment 2 by students. |
