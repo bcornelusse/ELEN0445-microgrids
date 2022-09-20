@@ -139,12 +139,41 @@ class: middle, center, black-slide
 
 ## Grid-following inverter
 
+**Draft part, in progress**
+
 - If connected to a battery, means that the battery is controllable, i.e. can absorb or deliver power depending on a setpoint.
+- the setpoint is fixed by a higher level controller, e.g. a droop controller, or an energy management system.
 - Of course also depending on the availability of generation / demand and of another device to regulate the imbalances.
 
 .center.width-80[![](figures/scheme_grid_following_inverter.png)]
 
 .footnote[Source: Paolone, M., et al. (2020). Fundamentals of power systems modelling in the presence of converter-interfaced generation. Electric Power Systems Research, 189(April), 106811.]
+
+---
+
+A *grid-following* unit is based on a power converter whose injected currents are controlled with a specific phase displacement with respect to the grid voltage at the PCC. 
+
+As a consequence, the knowledge of the fundamental frequency phasor of the grid voltage at the PCC (PLL) is needed at any time for the correct calculation of the converter reference currents (DQ transform).
+
+The currents amplitude and angle with respect to the grid voltage phasor are properly modified by outer control loops so as to inject the required amount of active and reactive power or control the RMS.
+
+---
+
+# Phase Lock Loop
+
+---
+
+# DQ transform
+
+---
+
+## Grid-forming inverter
+
+- A grid-forming unit is based on a power converter which controls magnitude and angle of the voltage at the PCC. 
+- As a consequence, the knowledge of the fundamental frequency phasor of the grid voltage at the point of connection is not strictly necessary.
+- Depending on the characteristics of the network to which the converter is connected, an isolated system or a slack bus, it is possible by means of additional outer loops to adapt the injected instantaneous active and reactive power also to provide voltage and frequency support. 
+- In an isolated system, a grid-forming unit could behave itself like a slack-bus. When connected with other power sources, through an inductive line, the grid-forming converter is controlling the active power by the modification of the angle. 
+- The voltage magnitude is independent of the active power control.
 
 ---
 
@@ -302,7 +331,7 @@ class: middle, center
 
 class: middle, center
 ## A first microgrid demonstration 
-# Off-grid case design
+# Lab visit
 
 ---
 
@@ -312,6 +341,7 @@ By teams of 2, write a little report and draw an electrical diagram of the demon
 - wiring diagram
 - protections
 - equipment ratings (voltage, current, power)
+- types of controllers and regulations
 - cable sections
 - try to get some datasheets to understand how components work, can do and cannot do
 
