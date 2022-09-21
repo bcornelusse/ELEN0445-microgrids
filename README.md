@@ -21,7 +21,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | Date | Lecture | Topic |
 | --- | --- | --- |
 | September 14 | 1 | [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
-| September 21 | 2 |  [Microgrid architectures - overview of controllers functions](), [pdf]() version|
+| September 21 | 2 |  [Microgrid architectures - overview of controllers functions](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version|
 |              |   |Assignment 1 : lab microgrid visit and description (submit on ecampus, deadline: September 28.)|
 | September 28 | 3 | [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)|
 |              |   | Assignment 2 : TO BE UPDATED implement a solar MPTT algorithm (description and submission on ecampus)|

@@ -34,14 +34,6 @@ An alternating current (AC) microgrid is a microgrid where components are couple
  
 ---
 
-## AC coupling example
-
-Let's take the example of a house or a small company that is running at low-voltage (230V or 400V) and has a grid connection plus a backup diesel generator, some PV panels, a battery, and some appliances.
-
-.center.width-80[![](figures/AC_coupling.png)]
-
----
-
 ## Grid topologies
 
 Most common: **radial** architecture
@@ -55,34 +47,15 @@ Alternatives:
 
 Note: a more complex system also needs more complex protection schemes. 
 
-See chapter 7 of the reference book for more information.
+See chapter 7 of [1] for more information.
 
 ---
 
-# Power electronics interfaces
+## AC coupling example
 
-Power electronic circuits are interfaces
-- between devices (DERs and loads) and the power distribution grid
-- between the microgrid and the distribution grid (PCC)
+Let's take the example of a house or a small company that is running at low-voltage (230V or 400V) and has a grid connection plus a backup diesel generator, some PV panels, a battery, and some appliances.
 
-Purpose: enable a controllable (bidirectional) flow between devices
-
- - They are either *grid-forming* or *grid-following*. In general, there is only one grid-forming device at a time, else some coordination is necessary.
-
-*DER: sources of electric power that are not directly connected to a bulk power transmission system. Distributed energy resources include both generators and energy storage technologies. (T.Ackermann, G.Andersson, and L.Söder, “Distributed Generation: A Definition,” Electric Power Systems Research, vol. 57, issue 3, April 2001, pp. 195–204.)
-
----
-
-## Solar inverter
-
-.grid[
-.kol-1-2[.width-100[![](figures/sma-sunny-tripower.png)]]
-.kol-1-2[.width-100[![](figures/AC_coupling_inverter.png)]]
-]
-Here it is a three-phase inverter from SMA.
-Source: website of SMA
-
-Requires a network signal to work!
+.center.width-80[![](figures/AC_coupling.png)]
 
 ---
 
@@ -100,7 +73,118 @@ Automatic transfer switch principle
 
 ---
 
-## Automatic transfer switch, grid forming inverter & battery charger
+# Power electronics interfaces
+
+Power electronic circuits are interfaces
+- between devices (DERs and loads) and the power distribution grid
+- between the microgrid and the distribution grid (PCC)
+
+Purpose: enable a controllable (bidirectional) flow between devices
+
+*DER: sources of electric power that are not directly connected to a bulk power transmission system. Distributed energy resources include both generators and energy storage technologies. (T.Ackermann, G.Andersson, and L.Söder, “Distributed Generation: A Definition,” Electric Power Systems Research, vol. 57, issue 3, April 2001, pp. 195–204.)
+
+---
+
+## Types of power electronics interfaces (from [2])
+
+
+*Grid-following* converters (Fig (b)): can be represented as an ideal current source setting the active and reactive power injected into / withdrawn from the grid. 
+
+*Grid-forming* converters (Fig (a)): can be represented as an ideal AC voltage source setting the voltage amplitue and frequency of the local electrical grid. 
+
+*Grid-supporting* converters (Fig (c)): "inbetween the two others", implementing functions to support the grid, e.g. droop control.
+
+.center.width-50[![](figures/types_of_converters_2.png)]
+
+All these functions are achieved using several nested control loops.
+
+---
+
+## Grid-following converters (from [2])
+
+.center.width-80[![](figures/grid_following.png)]
+
+Closed-loop control of $P^\star$ and $Q^\star$
+
+---
+
+## Grid-following converters: principle 
+
+A *grid-following* unit is based on a power converter whose injected currents are controlled with a specific phase displacement with respect to the grid voltage at the PCC. 
+
+As a consequence, the knowledge of the fundamental frequency phasor of the grid voltage at the PCC (PLL) is needed at any time for the correct calculation of the converter reference currents (DQ transform).
+
+The currents amplitude and angle with respect to the grid voltage phasor are properly modified by outer control loops so as to inject the required amount of active and reactive power or control the RMS.
+
+Source: Paolone, M., et al. (2020). Fundamentals of power systems modelling in the presence of converter-interfaced generation. Electric Power Systems Research, 189(April), 106811.
+
+---
+
+## Grid-following converters: comments 
+
+- If connected to a battery, means that the battery is controllable, i.e. can absorb or deliver power depending on a setpoint.
+- the setpoint is fixed by a higher level controller
+- Several grid-following converters can work in parallel in a system
+- But they require another device to regulate the imbalances, the grid frequency and the grid voltage (e.g. grid-forming inverter).
+
+---
+
+## Example: solar inverter
+
+.grid[
+.kol-1-2[.width-100[![](figures/sma-sunny-tripower.png)]]
+.kol-1-2[.width-100[![](figures/AC_coupling_inverter.png)]]
+]
+Here it is a three-phase inverter from SMA.
+Source: website of SMA
+
+Requires a network signal to work!
+
+---
+
+## Example: Vehicle to grid
+
+.width-100[![](figures/AC_coupling_V2G.png)]
+
+---
+
+class: middle, center, black-slide
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/5FAsadUM26I" frameborder="0" allowfullscreen></iframe>
+
+---
+## Grid-forming converters (from [2])
+
+.center.width-80[![](figures/grid_forming.png)]
+
+Closed-loop control of $v^\star$ and $\omega^\star$
+
+---
+
+## Grid-forming converters: comments
+
+- In general, there is only one grid-forming device at a time, else some coordination is necessary:
+
+"
+As  voltage  sources,  they  present a  low-output  impedance,  so  they  need  an  extremely  accurate synchronization system to operate in parallel with other grid-forming converters. Power sharing among grid-forming converters connected in parallel is a function of the value of their output impedances." [2]
+
+- If connected e.g. to a battery, means that the battery follows the residual between generation and demand.
+
+"A practical example of a grid-forming power converter can be a standby UPS. This system remains disconnected from the main grid when the operating conditions are within certain limits. In the case of a grid failure, the power converter of the UPS forms the grid voltage." [2].
+
+"In a microgrid, the AC voltage generated by the grid-forming power converter will be used as a reference for the rest of grid-feeding power converters connected to it." [2].
+
+---
+
+## Grid-forming inverter will likely be more and more present in bulk power systems
+
+"Grid-forming inverters are able to operate AC grids with or without rotating machines. In the past, they have been successfully deployed in inverter dominated island grids or in uninterruptable power supply (UPS) systems. It is expected that with increasing shares of inverter-based electrical power generation, grid-forming inverters will also become relevant for interconnected power systems. In contrast to conventional current-controlled inverters, grid-forming inverters do not immediately follow the grid voltage. They form voltage phasors that have an inertial behavior. In consequence, they can inherently deliver momentary reserve and increase power grid resilience."
+
+Source: Unruh, P., Nuschke, M., Strauß, P., & Welck, F. (2020). Overview on grid-forming inverter control methods. Energies, 13(10)
+
+---
+
+## Example: Automatic transfer switch, grid forming inverter & battery charger
 
 .grid[
 .kol-1-2[.width-100[![](figures/victron_multiplus.png)]]
@@ -110,16 +194,10 @@ Source: website of Victron.
 
 ---
 
-## Vehicle to grid
+## grid-supporting converters 
 
-.width-100[![](figures/AC_coupling_V2G.png)]
-
-
----
-
-class: middle, center, black-slide
-
-<iframe width="600" height="450" src="https://www.youtube.com/embed/5FAsadUM26I" frameborder="0" allowfullscreen></iframe>
+Can be seen as a grid-following converter with additional control loops to support the grid -> frequency and voltage regulation.
+.center.width-80[![](figures/grid-supporting.png)]
 
 ---
 
@@ -135,57 +213,6 @@ class: middle, center, black-slide
 
 .footnote[Source:https://www.alma-solarshop.com/solax-power-inverter/982-hybrid-solax-inverter-x1-50t-hv.html]
 
----
-
-## Grid-following inverter
-
-**Draft part, in progress**
-
-- If connected to a battery, means that the battery is controllable, i.e. can absorb or deliver power depending on a setpoint.
-- the setpoint is fixed by a higher level controller, e.g. a droop controller, or an energy management system.
-- Of course also depending on the availability of generation / demand and of another device to regulate the imbalances.
-
-.center.width-80[![](figures/scheme_grid_following_inverter.png)]
-
-.footnote[Source: Paolone, M., et al. (2020). Fundamentals of power systems modelling in the presence of converter-interfaced generation. Electric Power Systems Research, 189(April), 106811.]
-
----
-
-A *grid-following* unit is based on a power converter whose injected currents are controlled with a specific phase displacement with respect to the grid voltage at the PCC. 
-
-As a consequence, the knowledge of the fundamental frequency phasor of the grid voltage at the PCC (PLL) is needed at any time for the correct calculation of the converter reference currents (DQ transform).
-
-The currents amplitude and angle with respect to the grid voltage phasor are properly modified by outer control loops so as to inject the required amount of active and reactive power or control the RMS.
-
----
-
-# Phase Lock Loop
-
----
-
-# DQ transform
-
----
-
-## Grid-forming inverter
-
-- A grid-forming unit is based on a power converter which controls magnitude and angle of the voltage at the PCC. 
-- As a consequence, the knowledge of the fundamental frequency phasor of the grid voltage at the point of connection is not strictly necessary.
-- Depending on the characteristics of the network to which the converter is connected, an isolated system or a slack bus, it is possible by means of additional outer loops to adapt the injected instantaneous active and reactive power also to provide voltage and frequency support. 
-- In an isolated system, a grid-forming unit could behave itself like a slack-bus. When connected with other power sources, through an inductive line, the grid-forming converter is controlling the active power by the modification of the angle. 
-- The voltage magnitude is independent of the active power control.
-
----
-
-## Grid-forming inverter
-
-- Frequency and voltage control
-- Synchronisation (PLL)
-- If connected to a battery, means that the battery follows the residual between generation and demand.
-
-"Grid-forming inverters are able to operate AC grids with or without rotating machines. In the past, they have been successfully deployed in inverter dominated island grids or in uninterruptable power supply (UPS) systems. It is expected that with increasing shares of inverter-based electrical power generation, grid-forming inverters will also become relevant for interconnected power systems. In contrast to conventional current-controlled inverters, grid-forming inverters do not immediately follow the grid voltage. They form voltage phasors that have an inertial behavior. In consequence, they can inherently deliver momentary reserve and increase power grid resilience."
-
-.footnote[Source: Unruh, P., Nuschke, M., Strauß, P., & Welck, F. (2020). Overview on grid-forming inverter control methods. Energies, 13(10)]
 ---
 
 class: middle, center
@@ -349,8 +376,9 @@ By teams of 2, write a little report and draw an electrical diagram of the demon
 
 # References
 
-- Kwasinski, Alexis, Wayne Weaver, and Robert S. Balog. Microgrids and other local area power and energy systems. Cambridge University Press, 2016.
+[1] Kwasinski, Alexis, Wayne Weaver, and Robert S. Balog. Microgrids and other local area power and energy systems. Cambridge University Press, 2016.
 
+[2] Rocabert, J., Luna, A., Blaabjerg, F., &#38; Rodríguez, P. (2012). Control of power converters in AC microgrids. <i>IEEE Transactions on Power Electronics</i>, <i>27</i>(11), 4734–4749. https://doi.org/10.1109/TPEL.2012.2199334
 
 ---
 
