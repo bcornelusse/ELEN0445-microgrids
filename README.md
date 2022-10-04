@@ -38,7 +38,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | November 9  | 8 | Introduction to probabilistic forecasting, lecture-2 available (pdf + video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)  |
 |              |   | Presentation of Assignment 3 by students. |
 ||||
-| | |**Microrgid Optimization module**|
+| | |**Microgrid Optimization module**|
 | November 16  | 9 | [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) |
 |              |   | [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) | 
 |              |   | [LP example 1 notebook](https://colab.research.google.com/drive/1xgO3EhGoG6P5E9BVV7QyPgLJM5HdNDrY?usp=sharing), [LP example 2 notebook](https://colab.research.google.com/drive/1ujoTNfu2_sCoVK7ksqbXgusmAAizvIip?usp=sharing) | 
