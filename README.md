@@ -51,33 +51,6 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | December 7   | 12 | Presentation of Assignment 4 by students. |
 | January exam session  |  | Presentation of assignment 5 by students. |
 
-# Past Lectures of 2021-2022
-| Date | Lecture | Topic |
-| --- | --- | --- |
-| September 15 | 1 | [Introduction](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) |
-| September 22 | 2 |  [Microgrid architectures - offgrid microgrid](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version, link to the [video](https://vimeo.com/461332158/b11a5a74c7) (2020)|
-|              |   |Assignment 1 : microgrid description (submit on ecampus)|
-| September 29 | 3 | [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)|
-|              |   | Assignment 2 : implement a solar MPTT algorithm (description and submission on ecampus)|
-| October 6    | 4 | Q&A on assignment 2 |
-|              |   | [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
-| October 13   | 5  | [Assignment 3](https://bcornelusse.github.io/ELEN0445-microgrids/?p=PV_design.md) ([pdf](pdf/PV_design.pdf) version) and Q&A session: design a PV+storage installation with SMA sunny explorer tool|
-| October 20   | 6  | Presentation of assignment 2 by students. |
-| October 27   | 7  | Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) <br> Assignment: point and probabilistic forecast of PV generation (pdf + Python code + video) available on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)|
-|              |    | [Assignment: Point and Probabilistic forecast of PV generation](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) ([Video](https://youtu.be/lppy-atOisM)) |
-| November 10  | 8 | Introduction to probabilistic forecasting, lecture-2 available (pdf + video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)  |
-|              |   | Presentation of Assignment 3 by students. |
-| November 17  | 9 | [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) |
-|              |   | [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) | 
-|              |   | [LP example 1 notebook](https://colab.research.google.com/drive/1xgO3EhGoG6P5E9BVV7QyPgLJM5HdNDrY?usp=sharing), [LP example 2 notebook](https://colab.research.google.com/drive/1ujoTNfu2_sCoVK7ksqbXgusmAAizvIip?usp=sharing) | 
-|              |   | MIP modeling exercises: [exercises pdf](pdf/MIP_exercises.pdf), [exercise 1 notebook](https://colab.research.google.com/drive/1dVQyXylIrwJvaD23hY2p1_xkplJfROqm?usp=sharing), [exercise 2 notebook](https://colab.research.google.com/drive/1UoUrG6N2I5RxA5g0IpXCH09gnsGybezG?usp=sharing) |
-|              |   |  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) |
-| November 24  | 10 | [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) |
-|              |   | Assignment 5 statement (not yet there) |
-| December 1   | 11 | Q&A session, if needed.  |
-| December 8   | 12 | Presentation of Assignment 4 by students. |
-| January exam session  |  | Presentation of assignment 5 by students. |
-
 
 # talk-template
 
