@@ -24,7 +24,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | September 21 | 2 |  [Microgrid architectures - overview of controllers functions](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version|
 |              |   |Assignment 1: lab microgrid visit and description (submit on ecampus, deadline: September 28.)|
 | September 28 | 3 | [Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)|
-|              |   |  [Pv inverter control](pdf/20220927_PV inverter control.pdf) |
+|              |   |  [PV inverter control](pdf/20220927_PV_inverter_control.pdf) |
 |              |   | Assignment 2: implement a solar MPTT algorithm (description and submission on ecampus)|
 | October 5    | 4 | Q&A on assignment 2 |
 |              |   | [Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
