@@ -29,7 +29,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   | Assignment 2: implement a solar MPTT algorithm (description and submission on ecampus)|
 | October 5    | 4 | Q&A on assignment 2 |
 |              |   | [Lecture: Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
-| October 12   | 5  | [Assignment 3: design a PV+storage installation with SMA sunny explorer tool (**TO BE UPDATED**) ](https://bcornelusse.github.io/ELEN0445-microgrids/?p=PV_design.md) ([pdf](pdf/PV_design.pdf) version) presentation and Q&A session|
+| October 12   | 5  | [Assignment 3: design a PV+storage installation with SMA sunny explorer tool ](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing) presentation and Q&A session|
 | October 19   | 6  | Presentation of assignment 2 by students. |
 ||||
 | | |**Forecasting module**|
