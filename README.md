@@ -32,7 +32,8 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | October 12   | 5  | [Assignment 3: design a PV+storage installation with SMA sunny explorer tool ](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing) presentation and Q&A session|
 ||||
 | | |**Forecasting module**|
-| October 19   | 6  | Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)|
+| October 19   | 6  | A quick introduction to machine learning [pdf](pdf/IntroductiontoMachineLearningDENSYS2021.pdf)|
+|              |    | Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)|
 | October 26   | 7  | Presentation of assignment 2 by students. |
 | November 9  | 8 | Introduction to probabilistic forecasting, lecture-2 available (pdf + video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)  |
 |              |    | **TO BE UPDATED** [Assignment: Point and Probabilistic forecast of PV generation](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) ([Video](https://youtu.be/lppy-atOisM)) |
