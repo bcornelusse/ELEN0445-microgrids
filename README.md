@@ -33,9 +33,10 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 ||||
 | | |**Forecasting module**|
 | October 19   | 6  | Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) <br> Assignment: TO BE UPDATED point and probabilistic forecast of PV generation (pdf + Python code + video) available on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)|
-|              |    | **TO BE UPDATED** [Assignment: Point and Probabilistic forecast of PV generation](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) ([Video](https://youtu.be/lppy-atOisM)) |
+
 | October 26   | 7  | Presentation of assignment 2 by students. |
 | November 9  | 8 | Introduction to probabilistic forecasting, lecture-2 available (pdf + video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)  |
+|              |    | **TO BE UPDATED** [Assignment: Point and Probabilistic forecast of PV generation](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) ([Video](https://youtu.be/lppy-atOisM)) |
 |              |   | Presentation of Assignment 3 by students. |
 ||||
 | | |**Microgrid Optimization module**|
