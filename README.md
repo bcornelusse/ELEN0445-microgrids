@@ -33,6 +33,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 ||||
 | | |**Forecasting module**|
 | October 19   | 6  | [A quick introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pptx)|
+|            |   | Exercise: [room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)|
 |              |    | Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)|
 | October 26   | 7  | Presentation of assignment 2 by students. |
 | November 9  | 8 | Introduction to probabilistic forecasting, lecture-2 available (pdf + video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)  |
