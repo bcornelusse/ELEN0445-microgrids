@@ -38,7 +38,6 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   | Presentation of assignment 2 by students. |
 | November 9  | 8 | Introduction to probabilistic forecasting, lecture-2 available (pdf + video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)  |
 |              |    | **TO BE UPDATED** [Assignment: Point and Probabilistic forecast of PV generation](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting) ([Video](https://youtu.be/lppy-atOisM)) |
-|              |   | Presentation of Assignment 3 by students. |
 ||||
 | | |**Microgrid Optimization module**|
 | November 16  | 9 | [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) |
@@ -46,6 +45,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   | [LP example 1 notebook](https://colab.research.google.com/drive/1xgO3EhGoG6P5E9BVV7QyPgLJM5HdNDrY?usp=sharing), [LP example 2 notebook](https://colab.research.google.com/drive/1ujoTNfu2_sCoVK7ksqbXgusmAAizvIip?usp=sharing) | 
 |              |   | MIP modeling exercises: [exercises pdf](pdf/MIP_exercises.pdf), [exercise 1 notebook](https://colab.research.google.com/drive/1dVQyXylIrwJvaD23hY2p1_xkplJfROqm?usp=sharing), [exercise 2 notebook](https://colab.research.google.com/drive/1UoUrG6N2I5RxA5g0IpXCH09gnsGybezG?usp=sharing) |
 |              |   |  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) |
+|              |   |  Presentation of Assignment 3 by students. |
 | November 23  | 10 | [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) |
 |              |   | Assignment 5 statement (TO BE UPDATED) |
 | November 30   | 11 | Q&A session, if needed.  |
