@@ -48,8 +48,9 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   |  Presentation of Assignment 3 by students. |
 | November 23  | 10 | [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) |
 | November 30   | 11 | No lecture. Q&A session if needed. |
-| December 7   | 12 | Q&A assignment 4. |
-|              |    | Assignment 5 statement (TO BE UPDATED) |
+| December 7   | 12 | End of microgrid optimization module. |
+|              |    | Assignment 5 statement (**TO BE UPDATED**) |
+|              |    | Q&A assignment 4. |
 | December 14   | 13 | Presentation of Assignment 4 by students. |
 | January exam session  |  | Presentation of assignment 5 by students. |
 
