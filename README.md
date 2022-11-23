@@ -47,10 +47,10 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   |  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) |
 |              |   |  Presentation of Assignment 3 by students. |
 | November 23  | 10 | [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) |
-|              |   | Assignment 5 statement (TO BE UPDATED) |
-| November 30   | 11 | Q&A session, if needed.  |
-||||
-| December 7   | 12 | Presentation of Assignment 4 by students. |
+| November 30   | 11 | No lecture. Q&A session if needed. |
+| December 7   | 12 | Q&A assignment 4. |
+|              |    | Assignment 5 statement (TO BE UPDATED) |
+| December 14   | 13 | Presentation of Assignment 4 by students. |
 | January exam session  |  | Presentation of assignment 5 by students. |
 
 
