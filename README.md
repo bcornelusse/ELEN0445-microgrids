@@ -17,7 +17,7 @@ Teaching assistant:
 
 We will interact through eCampus (videos, notifications, homeworks, questions, etc.). 
 
-# Lectures of 2022-2023
+# Lectures of 2023-2024
 | Date | Lecture | Topic |
 | --- | --- | --- |
 | | | **Microgrid architecture, components, and control** |
@@ -53,6 +53,8 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |    | Q&A assignment 4. |
 | December 14   | 13 | Presentation of Assignment 4 by students. |
 | January exam session  |  | Presentation of assignment 5 by students. |
+
+
 
 
 
