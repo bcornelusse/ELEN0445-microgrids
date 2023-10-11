@@ -26,7 +26,7 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 |              |   |Assignment 1: lab microgrid visit and description (submit on ecampus, deadline: October 11.)|
 | October 11 | 3 | [Lecture: Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)|
 |              |   |  [Lecture: PV inverter control](pdf/20220927_PV_inverter_control.pdf) |
-|              |   | Assignment 2: implement a solar MPTT algorithm ([description](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/hw2/MG_HW2_2023.pdf) and [files](https://bcornelusse.github.io/ELEN0445-microgrids/pdf/hw2/MG_HW2_2023.zip) submission on ecampus)|
+|              |   | Assignment 2: implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on ecampus deadline: October 23|
 | October 18    | 4 | Q&A on assignment 2 |
 |              |   | [Lecture: Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
 | October 25   | 5  | Hands-on session: **TO BE UPDATED** [Design a PV+storage installation with SMA sunny explorer tool](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing)|
