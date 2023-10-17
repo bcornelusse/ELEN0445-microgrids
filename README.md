@@ -29,14 +29,13 @@ We will interact through eCampus (videos, notifications, homeworks, questions, e
 | October 18    | 4 | Q&A on assignment 2 |
 |              |   |  [Lecture: PV inverter control](pdf/20220927_PV_inverter_control.pdf) |
 |              |   | [Lecture: Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
-| October 25   | 5  | Hands-on session: **TO BE UPDATED** [Design a PV+storage installation with SMA sunny explorer tool](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing)|
-|              |   | Presentation of assignment 2 by students. |
+| October 25   | 5  | Presentation of assignment 2 by students |
+|              |   | Hands-on session: **TO BE UPDATED** [Design a PV+storage installation with SMA sunny explorer tool](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing)|
 ||||
 | | |**Forecasting module**|
 | November 8   | 6  | [A quick introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pptx)|
 |            |   | Exercise: [room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)|
 | November 15  |  7  | Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)|
-
 | November 22  | 8 | Introduction to probabilistic forecasting, lecture-2 available (pdf + video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)  |
 |              |    | [Assignment: Load point and probabilistic forecast](pdf/hw4.pdf). Data and code template available on ecampus.|
 ||||
