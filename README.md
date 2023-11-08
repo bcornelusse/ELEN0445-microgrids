@@ -46,12 +46,12 @@ Teaching assistant:
 |              |   | MIP modeling exercises: [exercises pdf](pdf/MIP_exercises.pdf), [exercise 1 notebook](https://colab.research.google.com/drive/1dVQyXylIrwJvaD23hY2p1_xkplJfROqm?usp=sharing), [exercise 2 notebook](https://colab.research.google.com/drive/1UoUrG6N2I5RxA5g0IpXCH09gnsGybezG?usp=sharing) |
 |              |   |  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) |
 |              |   |  Presentation of Assignment 3 by students. |
-| December 6  | 10 | [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) |
-| December 13   | 11 | End of microgrid optimization module. |
-|              |    | Assignment 5 statement (**TO BE UPDATED**) |
+| December 6   | 10 | [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) |
+|              |    | Assignment 4 statement (**TO BE UPDATED**) |
+| December 13  | 11 | End of microgrid optimization module. |
 |              |    | Q&A assignment 4. |
-| December 20   | 12 | Presentation of Assignment 4 by students. |
-| January exam session  |  | Presentation of assignment 5 by students. |
+| December 20  | 12 | If needed |
+| January exam session  |  | Presentation of assignment 4 by students. |
 
 
 
