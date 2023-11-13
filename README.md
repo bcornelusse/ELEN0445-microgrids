@@ -30,7 +30,7 @@ Teaching assistant:
 | October 25   | 5  | Presentation of assignment 2 by students |
 |              |   | Hands-on session: [Design a PV+storage installation with SMA sunny explorer tool](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing)|
 | November 8   | 6  | [Frequency and voltage control](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/?p=lecture9_frequency_control_2023_bcr.md#1) ([pdf](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/pdf/lecture9_frequency_control_2023_bcr.pdf)) |
-|              |   | Assignment 3: controller of an islanded microgrid ([files](pdf/HW3/MG_HW3.zip)), submission on ecampus deadline: November 27|
+|              |   | Assignment 3: controller of an islanded microgrid ([files](pdf/HW3/MG_HW3_v2.zip)), submission on ecampus deadline: November 27|
 | November 15  |  7  | No lecture, time for assignment 3 (ask teaching assistants if you want to organize a Q&A session) |
 ||||
 | | |**Forecasting module**|
