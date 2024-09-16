@@ -1,7 +1,7 @@
 # ELEN0445 Microgrids
 
-This is a course on microgrids and local energy communities given at Master's level at ULiège.
-The goal of this course is to be applied and practical, with lab visits and a few manipulations, sizing of installations, etc.
+This microgrids course is given at the Master's level at ULiège.
+The goal of this course is to be applied and practical, with lab visits and sizing of installations.
 
 Prerequisites: 
  - Notions of electrical circuits analysis (https://github.com/bcornelusse/livre_circuits_electriques_ELEC0053/)
