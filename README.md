@@ -46,9 +46,9 @@ Teaching assistant:
 |	              	|	    	|	 Q&A assignment 4. 	|
 |	              	|	    	|		|
 |	 	|	 	|	**Forecasting module**	|
-|	 December 4 	|	8	|	 [A quick introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pptx)	|
+|	 December 4 	|	11	|	 [A quick introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pptx)	|
 |	               	|	    	|	 Exercise: [room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)	|
-|	 December 11 	|	9	|	 Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)	|
+|	 December 11 	|	12	|	 Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)	|
 |	               	|	    	|	 [Google colab](https://colab.research.google.com/drive/1D8gmKo97XKhXqa4pfUJRfSF4Hpy--8B7?usp=sharing) and [data](notebooks/data.csv) 	|
 |	              	|	    	|	 [Hands on session: Load point forecast](pdf/hw4.pdf). Data and code template available on ecampus.	|
 |	 December 18  	|	13	|	 Presentation of assignment 4 by students. 	|
