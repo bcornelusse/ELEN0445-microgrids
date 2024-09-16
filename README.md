@@ -31,8 +31,8 @@ Teaching assistant:
 |	              	|	   	|	 Assignment 2 (**TO BE UPDATED**): implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on ecampus deadline: October 13	|
 |	 October 16   	|	5	|	 Q&A on assignment 2	|
 |	 October 23  	|	6	|	 Assignment 3 (**TO BE UPDATED**): controller of an islanded microgrid ([files](pdf/HW3/MG_HW3_v2.zip)), submission on ecampus deadline: November 27	|
-|	 November 6  	|	7	|	 No lecture, time for assignment 3 (ask teaching assistants if you want to organize a Q&A session) 	|
-|		|		| Presentation of assignment 2 by students		|
+|	 November 6  	|	7	|	Presentation of assignment 2 by students  	|
+|		             |		 | Q&A assignment 3)		|
 |	 	|	 	|	**Microgrid Optimization module**	|
 |	 November 13  	|	8	|	 [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	|
 |	              	|	   	|	 [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
