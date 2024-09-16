@@ -23,7 +23,7 @@ Teaching assistant:
 | September 25 | 2 |  [Lecture: Microgrid architectures - overview of controllers functions](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version|
 |              |   |Assignment 1: lab microgrid visit and description (submit on ecampus, deadline: October 11.)|
 | October 2 | 3 | [Lecture: Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)|
-|              |   | Assignment 2: implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on ecampus deadline: October 23|
+|              |   | Assignment 2: implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on ecampus deadline: October 13|
 | October 9    | 4 | Q&A on assignment 2 |
 |              |   |  [Lecture: PV inverter control](pdf/20220927_PV_inverter_control.pdf) |
 |              |   | [Lecture: Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) |
