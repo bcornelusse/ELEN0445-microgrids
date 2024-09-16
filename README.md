@@ -27,15 +27,12 @@ Teaching assistant:
 |	              	|	   	|	Assignment 1: lab microgrid visit and description (submit on ecampus, deadline: October 11.)	|
 |		|		|	 **Control module**	|
 |	 October 9    	|	4	|	  [Lecture: PV inverter control](pdf/20220927_PV_inverter_control.pdf) 	|
-|	              	|	   	|	 Assignment 2: implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on ecampus deadline: October 13	|
-|		|		|	 Q&A on assignment 2 	|
-|	 October 16   	|	5	|	No lecture	|
-|		|		|		|
-|	 October 23  	|	6	|	 [Frequency and voltage control](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/?p=lecture9_frequency_control_2023_bcr.md#1) ([pdf](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/pdf/lecture9_frequency_control_2023_bcr.pdf)) 	|
-|	              	|	   	|	 Assignment 3: controller of an islanded microgrid ([files](pdf/HW3/MG_HW3_v2.zip)), submission on ecampus deadline: November 27	|
-|		|		|	 Presentation of assignment 2 by students 	|
+|	              	|	 	|	  [Lecture: Frequency and voltage control](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/?p=lecture9_frequency_control_2023_bcr.md#1) ([pdf](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/pdf/lecture9_frequency_control_2023_bcr.pdf)) |
+|	              	|	   	|	 Assignment 2 (**TO BE UPDATED**): implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on ecampus deadline: October 13	|
+|	 October 16   	|	5	|	 Q&A on assignment 2	|
+|	 October 23  	|	6	|	 Assignment 3 (**TO BE UPDATED**): controller of an islanded microgrid ([files](pdf/HW3/MG_HW3_v2.zip)), submission on ecampus deadline: November 27	|
 |	 November 6  	|	7	|	 No lecture, time for assignment 3 (ask teaching assistants if you want to organize a Q&A session) 	|
-|		|		|		|
+|		|		| Presentation of assignment 2 by students		|
 |	 	|	 	|	**Microgrid Optimization module**	|
 |	 November 13  	|	8	|	 [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	|
 |	              	|	   	|	 [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
