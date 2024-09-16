@@ -51,8 +51,8 @@ Teaching assistant:
 |	 December 11 	|	9	|	 Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)	|
 |	               	|	    	|	 [Google colab](https://colab.research.google.com/drive/1D8gmKo97XKhXqa4pfUJRfSF4Hpy--8B7?usp=sharing) and [data](notebooks/data.csv) 	|
 |	              	|	    	|	 [Hands on session: Load point forecast](pdf/hw4.pdf). Data and code template available on ecampus.	|
-|	 December 18  	|	13	|	 If needed 	|
-|	 January exam session  	|	  	|	 Presentation of assignment 4 by students. 	|
+|	 December 18  	|	13	|	 Presentation of assignment 4 by students. 	|
+|	 January exam session  	|	  	|	If needed.	|
 
 
 
