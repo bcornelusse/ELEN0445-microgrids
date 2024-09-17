@@ -19,20 +19,20 @@ Teaching assistant:
 |	 Date 	|	 Lecture 	|	 Topic 	|
 |	 --- 	|	 --- 	|	 --- 	|
 |	 	|	 	|	 **Microgrid architecture  and components module** 	|
-|	 September 18 	|	1	|	 [Introduction lecture](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) 	|
-|	 September 25 	|	2	|	 [Lecture: Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)	|
+|	 September 19 	|	1	|	 [Introduction lecture](https://bcornelusse.github.io/ELEN0445-microgrids/?p=introduction.md), [pdf](pdf/introduction.pdf) version, link to the [video](https://vimeo.com/458482575/aff88eb6bf) (2020) 	|
+|	 September 26 	|	2	|	 [Lecture: Generation devices and power electronics interfaces](https://bcornelusse.github.io/ELEN0445-microgrids/?p=devices_and_interfaces.md), [pdf](pdf/devices_and_interfaces.pdf) version, link to the [video](https://vimeo.com/463509021/fd2d2a877e) (2020)	|
 |		|		|	 [Lecture: Storage](https://bcornelusse.github.io/ELEN0445-microgrids/?p=storage.md) (prerecorded), [pdf](pdf/storage.pdf) version, link to the [video](https://vimeo.com/463823298/f6561ddd30) (2020) 	|
 |		|		|	 Hands-on session: [Design a PV+storage installation with SMA sunny explorer tool](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing)	|
-|	 October 2 	|	3	|	  [Lecture: Microgrid architectures - overview of controllers functions](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version	|
+|	 October 3 	|	3	|	  [Lecture: Microgrid architectures - overview of controllers functions](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version	|
 |	              	|	   	|	Assignment 1: lab microgrid visit and description (submit on ecampus, deadline: October 11.)	|
 |		|		|	 **Control module**	|
-|	 October 9    	|	4	|	  [Lecture: PV inverter control](pdf/20220927_PV_inverter_control.pdf) 	|
+|	 October 10    	|	4	|	 No lecture |
+|	 October 17   	|	5	|	 [Lecture: PV inverter control](pdf/20220927_PV_inverter_control.pdf) 	|
 |	              	|	 	|	  [Lecture: Frequency and voltage control](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/?p=lecture9_frequency_control_2023_bcr.md#1) ([pdf](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/pdf/lecture9_frequency_control_2023_bcr.pdf)) |
-|	              	|	   	|	 Assignment 2 (**TO BE UPDATED**): implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on ecampus deadline: October 13	|
-|	 October 16   	|	5	|	 Q&A on assignment 2	|
-|	 October 23  	|	6	|	 Assignment 3 (**TO BE UPDATED**): controller of an islanded microgrid ([files](pdf/HW3/MG_HW3_v2.zip)), submission on ecampus deadline: November 27	|
+|	              	|	   	|	 Assignment 2 (**TO BE UPDATED**): implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on ecampus deadline: **TO BE UPDATED**|
+|	 October 23  	|	6	|	 Assignment 3 (**TO BE UPDATED**): controller of an islanded microgrid ([files](pdf/HW3/MG_HW3_v2.zip)), submission on ecampus deadline: **TO BE UPDATED**	|
 |	 November 6  	|	7	|	Presentation of assignment 2 by students  	|
-|		             |		 | Q&A assignment 3)		|
+|		             |		 | Q&A assignment 3		|
 |	 	|	 	|	**Microgrid Optimization module**	|
 |	 November 13  	|	8	|	 [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	|
 |	              	|	   	|	 [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
