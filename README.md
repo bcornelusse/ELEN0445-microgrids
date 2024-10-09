@@ -26,11 +26,11 @@ Teaching assistant:
 |	 October 3 	|	3	|	  [Lecture: Microgrid architectures - overview of controllers functions](https://bcornelusse.github.io/ELEN0445-microgrids/?p=architectures.md), [pdf](pdf/architectures.pdf) version	|
 |	              	|	   	|	Assignment 1: lab microgrid visit and description (submit on eCampus, deadline: October 11.)	|
 |		|		|	 **Control module**	|
-|	 October 10    	|	4	|	Assignment 2: implement a solar MPTT algorithm ([description](pdf/HW2/MG_HW2_2023.pdf) and [files](pdf/HW2/MG_HW2_2023.zip)), submission on eCampus deadline: November 3 |
+|	 October 10    	|	4	|	Assignment 2: implement a solar MPTT algorithm (see on eCampus) deadline: November 3 |
 |	 October 17   	|	5	|	 [Lecture: PV inverter control](pdf/20220927_PV_inverter_control.pdf) 	|
 |	              	|	 	|	  [Lecture: Frequency and voltage control](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/?p=lecture9_frequency_control_2023_bcr.md#1) ([pdf](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/pdf/lecture9_frequency_control_2023_bcr.pdf)) |
 |	              	|	   	|	 |
-|	 October 24  	|	6	|	 Assignment 3 (**TO BE UPDATED**): controller of an islanded microgrid ([files](pdf/HW3/MG_HW3_v2.zip)), submission on ecampus deadline: **TO BE UPDATED**	|
+|	 October 24  	|	6	|	 Assignment 3: controller of an islanded microgrid (see on eCampus) deadline: **TO BE UPDATED**	|
 |	 November 7  	|	7	|	Presentation of assignment 2 by students  	|
 |		             |		 | Q&A assignment 3		|
 |	 	|	 	|	**Microgrid Optimization module**	|
