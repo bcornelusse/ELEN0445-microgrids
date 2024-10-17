@@ -27,7 +27,7 @@ Teaching assistant:
 |	              	|	   	|	Assignment 1: lab microgrid visit and description (submit on eCampus, deadline: October 11.)	|
 |		|		|	 **Control module**	|
 |	 October 10    	|	4	|	Assignment 2: implement a solar MPPT algorithm (see on eCampus) deadline: November 3 |
-|	 October 17   	|	5	|	 [Lecture: PV inverter control](pdf/20220927_PV_inverter_control.pdf) 	|
+|	 October 17   	|	5	|	 [Lecture: PV inverter control](pdf/20241015_PV_inverter_control.pdf) 	|
 |	              	|	 	|	  [Lecture: Frequency and voltage control](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/?p=lecture9_frequency_control_2023_bcr.md#1) ([pdf](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/pdf/lecture9_frequency_control_2023_bcr.pdf)) |
 |	              	|	   	|	 |
 |	 October 24  	|	6	|	 Q&A assignment 2 |
