@@ -33,7 +33,6 @@ Teaching assistant:
 |	 October 24  	|	6	|	 Q&A assignment 2 |
 |	 November 7  	|	7	|	Presentation of assignment 2 by students  	|
 |		             |		 | [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	
-
 |	 	|	 	|	**Microgrid Optimization module**	|
 |	 November 14  	|	8	 	|	 [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
 |	              	|	   	|	 [LP example 1 notebook](https://colab.research.google.com/drive/1xgO3EhGoG6P5E9BVV7QyPgLJM5HdNDrY?usp=sharing), [LP example 2 notebook](https://colab.research.google.com/drive/1ujoTNfu2_sCoVK7ksqbXgusmAAizvIip?usp=sharing) 	|
