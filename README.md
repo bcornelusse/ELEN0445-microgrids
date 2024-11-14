@@ -32,13 +32,15 @@ Teaching assistant:
 |	              	|	   	|	 |
 |	 October 24  	|	6	|	 Q&A assignment 2 |
 |	 November 7  	|	7	|	Presentation of assignment 2 by students  	|
-|		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus) deadline: **TO BE UPDATED**	|
+|		             |		 | [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	
+
 |	 	|	 	|	**Microgrid Optimization module**	|
-|	 November 14  	|	8	|	 [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	|
-|	              	|	   	|	 [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
+|	 November 14  	|	8	 	|	 [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
 |	              	|	   	|	 [LP example 1 notebook](https://colab.research.google.com/drive/1xgO3EhGoG6P5E9BVV7QyPgLJM5HdNDrY?usp=sharing), [LP example 2 notebook](https://colab.research.google.com/drive/1ujoTNfu2_sCoVK7ksqbXgusmAAizvIip?usp=sharing) 	|
 |	              	|	   	|	 MIP modeling exercises: [exercises pdf](pdf/MIP_exercises.pdf), [exercise 1 notebook](https://colab.research.google.com/drive/1dVQyXylIrwJvaD23hY2p1_xkplJfROqm?usp=sharing), [exercise 2 notebook](https://colab.research.google.com/drive/1UoUrG6N2I5RxA5g0IpXCH09gnsGybezG?usp=sharing) 	|
 |	              	|	   	|	  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) 	|
+|		             |		 | [Real-time optimization of a microgrid](pdf/densys_2_1_RTO.pdf) |
+|		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus) deadline: **TO BE UPDATED**	|
 |	 November 21   	|	9	|	 [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) 	|
 |	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2023.pdf) and [files](pdf/HW4/HW4_2023.zip)) 	|
 |	              	|	   	|	  Presentation of Assignment 3 by students. 	|
