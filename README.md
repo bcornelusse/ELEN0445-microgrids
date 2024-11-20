@@ -39,7 +39,7 @@ Teaching assistant:
 |	              	|	   	|	 MIP modeling exercises: [exercises pdf](pdf/MIP_exercises.pdf), [exercise 1 notebook](https://colab.research.google.com/drive/1dVQyXylIrwJvaD23hY2p1_xkplJfROqm?usp=sharing), [exercise 2 notebook](https://colab.research.google.com/drive/1UoUrG6N2I5RxA5g0IpXCH09gnsGybezG?usp=sharing) 	|
 |	              	|	   	|	  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) 	|
 |		             |		 | [Real-time optimization of a microgrid](pdf/densys_2_1_RTO.pdf) |
-|		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus) deadline: **TO BE UPDATED**	|
+|		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus)	|
 |	 November 21   	|	9	|	 Q&A assignment 3 |
 |	 November 28 	|	10	|	 [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) 	|
 |	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2023.pdf) and [files](pdf/HW4/HW4_2023.zip)) 	|
