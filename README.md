@@ -40,15 +40,14 @@ Teaching assistant:
 |	              	|	   	|	  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) 	|
 |		             |		 | [Real-time optimization of a microgrid](pdf/densys_2_1_RTO.pdf) |
 |		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus) deadline: **TO BE UPDATED**	|
-|	 November 21   	|	9	|	 [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) 	|
+|	 November 21   	|	9	|	 Q&A assignment 3 |
+|	 November 28 	|	10	|	 [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) 	|
 |	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2023.pdf) and [files](pdf/HW4/HW4_2023.zip)) 	|
-|	              	|	   	|	  Presentation of Assignment 3 by students. 	|
-|	 November 28 	|	10	|	 End of microgrid optimization module. 	|
-|	              	|	    	|	 Q&A assignment 4. 	|
 |	              	|	    	|		|
 |	 	|	 	|	**Forecasting module**	|
 |	 December 5 	|	11	|	 [A quick introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pptx)	|
 |	               	|	    	|	 Exercise: [room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)	|
+|	              	|	   	|	  Presentation of Assignment 3 by students. 	|
 |	 December 12 	|	12	|	 Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)	|
 |	               	|	    	|	 [Google colab](https://colab.research.google.com/drive/1D8gmKo97XKhXqa4pfUJRfSF4Hpy--8B7?usp=sharing) and [data](notebooks/data.csv) 	|
 |	              	|	    	|	 [Hands on session: Load point forecast](pdf/hw4.pdf). Data and code template available on ecampus.	|
