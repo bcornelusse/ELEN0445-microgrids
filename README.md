@@ -42,7 +42,7 @@ Teaching assistant:
 |		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus)	|
 |	 November 21   	|	9	|	 Q&A assignment 3 |
 |	 November 28 	|	10	|	 [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) 	|
-|	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2023.pdf) and [files](pdf/HW4/HW4_2023.zip)) 	|
+|	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
 |	              	|	    	|		|
 |	 	|	 	|	**Forecasting module**	|
 |	 December 5 	|	11	|	 [A quick introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pptx)	|
@@ -51,8 +51,8 @@ Teaching assistant:
 |	 December 12 	|	12	|	 Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)	|
 |	               	|	    	|	 [Google colab](https://colab.research.google.com/drive/1D8gmKo97XKhXqa4pfUJRfSF4Hpy--8B7?usp=sharing) and [data](notebooks/data.csv) 	|
 |	              	|	    	|	 [Hands on session: Load point forecast](pdf/hw4.pdf). Data and code template available on ecampus.	|
-|	 December 19 	|	13	|	 Presentation of assignment 4 by students. 	|
-|	 January exam session  	|	  	|	If needed.	|
+|	 December 19 	|	13	|	 Presentation of assignment 4 by students who want to do it before the exam session. In case you want to do this, please notice T. Stegen and Prof. Cornélusse on December 13 at the latest. 	|
+|	 January 21 	|	  	|	 Exam day: presentation for remaining groups.	|
 
 
 
