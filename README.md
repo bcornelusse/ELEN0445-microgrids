@@ -41,7 +41,7 @@ Teaching assistant:
 |		             |		 | [Real-time optimization of a microgrid](pdf/densys_2_1_RTO.pdf) |
 |		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus)	|
 |	 November 21   	|	9	|	 Q&A assignment 3 |
-|	 November 28 	|	10	|	 [From real-time control to microgrid sizing ](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20211124_microgrids_optimization.pdf) 	|
+|	 November 28 	|	10	|	 [Operational planning and sizing](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20241127_microgrids_optimization.pdf) 	|
 |	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
 |	              	|	    	|		|
 |	 	|	 	|	**Forecasting module**	|
