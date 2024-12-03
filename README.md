@@ -45,10 +45,10 @@ Teaching assistant:
 |	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
 |	              	|	    	|		|
 |	 	|	 	|	**Forecasting module**	|
-|	 December 5 	|	11	|	 [A quick introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pptx)	|
-|	             |	  	|	 Exercise: [room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)	|
-|	            	|		  |	 Introduction to forecasting, lecture-1 available (pdf and video) on [https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting)	|
-|	             |	  	|	Hands-on session: (to be updated) [Google colab](https://colab.research.google.com/drive/1D8gmKo97XKhXqa4pfUJRfSF4Hpy--8B7?usp=sharing) and [data](notebooks/data.csv) 	|
+|	 December 5 	|	11	|	Lecture: [Introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pdf)  |
+|          |     | Exercise: [Room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)|
+|          |    | Lecture: [Introduction to point forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting/blob/2b91cfc1b637b2ff17b13786b2407df66b6ac485/pdf/ELEN0445-1-microgrids-forecasting-lesson-1-2021.pdf) ([Video](https://youtu.be/NqezU_J1JQs))   |
+|          |       | [Hand on forecasting session (to be updated)](https://colab.research.google.com/drive/1PZ6NR96HIhTFtHbq3Y6l6DlpnmL85zsD?usp=sharing), [Zip file if you want to run it on your machine](notebooks/forecasting_student_version.zip)|
 |	 December 12 	|	12	 |	  Presentation of Assignment 3 by students. 	|
 |	 December 19 	|	13	|	 Presentation of assignment 4 by students who want to do it before the exam session. In case you want to do this, please notice T. Stegen and Prof. Cornélusse on December 13 at the latest. 	|
 |	 January 21 	|	  	|	 Exam day: presentation for remaining groups.	|
