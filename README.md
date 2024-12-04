@@ -48,7 +48,7 @@ Teaching assistant:
 |	 December 5 	|	11	|	Lecture: [Introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pdf)  |
 |          |     | Exercise: [Room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)|
 |          |    | Lecture: [Introduction to point forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting/blob/2b91cfc1b637b2ff17b13786b2407df66b6ac485/pdf/ELEN0445-1-microgrids-forecasting-lesson-1-2021.pdf) ([Video](https://youtu.be/NqezU_J1JQs))   |
-|          |       | [Hand on forecasting session (to be updated)](https://colab.research.google.com/drive/1PZ6NR96HIhTFtHbq3Y6l6DlpnmL85zsD?usp=sharing), [Zip file if you want to run it on your machine](notebooks/forecasting_student_version.zip)|
+|          |       | [Hand on forecasting session](https://colab.research.google.com/drive/1hvI10_m99pxUdT3mnqaDrtBieKiPjTwf?usp=sharing) |
 |	 December 12 	|	12	 |	  Presentation of Assignment 3 by students. 	|
 |	 December 19 	|	13	|	 Presentation of assignment 4 by students who want to do it before the exam session. In case you want to do this, please notice T. Stegen and Prof. Cornélusse on December 13 at the latest. 	|
 |	 January 21 	|	  	|	 Exam day: presentation for remaining groups.	|
