@@ -15,7 +15,7 @@ Teaching assistant:
  - Thomas Stegen
  - Clément Moureau
 
-# Lectures of 2024-2025
+# Lectures of 2025-2026
 |	 Date 	|	 Lecture 	|	 Topic 	|
 |	 --- 	|	 --- 	|	 --- 	|
 |	 	|	 	|	 **Microgrid architecture  and components module** 	|
