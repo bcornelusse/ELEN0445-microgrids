@@ -32,9 +32,9 @@ Teaching assistant:
 |	              	|	   	|	 |
 |	 March 19  	|	6	|	 Q&A assignment 2 |
 |	 March 26  	|	7	|	Presentation of assignment 2 by students  	|
-|		             |		 | [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	
 |	 	|	 	|	**Microgrid Optimization module**	|
-|	 April 2  	|	8	 	|	 [Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
+|	 April 2  	|	8	| [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	
+|		          |		 |	[Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
 |	              	|	   	|	 [LP example 1 notebook](https://colab.research.google.com/drive/1xgO3EhGoG6P5E9BVV7QyPgLJM5HdNDrY?usp=sharing), [LP example 2 notebook](https://colab.research.google.com/drive/1ujoTNfu2_sCoVK7ksqbXgusmAAizvIip?usp=sharing) 	|
 |	              	|	   	|	 MIP modeling exercises: [exercises pdf](pdf/MIP_exercises.pdf), [exercise 1 notebook](https://colab.research.google.com/drive/1dVQyXylIrwJvaD23hY2p1_xkplJfROqm?usp=sharing), [exercise 2 notebook](https://colab.research.google.com/drive/1UoUrG6N2I5RxA5g0IpXCH09gnsGybezG?usp=sharing) 	|
 |	              	|	   	|	  2020 recordings: [linear programming](https://vimeo.com/470341870/615ef20e80), [MILP](https://vimeo.com/470525624/7fdaadad42) <br> [Python notebooks](notebooks/) 	|
