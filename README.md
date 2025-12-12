@@ -46,7 +46,7 @@ Teaching assistant:
 |	 April 16 	|	10	|		Lecture: [Introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pdf)  |
 |          |     | Exercise: [Room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)|
 |          |    | Lecture: [Introduction to point forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting/blob/2b91cfc1b637b2ff17b13786b2407df66b6ac485/pdf/ELEN0445-1-microgrids-forecasting-lesson-1-2021.pdf) ([Video](https://youtu.be/NqezU_J1JQs))   |
-|          |       | [Hand on forecasting session](https://colab.research.google.com/drive/1hvI10_m99pxUdT3mnqaDrtBieKiPjTwf?usp=sharing) |
+|          |       | [Hands on forecasting session](https://colab.research.google.com/drive/1hvI10_m99pxUdT3mnqaDrtBieKiPjTwf?usp=sharing) |
  |          |       |Q&A assignment 3 |
 |	              	|	    	|		|
 |	 May 7 	|	11	| Presentation of Assignment 3 by students. 	|
