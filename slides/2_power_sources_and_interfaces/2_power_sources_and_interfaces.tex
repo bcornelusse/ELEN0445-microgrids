@@ -1,0 +1,84 @@
+\documentclass[aspectratio=169]{beamer}
+
+% Document metadata
+
+\subtitle{ELEN0445 - Microgrids}
+\title{Power sources and power electronics interfaces}
+\author[BC]{Bertrand Cornélusse}
+\institute{Université de Liège}
+\date{\today}
+
+% Image for the title page (use include graphics option to properly size/place it)
+\titlegraphic{\includegraphics[height=\paperheight]{banner.jpg}}
+\usetheme[titlestyle=style1]{trigon}
+%\usetheme[sectionstyle=style2]{trigon}
+
+% Define logos to use (comment if no logo)
+\biglogo{uliege_faculte_sciencesappliquees_logo_rvb_pos.pdf} % Used on titlepage only
+\smalllogo{} % Used on top right corner of regular frames
+
+% ------ If you want to change the theme default colors, do it here ------
+%\definecolor{tPrim}{HTML}{00843B}   % Green
+%\definecolor{tSec}{HTML}{289B38}    % Green light
+%\definecolor{tAccent}{HTML}{F07F3C} % Orange
+
+% ------ Packages and definitions used for this demo. Can be removed ------
+\usepackage{appendixnumberbeamer} % To use \appendix command
+\pdfstringdefDisableCommands{% Fix hyperref translate warning with \appendix
+\def\translate#1{#1}%
+}
+\usepackage{pgf-pie} % For pie charts
+\usepackage{caption} % For subfigures
+\usepackage{subcaption} % For subfigures
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{trigon}}\xspace}
+\usepackage[scale=2]{ccicons} % Icons for CC-BY-SA
+\usepackage{booktabs} % Better tables
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{algorithm}
+\usepackage{algpseudocodex}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{listings}
+\usepackage{tabularx}
+\usepackage{tikz}
+%\usepackage{blox}
+\usepackage{calc}
+%\usetikzlibrary{arrows.meta, positioning}
+
+
+\newcommand{\Z}       {\mathbb{Z} }
+\newcommand{\R}       {\mathbb{R} }
+\newcommand{\Q}       {\mathbb{Q} }
+\newcommand{\N}       {\mathbb{N} }
+\newcommand{\spa}     {\text{span}}
+\newcommand{\lin}     {\text{span}}
+\newcommand{\inter}   {\text{int} }
+\newcommand{\st}{\mathrm{s.t.}}
+\definecolor{myRed}{RGB}{209,34,57} 
+
+
+%==============================================================================
+%                               BEGIN DOCUMENT
+%==============================================================================
+\begin{document}
+
+\input{content}
+
+%\begin{frame}[allowframebreaks]{References}
+%    \bibliographystyle{ieeetr}
+%        \bibliography{demo}
+%\end{frame}
+
+%\begin{columns}
+%  \begin{column}{0.45\textwidth}
+%  
+%  \end{column}
+%  \begin{column}{0.45\textwidth}
+%
+%  \end{column}
+%\end{columns}
+\end{document}
