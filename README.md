@@ -23,7 +23,7 @@ Teaching assistant:
 |                   |	    | [Generation devices and power electronics interfaces](slides/2_power_sources_and_interfaces/2_power_sources_and_interfaces.pdf)	|
 |                   |	    | [Storage](slides/3_storage/3_storage.pdf) 	|
 |                   |	    | [Microgrid architectures - overview of controllers functions](slides/4_architectures/4_architectures.pdf) |
-|	 February 12 	|	2   |  Assignment 1: lab microgrid visit and description (submit on eCampus, deadline: February 19) |
+|	 February 12 	|	2   | Assignment 1: lab microgrid visit and description (submit on eCampus, deadline: February 19) |
 |		|		|	 Hands-on session: [Design a PV+storage installation with SMA sunny explorer tool](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing)|
 |	 February 19 	|	3	| Assignment 2: Visit of AIM and design of their PV + storage installation |
 |	 February 23   	|	   	|	Deadline for assignment 2	|
