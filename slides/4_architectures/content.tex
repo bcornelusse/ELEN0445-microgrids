@@ -16,6 +16,8 @@ In this lecture we review microgrids architectures, that is which components for
 
 \end{frame}
 
+\section{AC Architectures}
+
 \begin{frame}{AC grids}
 An alternating current (AC) microgrid is a microgrid where components are coupled through one AC bus, or an AC network, potentially with two voltage levels if the network is long (e.g. a few kilometers).
 \begin{itemize}
@@ -170,8 +172,46 @@ Source: website of Victron.
   \item may lead to parallel or cascade structures
 \end{itemize}
 \end{itemize}
+\end{frame}
 
 
+\section{DC microgrids}
+
+\begin{frame}{DC microgrids}
+\begin{itemize}
+  \item The distribution system is DC
+  \item Requires DC to DC converters to adapt voltage to devices
+  \item DC to AC to power AC loads, or to inject in the public grid
+  \item AC to DC to convert AC generation to DC (e.g. from public grid to microgrid)
+  \item DC microgrids are not widespread but gain some interest
+\end{itemize}
+\end{frame}
+
+\begin{frame}{DC microgrids example}
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{images/DC_coupling.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{DC vs AC: pros}
+
+  \begin{columns}
+  \begin{column}{0.45\textwidth}
+  \begin{itemize}
+  \item DC systems enable a simpler integration of DERs, since many of them are either DC by nature or require a DC interface anyway
+  \item Parallel distributed architectures are simpler to realize in DC: unnecessary frequency control and phase synchronization
+  \item Frequency control is not necessary in DC systems, unwanted harmonic content may by easier to filter too
+  \end{itemize}
+  \end{column}
+  \begin{column}{0.45\textwidth}
+    \begin{itemize}
+      \item Autonomous distributed control harder in DC than in AC because no information carried through the signal (frequency, phase)
+      \item There are stability issues due to DCDC conversion stages
+      \item It is more difficult to clear fault currents: the signal "does not go through zero". Hence protections are more costly and harder to set up.
+    \end{itemize}
+  \end{column}
+\end{columns}
 \end{frame}
 
 \section{Rules for connecting DER to the grid}
@@ -273,45 +313,6 @@ By default, the power generation unit must operate according to the following ru
 \end{frame}
 
 
-
-\section{DC microgrids}
-
-\begin{frame}{DC microgrids}
-\begin{itemize}
-  \item The distribution system is DC
-  \item Requires DC to DC converters to adapt voltage to devices
-  \item DC to AC to power AC loads, or to inject in the public grid
-  \item AC to DC to convert AC generation to DC (e.g. from public grid to microgrid)
-  \item DC microgrids are not widespread but gain some interest
-\end{itemize}
-\end{frame}
-
-\begin{frame}{DC microgrids example}
-\begin{center}
-  \includegraphics[width=0.6\textwidth]{images/DC_coupling.png}
-\end{center}
-
-\end{frame}
-
-\begin{frame}{DC vs AC: pros}
-
-  \begin{columns}
-  \begin{column}{0.45\textwidth}
-  \begin{itemize}
-  \item DC systems enable a simpler integration of DERs, since many of them are either DC by nature or require a DC interface anyway
-  \item Parallel distributed architectures are simpler to realize in DC: unnecessary frequency control and phase synchronization
-  \item Frequency control is not necessary in DC systems, unwanted harmonic content may by easier to filter too
-  \end{itemize}
-  \end{column}
-  \begin{column}{0.45\textwidth}
-    \begin{itemize}
-      \item Autonomous distributed control harder in DC than in AC because no information carried through the signal (frequency, phase)
-      \item There are stability issues due to DCDC conversion stages
-      \item It is more difficult to clear fault currents: the signal "does not go through zero". Hence protections are more costly and harder to set up.
-    \end{itemize}
-  \end{column}
-\end{columns}
-\end{frame}
 
 
 \section{A first microgrid demonstration Lab visit}
