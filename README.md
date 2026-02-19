@@ -26,7 +26,7 @@ Teaching assistant:
 |	 February 12 	|	2   | Assignment 1: lab microgrid visit and description (submit on eCampus, deadline: February 19) |
 |		|		|	 Hands-on session: [Design a PV+storage installation with SMA sunny explorer tool](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing)|
 |	 February 19 	|	3	| Assignment 2: Visit of AIM and design of their PV + storage installation |
-|	 February 23   	|	   	|	Deadline for assignment 2	|
+|	 February 27   	|	   	|	Deadline for assignment 2	|
 |	 March 5    	|	4	| Discussion and feedback on assignment 2 with a "professional company". |
 |		|		|	 **Control module**	|
 |	 March 12   	|	5	|	 [Lecture: PV inverter control](pdf/20241015_PV_inverter_control.pdf) 	|
