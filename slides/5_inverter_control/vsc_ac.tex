@@ -1,0 +1,31 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage[active,pdftex,tightpage]{preview}
+\usepackage{siunitx}
+\usepackage[latin1]{inputenc}
+\PreviewEnvironment{circuitikz}
+\begin{document}
+
+\begin{circuitikz}[scale=1, transform shape, american]
+    \draw
+    (0,0) to[cvsourceAM, l=$E$,invert] (0,4) to[L, l=$L$] ++(2.5,0)to[R, l=$R$] ++(2.5,0) coordinate(AC+) to[C, l=$C$] ++(0,-4)--(0,0);
+    \draw(AC+) -- ++(1.5,0)coordinate(AC+bis) to [voltmeter, l=$V_a$,invert] ++(0,-4)--++(-1.5,0);
+    \draw(AC+bis) to[generic,l=$Z_g$] ++(2,0) to [vsourceAM, l=$V_g$] ++(0,-4)--++(-2,0);
+    % node[circ]{}
+    %       to[R, l_=$R_1$] ++(-2,-2)
+    %       to[vsourceAM, l_=$V_2$] ++ (2,-2)node[circ]{}--(0,0);
+    % \draw
+    % (3,4) to[R, l=$R_3$] ++(2,-2) coordinate(midright)
+    %       to[R, l=$R_4$] ++(-2,-2);
+
+    % \draw (midright)  to[R, l=$R_5$] ++(-4,0);
+
+    % %draw output terminals
+    % \draw(topWB) to[short, -o] ++(2.5,0)coordinate(+load);
+    % \draw(midright)node[circ]{} to[short, -o] ++(0.5,0)coordinate(-load);
+
+    % %draw possible circuit :
+    % \draw(+load)++(0.3,0)to [short,o-]++(0.5,0)to[generic, l_=???] ++(0,-2)to [short,-o]++(-0.5,0);
+\end{circuitikz}
+
+\end{document}

@@ -29,11 +29,9 @@ Teaching assistant:
 |	 February 27   	|	   	|	Deadline for assignment 2	|
 |	 March 5    	|	4	| Discussion and feedback on assignment 2 with a "professional company". |
 |		|		|	 **Control module**	|
-|	 March 12   	|	5	|	 [Lecture: PV inverter control](pdf/20241015_PV_inverter_control.pdf) 	|
-|	              	|	 	|	  [Lecture: Frequency and voltage control](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/?p=lecture9_frequency_control_2023_bcr.md#1) ([pdf](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/pdf/lecture9_frequency_control_2023_bcr.pdf)) |
-|	              	|	   	|	 |
-|		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus)	|
+|	 March 12   	|	5	|	 [Lecture: Inverter control](slides/5_inverter_control/20260312_Inverter_control.pdf) 	|
 |	 March 19  	|	6	| Q&A assignment 3 |
+|		        |       | Assignment 3: controller of an islanded microgrid (see on eCampus)	|
 |	 March 26  	|	7	| Presentation of assignment 3 by students  	|
 |	 	|	 	|	**Microgrid Optimization module**	|
 |	 April 2  	|	8	| [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	
