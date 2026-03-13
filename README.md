@@ -30,9 +30,9 @@ Teaching assistant:
 |	 March 5    	|	4	| Discussion and feedback on assignment 2 with a "professional company". |
 |		|		|	 **Control module**	|
 |	 March 12   	|	5	|	 [Lecture: Inverter control](slides/5_inverter_control/20260312_Inverter_control.pdf) 	|
-|	 March 19  	|	6	| Q&A assignment 3 |
-|		        |       | Assignment 3: controller of an islanded microgrid (see on eCampus)	|
-|	 March 26  	|	7	| Presentation of assignment 3 by students  	|
+|	 March 19  	|	6	| **To be updated** |
+|		        |       | **To be updated** Assignment 3: controller of an islanded microgrid (see on eCampus)	|
+|	 March 26  	|	7	| **To be updated** Presentation of assignment 3 by students  	|
 |	 	|	 	|	**Microgrid Optimization module**	|
 |	 April 2  	|	8	| [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	
 |		          |		 |	[Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
