@@ -30,7 +30,7 @@ Teaching assistant:
 |	 March 5    	|	4	| Discussion and feedback on assignment 2 with a "professional company". |
 |		|		|	 **Control module**	|
 |	 March 12   	|	5	|	 [Lecture: Inverter control](slides/5_inverter_control/20260312_Inverter_control.pdf) 	|
-|	 March 19  	|	6	| Presentation of third assignment: real-time control of the lab microgrid in Typhoon-HiL |
+|	 March 19  	|	6	| Statement of third assignment: real-time control of the lab microgrid in Typhoon-HiL |
 |	 	|	 	|	**Microgrid Optimization module**	|
 |	 March 26  	|	7	| [Introduction to the optimization module](pdf/20211116_microgrids_optimization.pdf) 	
 |		           |		 |	[Introduction to mathematical programming](pdf/intro_math_programming_v2.pdf) 	|
