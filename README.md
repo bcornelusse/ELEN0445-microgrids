@@ -41,7 +41,6 @@ Teaching assistant:
 | April 2	   	|	8	|	**To be updated** [Operational planning and sizing](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20241127_microgrids_optimization.pdf) 	|
 |	           	|		|	 **To be updated** Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
 |	 April 9  	 |	9	| **To be updated** Presentation of assignment 3 by students  	|
-
 |	 	|	 	|	**Forecasting module**	|
 |	 April 16 	|	10	|		Lecture: [Introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pdf)  |
 |          |     | Exercise: [Room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)|
