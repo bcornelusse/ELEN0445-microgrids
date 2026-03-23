@@ -1,0 +1,35 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage[active,pdftex,tightpage]{preview}
+\usepackage{siunitx}
+\usepackage[latin1]{inputenc}
+\PreviewEnvironment{circuitikz}
+\begin{document}
+
+\begin{circuitikz}[scale=1, transform shape, american]
+    % Define coordinates for clarity
+    \coordinate (DC+) at (0,6);
+    \coordinate (DC0) at (0,3);
+    \coordinate (DC-) at (0,0);
+
+    % Power supply
+    \draw (DC+)  to[short, -o] ++(-1.5,0) coordinate(dc+) node[left] {$DC_{+}$} ;
+    \draw (DC0)  ++(-1,0) node[ground]{} to[short, -o] ++(-0.5,0) coordinate(dc) node[left] {} ;
+    \draw (DC-) to[short, -o] ++(-1.5,0) coordinate(dc-) node[left] {$DC_{-}$} ;
+
+    % High-side MOSFET
+    \draw (DC+) -- ++(0,-1) node[npn, bodydiode, anchor=C, name=high_mos]{}node[left] {$Q_1$};
+    \draw (high_mos.E)-- (DC0);
+    \draw (DC0) -- ++(0,-1) node[npn, bodydiode, anchor=C, name=low_mos]{}node[left] {$Q_2$};
+    \draw (low_mos.E)-- (DC-);
+    
+    \draw (DC0) to[short, -o] ++(2,0)coordinate(L)node[right]{$L$};
+    \draw (DC-)  ++(2,0)coordinate(N)node[right]{$N$} node[ground]{} node[ocirc]{};  
+
+    \draw (L)to[open, v=$V_a$, o-o](N);
+    \draw (dc+)to[open, v=$V_{dc}/2$, o-o](dc)to[open, v=$V_{dc}/2$, o-o](dc-);
+    
+
+\end{circuitikz}
+
+\end{document}

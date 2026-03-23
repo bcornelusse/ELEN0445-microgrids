@@ -1,0 +1,52 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage[active,pdftex,tightpage]{preview}
+\usepackage{siunitx}
+\usepackage[latin1]{inputenc}
+\PreviewEnvironment{circuitikz}
+\begin{document}
+
+\begin{circuitikz}[scale=1, transform shape, american]
+    % Define coordinates for DC bus
+    \coordinate (Atop) at (0,6);
+    \coordinate (Amid) at (0,3);
+    \coordinate (Abot) at (0,0);
+    \draw(Atop)-- ++(2,0) coordinate(Btop) -- ++(2,0)coordinate(Ctop);
+    \draw(Amid)   ++(2,0) coordinate(Bmid)    ++(2,0)coordinate(Cmid);
+    \draw(Abot)-- ++(2,0) coordinate(Bbot) -- ++(2,0)coordinate(Cbot);
+
+
+    % DC bus
+    \draw (Atop)  to[short, -o] ++(-1.5,0) coordinate(dc+) node[left] {$DC_{+}$};
+    \draw (Amid)  ++(-1,0) node[ground]{} to[short, -o] ++(-0.5,0) coordinate(dc) node[left] {};
+    \draw (Abot)  to[short, -o] ++(-1.5,0) coordinate(dc-) node[left] {$DC_{-}$};
+
+    % Voltage labels for DC bus
+    \draw (dc+) to[open, v=$V_{dc}/2$, o-o] (dc) to[open, v=$V_{dc}/2$, o-o] (dc-);
+
+    % --- Phase A ---
+    \draw (Atop)  -- ++(0,-1) node[npn, bodydiode, anchor=C, name=high_mos_A]{} node[left] {$Q_1$};
+    \draw (high_mos_A.E) -- (Amid);
+    \draw (Amid)  -- ++(0,-1) node[npn, bodydiode, anchor=C, name=low_mos_A]{} node[left] {$Q_2$};
+    \draw (low_mos_A.E) -- (Abot);
+    \draw (Amid)  ++(0,0.25)to[short, -o] ++(4.5,0) coordinate(A) node[right] {$A$};
+    %\draw (A) to[open, v=$V_a$, o-] (A |- Abot);
+
+    % --- Phase B ---
+    \draw (Btop) -- ++(0,-1) node[npn, bodydiode, anchor=C, name=high_mos_B]{} node[left] {$Q_3$};
+    \draw (high_mos_B.E) -- (Bmid);
+    \draw (Bmid)  -- ++(0,-1) node[npn, bodydiode, anchor=C, name=low_mos_B]{} node[left] {$Q_4$};
+    \draw (low_mos_B.E) -- (Bbot);
+    \draw (Bmid)  to[short, -o] ++(3.3,0) coordinate(B) node[right] {$B$};
+    \draw (B) to[open, v=$V_{abc}$, o-o] (B |- Bbot)node[ground] {};
+
+    % --- Phase C ---
+    \draw (Ctop)  -- ++(0,-1) node[npn, bodydiode, anchor=C, name=high_mos_C]{} node[left] {$Q_5$};
+    \draw (high_mos_C.E) -- (Cmid);
+    \draw (Cmid)  -- ++(0,-1) node[npn, bodydiode, anchor=C, name=low_mos_C]{} node[left] {$Q_6$};
+    \draw (low_mos_C.E) -- (Cbot);
+    \draw (Cmid)  ++(0,-0.25)to[short, -o] ++(2.1,0) coordinate(C) node[right] {$C$};
+    %\draw (C) to[open, v=$V_c$, o-] (C |- Cbot);
+\end{circuitikz}
+
+\end{document}

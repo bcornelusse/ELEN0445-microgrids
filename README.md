@@ -24,16 +24,13 @@ Teaching assistant:
 |                   |	    | [Storage](slides/3_storage/3_storage.pdf) 	|
 |                   |	    | [Microgrid architectures](slides/4_architectures/4_architectures.pdf) |
 |	 February 12 	|	2   | Assignment 1: lab microgrid visit and description (submit on eCampus, deadline: February 19) |
-|		|		|	 Hands-on session: [Design a PV+storage installation with SMA sunny explorer tool](https://docs.google.com/document/d/11-PIfuOZclRARQJjPJf0fZI5lZdYmYdIg44CfuEL6Ss/edit?usp=sharing)|
+|		|		|	 Hands-on session: Design a PV+storage installation with SMA sunny explorer tool|
 |	 February 19 	|	3	| Assignment 2: Visit of AIM and design of their PV + storage installation |
-|	 February 23   	|	   	|	Deadline for assignment 2	|
+|	 February 27   	|	   	|	Deadline for assignment 2	|
 |	 March 5    	|	4	| Discussion and feedback on assignment 2 with a "professional company". |
 |		|		|	 **Control module**	|
-|	 March 12   	|	5	|	 [Lecture: PV inverter control](pdf/20241015_PV_inverter_control.pdf) 	|
-|	              	|	 	|	  [Lecture: Frequency and voltage control](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/?p=lecture9_frequency_control_2023_bcr.md#1) ([pdf](https://bcornelusse.github.io/ELEC0447-analysis-power-systems/pdf/lecture9_frequency_control_2023_bcr.pdf)) |
-|	              	|	   	|	 |
-|		             |		 | Assignment 3: controller of an islanded microgrid (see on eCampus)	|
-|	 March 19  	|	6	| Q&A assignment 3 |
+|	 March 12   	|	5	|	 [Lecture: Inverter control](slides/5_inverter_control/20260312_Inverter_control.pdf) 	|
+|	 March 19  	|	6	| Statement of third assignment: real-time control of the lab microgrid in Typhoon-HiL (see on ecampus)|
 |	 March 26  	|	7	| Presentation of assignment 3 by students  	|
 |	 	|	 	|	**Microgrid Optimization and forecasting module**	|
 |	 April 2  	|	8	| [Introduction to the optimization module](slides/opt_1_intro/opt_1_intro.pdf) 	|
@@ -50,4 +47,4 @@ Teaching assistant:
 |          |       |Q&A assignment 4 |
 |	              	|	    	|		|
 |	 May 7 	|	11	| Presentation of Assignment 4 by students. 	|
-|	 May   	|	13	| If needed	 	|
+

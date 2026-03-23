@@ -1,0 +1,34 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage[active,pdftex,tightpage]{preview}
+\usepackage{siunitx}
+\usepackage[latin1]{inputenc}
+\PreviewEnvironment{circuitikz}
+\begin{document}
+
+\begin{circuitikz}[scale=1, transform shape, american]
+    \draw
+    (0,0) node[ground]{} to[cisourceAM, name=E] (0,4) -- ++(1.5,0) coordinate(topz) --++(1.5,0)
+    coordinate(grid+) to[open, v=$V_{g}$, o-o] ++(0,-4) node[ground]{};
+    \draw(topz) to[generic,l=$Z$] ++(0,-4) node[ground]{};
+    % Rectangle centered at (E.north) shifted left by 1 unit
+    \draw[color=blue] (E.north) ++(-0.7,0) node[draw, minimum width=1cm, minimum height=1.2cm, anchor=east] 
+    (rect) {};
+    \draw(E.north)++(-0.15,0.1)node[above]{$I$};
+
+
+    %Make all the part below with blue ink pls.
+    % Arrows and labels
+    \draw[color=blue][->] (rect.east) -- (E.north);
+    
+
+    \draw[color=blue] (rect.west)++(0, 0.5)coordinate(Vref);
+    \draw[color=blue] (rect.west)++(0,-0.5)coordinate(fref);
+
+    \draw[color=blue][<-] (Vref)  -- ++(-0.5,0) node[above] {$P_{ref}$};
+    \draw[color=blue][<-] (fref) -- ++(-0.5,0) node[above] {$Q_{ref}$};
+
+    \draw[color=blue](rect.center) node[]{$Ctrl$};
+\end{circuitikz}
+
+\end{document}
