@@ -1,0 +1,50 @@
+\documentclass[12pt]{standalone}
+\usepackage{tikz}
+
+\usepackage{cmbright}
+
+\begin{document}
+
+\begin{tikzpicture}
+    % Axes
+    \draw[->, thick] (0, 0) -- (11, 0) node[anchor=west] {time};
+    \draw[->, thick] (0, 0) -- (0, 5) node[anchor=east] {Power};
+
+    % Time axis labels
+    \node[anchor=north] at (0, -0.1) {0:00};
+    \node[anchor=north] at (9.6, -0.1) {24h};
+
+    % Blue line (demand)
+    \draw[blue, very thick] (0, 0.2) 
+        .. controls (1, 0.3) and (2, 0.3) .. (2.5, 1.2)
+        .. controls (3, 1.5) and (3.5, 0.5) .. (4, 0.5)
+        .. controls (5, 0.4) and (6, 0.4) .. (7, 0.5)
+        .. controls (7.2, 0.5) and (7.3, 4) .. (7.5, 4.2)
+        .. controls (8, 4.5) and (8.5, 4.5) .. (8.8, 3.8)
+        .. controls (9, 2.8) and (9.3, 2.5) .. (9.8, 2)
+        node[anchor=west] {demand};
+
+    % Yellow solid line (PV)
+    \draw[yellow!60!orange, very thick] (0, 0.0)
+        .. controls (2, 0.0) and (3, 0.0) .. (3.5, 1.2)
+        .. controls (3.8, 2) and (4.5, 1.5) .. (4.8, 2.2)
+        .. controls (5.2, 3) and (6, 3.5) .. (6.5, 2.8)
+        .. controls (7.5, 0.) and (8.5, 0.0) .. (9.8, 0.0)
+        node[anchor=south] {PV};
+
+    % Yellow dashed lines (uncertainty)
+    \draw[yellow!60!orange, dashed] (3.5, 1.2)
+        .. controls (3.8, 1.5) and (4.5, 0.8) .. (4.8, 1.5)
+        .. controls (5.2, 2.5) and (6, 3.2) .. (6.5, 2.5)
+        .. controls (7.5, 0.) and (8.5, 0.0) .. (9.8, 0.0);
+        
+    \draw[yellow!60!orange, dashed] (3.5, 1.2)
+        .. controls (3.8, 2.5) and (4.5, 2.2) .. (4.8, 3)
+        .. controls (5.2, 4) and (6, 4.2) .. (6.5, 3.5)
+        .. controls (7.5, 0.) and (8.5, 0.0) .. (9.8, 0.0);
+
+    % Yellow legend
+    %\draw[yellow!80!orange, thick] (11, 6) -- (11.5, 6) node[anchor=west] {PV forecast};
+\end{tikzpicture}
+
+\end{document}
