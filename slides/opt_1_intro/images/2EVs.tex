@@ -1,0 +1,38 @@
+\documentclass[12pt]{standalone}
+\usepackage{tikz}
+
+\usepackage{cmbright}
+
+\begin{document}
+
+\begin{tikzpicture}
+    % Axes
+    \draw[->, thick] (0, 0) -- (6, 0) node[anchor=west] {time};
+    \draw[->, thick] (0, 0) -- (0, 6) node[anchor=east] {Power};
+
+    % Time axis labels
+    \node[anchor=north] at (0, -0.1) {0:00};
+    \node[anchor=north] at (5.6, -0.1) {12:00};
+
+    \draw[fill=blue, opacity=0.3] (0, 0) rectangle (2, 1);
+    \node[anchor=center] at (1, 0.5) {EV 1};  
+    \draw[fill=blue, opacity=0.3] (2, 0) rectangle (4, 1);
+    \node[anchor=center] at (3, 0.5) {EV 2};  
+\end{tikzpicture}
+\begin{tikzpicture}
+    % Axes
+    \draw[->, thick] (0, 0) -- (6, 0) node[anchor=west] {time};
+    \draw[->, thick] (0, 0) -- (0, 6) node[anchor=east] {Power};
+
+    % Time axis labels
+    \node[anchor=north] at (0, -0.1) {0:00};
+    \node[anchor=north] at (5.6, -0.1) {12:00};
+
+    \draw[fill=blue, opacity=0.3] (0, 0) rectangle (1, 2);
+    \node[anchor=center] at (0.5, 1) {EV 1};  
+    \draw[fill=blue, opacity=0.3] (0, 2) rectangle (1, 4);
+    \node[anchor=center] at (0.5, 3) {EV 2};  
+\end{tikzpicture}
+
+
+\end{document}
