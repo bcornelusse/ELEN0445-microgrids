@@ -68,9 +68,9 @@
             % Grid Flow (Dynamic Direction and Value)
             % State 1: Exporting 5.6
             \draw<1>[<-] (grid) -- node[above] {5.6 kW} (sum);
-            \draw<2>[<-] (grid) -- node[above] {0 kW} (sum);
+            \draw<2>[->] (grid) -- node[above] {1.4 kW} (sum);
             % State 3: PV drops, House 0.7, EV 7 -> Need 6.7kW from grid (Import)
-            \draw<3>[->] (grid) -- node[above] {5.3 kW} (sum);
+            \draw<3>[->] (grid) -- node[above] {6.7 kW} (sum);
             % State 4: Consumption rises to 4.5 -> Need (4.5 + 7 - 1) = 10.5kW
             \draw<4->[->, very thick, red] (grid) -- node[above] {10.5 kW} (sum);
 
