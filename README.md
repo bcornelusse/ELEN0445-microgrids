@@ -37,11 +37,12 @@ Teaching assistant:
 |             |  | [LP example 1 notebook, Pyomo example](https://colab.research.google.com/drive/1xgO3EhGoG6P5E9BVV7QyPgLJM5HdNDrY?usp=sharing), [LP example 2 notebook](https://colab.research.google.com/drive/1ujoTNfu2_sCoVK7ksqbXgusmAAizvIip?usp=sharing) |
 |             |  | [Hands-on session](https://colab.research.google.com/drive/1lrWL7sOrazTzlapVxcxrv_ZvVUZADC0h?usp=sharing) |
 |             |  | [Real-time optimization of a microgrid](https://github.com/bcornelusse/DENSYS-school/blob/main/Lectures/densys_2-1-RTO/densys_2-1-RTO.pdf) |
-|	 April 9 	|	9	|		[Introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pdf)  |
+|	 April 2 	|	9	|		Work session assignemnt 3 |
+|	 April 9 	|	10	|		[Introduction to machine learning](pdf/IntroductiontoMachineLearningDENSYS2021.pdf)  |
 |             |     | Exercise: [Room occupancy prediction](https://colab.research.google.com/drive/1qhVUg9_W-4U3AcQXyP9ZW7TfmbUX91Mz?usp=sharing) and [data](notebooks/data.zip)|
 |             |    | [Introduction to point forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting/blob/2b91cfc1b637b2ff17b13786b2407df66b6ac485/pdf/ELEN0445-1-microgrids-forecasting-lesson-1-2021.pdf) ([Video](https://youtu.be/NqezU_J1JQs))   |
 |             |       | [Hands on forecasting session](https://colab.research.google.com/drive/1hvI10_m99pxUdT3mnqaDrtBieKiPjTwf?usp=sharing) |
-|	 April 16   	|	10	|	 [Operational planning and sizing](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20241127_microgrids_optimization.pdf) 	|
+|	 April 16   	|	11	|	 [Operational planning and sizing](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20241127_microgrids_optimization.pdf) 	|
 |	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
 |             |       |Q&A assignment 4 |
 |	              	|	    	|		|
