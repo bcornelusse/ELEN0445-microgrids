@@ -43,7 +43,7 @@ Teaching assistant:
 |             |    | [Introduction to point forecasting](https://github.com/jonathandumas/ELEN0445-1-microgrids-forecasting/blob/2b91cfc1b637b2ff17b13786b2407df66b6ac485/pdf/ELEN0445-1-microgrids-forecasting-lesson-1-2021.pdf) ([Video](https://youtu.be/NqezU_J1JQs))   |
 |             |       | [Hands on forecasting session](https://colab.research.google.com/drive/1hvI10_m99pxUdT3mnqaDrtBieKiPjTwf?usp=sharing) |
 |	 April 16   	|	11	|	 [Operational planning and sizing](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20241127_microgrids_optimization.pdf) 	|
-|	              	|	    	|	 Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
+|	              	|	    	|	**TO BE UPDATED** Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
 |             |       |Q&A assignment 4 |
 |	              	|	    	|		|
 |	 May 7 	|	11	| Presentation of Assignment 4 by students. 	|
