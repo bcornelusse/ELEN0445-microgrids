@@ -1,0 +1,61 @@
+\documentclass[tikz, border=10pt]{standalone}
+\usepackage{amsmath}
+
+
+% 1. Use the standard Computer Modern Sans Serif
+\usepackage[T1]{fontenc}
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\begin{tikzpicture}[>=stealth, scale=1.2]
+
+    % --- Axis ---
+    \draw[->] (0,0) -- (6,0) node[right] {time};
+    \draw[->] (0,0) -- (0,4) node[above] {$Y$};
+
+    % --- The Staircase Function ---
+    % Parameters: #1 = starting x, #2 = starting y, #3 = list of subsequent y values
+    \newcommand{\staircaseplot}[3]{
+        \coordinate (prev) at (#1,#2);
+        \coordinate (start) at (#1,#2);
+        
+        % Initialize the center-line trace
+        \draw[red, dashed, opacity=0.5] (start) -- ++(0.5,0); 
+
+        \foreach \y [count=\i] in {#3} {
+            \pgfmathsetmacro{\xnext}{#1 + \i}
+            \pgfmathsetmacro{\xprev}{#1 + \i - 1}
+            \pgfmathsetmacro{\xmid}{\xprev + 0.5}
+            
+            % Draw the stair (Horizontal then Vertical)
+            \draw[blue, thick] (\xprev, \y) -- (\xnext, \y);
+            \ifnum\i>1
+                \draw[blue, thick] (\xprev, \lasty) -- (\xprev, \y);
+            \else
+                \draw[blue, thick] (start) -- (#1, \y);
+            \fi
+            
+            % Draw the trace through centers
+            % We connect (x_i - 0.5, y_i) to (x_i + 0.5, y_{i+1})
+            \coordinate (mid) at (\xmid, \y);
+            \fill[red] (mid) circle (1.5pt);
+            
+            \ifnum\i>1
+                \draw[red, thick] (oldmid) -- (mid);
+            \fi
+            
+            \coordinate (oldmid) at (mid);
+            \global\let\lasty\y
+        }
+    }
+
+    % --- Usage ---
+    % Starting at (1, 1.5) with a vector of Y-heights
+    \staircaseplot{1}{1.5}{2.5, 2.0, 3.2, 2.8}
+
+    % Legend for clarity
+    \draw[blue, thick] (4, 1) -- (4.5, 1) node[right, black, font=\small] {Staircase};
+    \draw[red, thick] (4, 0.6) -- (4.5, 0.6) node[right, black, font=\small] {Midpoint Trace};
+
+\end{tikzpicture}
+\end{document}
