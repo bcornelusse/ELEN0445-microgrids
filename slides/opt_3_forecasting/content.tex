@@ -405,6 +405,56 @@ quantile forecasting of PV generation," 2021 IEEE Madrid PowerTech, 2021, pp. 1-
     \end{description}
 \end{frame}
 
+\begin{frame}[allowframebreaks]{Multi-step Forecasting Strategies}
+    To predict a horizon $T$, we must choose how to handle the lead time $k$.
+
+    \vspace{1cm}
+    
+    \begin{columns}[T]
+        \begin{column}{0.45\textwidth}
+            \textbf{1. Recursive (Iterated)}
+            \begin{itemize}
+                \item A single model predicts $t+1$.
+                \item The prediction $\hat{y}_{t+1}$ is fed back as an input for $t+2$.
+                \item \textcolor{red}{Risk:} Error accumulation over long horizons.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+            \textbf{2. Direct (Multi-output)}
+            \begin{itemize}
+                \item $T$ different models (or one multi-output NN ) predict each step independently.
+                \item No error propagation.
+                \item \textcolor{red}{Risk:} Ignores temporal dependencies between outputs.
+            \end{itemize}
+        \end{column}
+    \end{columns}
+
+    \vspace{0.8cm}
+
+    \begin{center}
+        \begin{tikzpicture}[node distance=1.5cm, every node/.style={draw, thick, fill=blue!10, minimum width=1.2cm}]
+            % Recursive Diagram
+            \node (in1) [rectangle] {Input $y_t$};
+            \node (m1) [ellipse, right=of in1, fill=green!10] {Model};
+            \node (out1) [rectangle, right=of m1] {$\hat{y}_{t+1}$};
+            \draw [-Stealth] (in1) -- (m1);
+            \draw [-Stealth] (m1) -- (out1);
+            \draw [-Stealth, bend left=45] (out1.south) to node[draw=none, fill=none, above] {feedback} (in1.south);
+            \node[draw=none, fill=none, above=0.1cm of m1] {\small \textbf{Recursive}};
+            
+            % Direct Diagram
+            \node (in2) [rectangle, below=3cm of in1] {Input $y_t$};
+            \node (m2) [ellipse, right=of in2, fill=orange!10, minimum height=1cm] {Model(s)};
+            \node (out2) [rectangle, right=of m2, yshift=0.3cm] {$\hat{y}_{t+1}$};
+            \node (out3) [rectangle, right=of m2, yshift=-0.3cm] {$\hat{y}_{t+k}$};
+            \draw [-Stealth] (in2) -- (m2);
+            \draw [-Stealth] (m2.east) -- (out2.west);
+            \draw [-Stealth] (m2.east) -- (out3.west);
+            \node[draw=none, fill=none, above=0.1cm of m2] {\small \textbf{Direct}};
+        \end{tikzpicture}
+    \end{center}
+\end{frame}
+
 \begin{frame}{Procedure}    
 \begin{tikzpicture}[
     % Define the style for the boxes
