@@ -43,6 +43,7 @@ Teaching assistant:
 |             |       | [Hands on forecasting session](https://colab.research.google.com/drive/1hvI10_m99pxUdT3mnqaDrtBieKiPjTwf?usp=sharing) |
 |	 April 16   	|	11	|	 [Operational planning](slides/opt_4_planning/opt_4_planning.pdf) 	|
 |	              	|	    	| [Sizing](slides/opt_5_sizing/opt_5_sizing.pdf) 	|
+|	  	|		| Presentation of assignment 3 (see schedule)	|
 |	              	|	    	|	**TO BE UPDATED** Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
 |	 May 7 	|	11	| Q&A assignment 4	|
 
