@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'opt_5_sizing.blg'
+[26] biber-darwin:340> INFO - === Sat Apr 11, 2026, 10:42:03
+[33] Biber.pm:419> INFO - Reading 'opt_5_sizing.bcf'
+[70] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
+[76] Biber.pm:4419> INFO - Processing section 0
+[82] Biber.pm:4610> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[82] bibtex.pm:1713> INFO - LaTeX decoding ...
+[84] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
+[106] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[106] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[106] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[106] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[108] bbl.pm:660> INFO - Writing 'opt_5_sizing.bbl' with encoding 'UTF-8'
+[109] bbl.pm:763> INFO - Output to opt_5_sizing.bbl

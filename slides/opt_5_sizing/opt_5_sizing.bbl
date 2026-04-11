@@ -1,0 +1,111 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{dakir2020number}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=753b7d3236b5edb038929a9e1934e68a}{%
+           family={Dakir},
+           familyi={D\bibinitperiod},
+           given={Selmane},
+           giveni={S\bibinitperiod}}}%
+        {{hash=09eca3cbea3ace1591ec6d4923b1daf7}{%
+           family={El\bibnamedelima Mekki},
+           familyi={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Sélim},
+           giveni={S\bibinitperiod}}}%
+        {{hash=62ac593786e28c2e56fab28d272346bf}{%
+           family={Cornélusse},
+           familyi={C\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{943356157f295d64242fc4847df3ee0a}
+      \strng{fullhash}{943356157f295d64242fc4847df3ee0a}
+      \strng{bibnamehash}{943356157f295d64242fc4847df3ee0a}
+      \strng{authorbibnamehash}{943356157f295d64242fc4847df3ee0a}
+      \strng{authornamehash}{943356157f295d64242fc4847df3ee0a}
+      \strng{authorfullhash}{943356157f295d64242fc4847df3ee0a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 International Conference on Probabilistic Methods Applied to Power Systems (PMAPS)}
+      \field{title}{On the number of representative days for sizing microgrids with an industrial load profile}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{poncelet2016selecting}{article}{}
+      \name{author}{5}{}{%
+        {{hash=59ac00d999867c6f5336f0b1a5190d35}{%
+           family={Poncelet},
+           familyi={P\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9cf37ae772d9a0f3b856cdc7647fa4aa}{%
+           family={Höschle},
+           familyi={H\bibinitperiod},
+           given={Hanspeter},
+           giveni={H\bibinitperiod}}}%
+        {{hash=00656a51f36065bd1b10fca87b1cf270}{%
+           family={Delarue},
+           familyi={D\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=43ce7a5b7104f822cdf3796166f23de8}{%
+           family={Virag},
+           familyi={V\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4269dac057e71ec6e4d7cf4f98f466a0}{%
+           family={D’haeseleer},
+           familyi={D\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d24c91138ccbb1d8811a5a7c08f759c7}
+      \strng{fullhash}{50773f1616200c0e046b59375c5fdff3}
+      \strng{bibnamehash}{d24c91138ccbb1d8811a5a7c08f759c7}
+      \strng{authorbibnamehash}{d24c91138ccbb1d8811a5a7c08f759c7}
+      \strng{authornamehash}{d24c91138ccbb1d8811a5a7c08f759c7}
+      \strng{authorfullhash}{50773f1616200c0e046b59375c5fdff3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Systems}
+      \field{number}{3}
+      \field{title}{Selecting representative days for capturing the implications of integrating intermittent renewables in generation expansion planning problems}
+      \field{volume}{32}
+      \field{year}{2016}
+      \field{pages}{1936\bibrangedash 1948}
+      \range{pages}{13}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

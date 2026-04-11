@@ -1,0 +1,116 @@
+% Battery
+\newcommand{\BSSs}{\ensuremath{\mathcal{B}}}
+\newcommand{\OPSOC}{\ensuremath{s}}
+\newcommand{\maxcharge}{\ensuremath{\overline{S}}}
+\newcommand{\mincharge}{\ensuremath{\underline{S}}}
+\newcommand{\chargerate}{\ensuremath{\overline{P}}}
+\newcommand{\dischargerate}{\ensuremath{\underline{P}}}
+\newcommand{\retentionRate}{\ensuremath{\eta^{\text{retention}}}}
+\newcommand{\chargeEfficienty}{\ensuremath{\eta^{\text{charge}}}}
+\newcommand{\dischargeEfficienty}{\ensuremath{\eta^{\text{discharge}}}}
+\newcommand{\initialCharge}{\ensuremath{S^\text{init}}}
+\newcommand{\minEndCharge}{\ensuremath{\underline{S}^\text{end}}}
+\newcommand{\maxEndCharge}{\ensuremath{\overline{S}^\text{end}}}
+\newcommand{\charge}{\ensuremath{a^{\text{charge}}}}
+\newcommand{\discharge}{\ensuremath{a^{\text{discharge}}}}
+
+% Devices
+\newcommand{\devices}[1]{\ensuremath{\mathcal{D}^\text{#1}}}
+\newcommand{\sheddableDevices}{\ensuremath{\devices{sheddable}}}
+\newcommand{\flexibleDevices}{\ensuremath{\devices{flexible}}}
+\newcommand{\nonflexibleDevices}{\ensuremath{\devices{non flexible}}}
+\newcommand{\steerableDevices}{\ensuremath{\devices{steer}}}
+\newcommand{\nonsteerableDevices}{\ensuremath{\devices{non steer}}}
+\newcommand{\assistBatteries}{\ensuremath{\BSSs^\text{assist}}}
+\newcommand{\noassistBatteries}{\ensuremath{\BSSs^\text{no assist}}}
+
+\newcommand{\Batteries}{\ensuremath{\BSSs}}
+\newcommand{\Discharge}{\ensuremath{p^{discharge}}}
+\newcommand{\Charge}{\ensuremath{p^{charge}}}
+
+% Users
+\newcommand{\users}{\ensuremath{\mathcal{U}}}
+\newcommand{\profit}[1]{\ensuremath{J^\text{#1}}}
+\newcommand{\optprofit}[1]{\ensuremath{J^{\star, \text{#1}}}}
+\newcommand{\profitshare}[2]{\ensuremath{r^{#1}(J^{\star, \text{MU}}, #2)}}
+\newcommand{\netEntityPosition}{\ensuremath{p}^{\text{net}}}
+
+% Power assist
+\newcommand{\maxImport}{\ensuremath{I}^{\text{max}}}
+\newcommand{\maxExport}{\ensuremath{E}^{\text{max}}}
+\newcommand{\assistanceOn}{\ensuremath{y}^{\text{assist}}}
+\newcommand{\assistLevel}{\ensuremath{z}^{\text{assist}}}
+\newcommand{\assistedPower}{\ensuremath{p}^{\text{assisted}}}
+\newcommand{\assistlevel}{\ensuremath{P}^{\text{assist}}}
+\newcommand{\netPositionUB}{\ensuremath{p}^{\text{net, UB}}}
+
+
+% Dual variables
+\newcommand{\dualSU}[1]{\ensuremath{\lambda^\text{#1}}}
+\newcommand{\dualMU}[1]{\ensuremath{\beta^\text{#1}}}
+
+% operator
+\newcommand{\operatorincome}{\ensuremath{J}^\text{operator}}
+
+% Peak power
+\newcommand{\peak}{\ensuremath{\overline{p}}}
+\newcommand{\oldpeak}{\ensuremath{\overline{p}^{\text{past}}}}
+\newcommand{\peakdiscount}{\ensuremath{\gamma}^{\text{peak}}}
+\newcommand{\peakincrease}{\ensuremath{\delta \overline{p}}}
+
+% Price
+\newcommand{\OPprice}[1]{\ensuremath{\pi^{\text{#1}}}}
+
+% Cost
+\newcommand{\OPcost}[1]{\ensuremath{c^\text{#1}}}
+
+% Energy
+\newcommand{\exportGrid}{\ensuremath{e}^\text{grid}}
+\newcommand{\OPimport}{\ensuremath{i}^\text{grid}}
+\newcommand{\exportSlack}{\ensuremath{e}^\text{slack}}
+\newcommand{\importSlack}{\ensuremath{i}^\text{slack}}
+\newcommand{\OPexchangeOut}{\ensuremath{e}^\text{com}}
+\newcommand{\OPexchangeIn}{\ensuremath{i}^\text{com}}
+\newcommand{\OPprod}{\ensuremath{p^{\text{prod}}}}
+\newcommand{\OPcons}{\ensuremath{p^{\text{cons}}}}
+
+% Reserve
+\newcommand{\OPreserve}[1]{\ensuremath{r^\text{#1}}}
+
+% Time
+\newcommand{\OPduration}{\ensuremath{\Delta_t}}
+\newcommand{\OPperiods}{\ensuremath{\mathcal{T}}}
+
+%Production
+\newcommand{\curtail} {\ensuremath{a^\text{curt}}}
+\newcommand{\steer}{\ensuremath{a^\text{steer}}}
+\newcommand{\nonSteerable}{\ensuremath{P^\text{non steer}}}
+\newcommand{\steerable}{\ensuremath{P^\text{steer}}}
+
+% Consumption
+\newcommand{\shed} {\ensuremath{a^\text{shed}}}
+\newcommand{\flex}{\ensuremath{a^\text{flex}}}
+\newcommand{\flexCons}{\ensuremath{c^\text{flex}}}
+\newcommand{\flexStart}{\ensuremath{y^\text{flex}}}
+\newcommand{\flexStarted}{\ensuremath{z^\text{flex}}}
+\newcommand{\exclusiveGroup}{\ensuremath{\mathcal{G}}}
+\newcommand{\nonFlexible}{\ensuremath{C^\text{non flexible}}}
+\newcommand{\flexibleLoadDuration}{\ensuremath{\text{duration}^\text{flex}}}
+\newcommand{\flexibleLoadProfile}{\ensuremath{\text{profile}^\text{flex}}}
+\newcommand{\flexibleLoadStartTime}{\ensuremath{\text{start}^\text{flex}}}
+\newcommand{\flexibleLoadEndTime}{\ensuremath{\text{end}^\text{flex}}}
+\newcommand{\flexibleLoadAcceptanceRatio}{\ensuremath{\underline{a}^\text{flex}}}
+\newcommand{\flexibleLoadMustRun}{\ensuremath{\text{run}^\text{flex}}}
+\newcommand{\flexibleEnergy}{\ensuremath{\text{E}^\text{flex}}}
+\newcommand{\sheddable}{\ensuremath{C^\text{sheddable}}}
+\newcommand{\maxSheddingTime}{\ensuremath{\overline{t}^\text{shedding}}}
+
+% Sharing
+\newcommand{\weight}[1]{\ensuremath{w^\text{#1}}}
+
+% Misc 
+\newcommand{\forallt}{\ensuremath{\forall t \in \OPperiods}}
+\newcommand{\forallu}{\ensuremath{\forall u \in \users}}
+
+% New
+\newcommand{\Gres}{\ensuremath{\mathcal{G}^\text{RES}}}

@@ -41,9 +41,8 @@ Teaching assistant:
 |	 April 9 	|	10	|		[Introduction to machine learning](https://github.com/bcornelusse/DENSYS-school/blob/main/Lectures/densys_ML/densys-ML.pdf)  |
 |             |    | [Introduction to point forecasting](slides/opt_3_forecasting/opt_3_forecasting.pdf)   |
 |             |       | [Hands on forecasting session](https://colab.research.google.com/drive/1hvI10_m99pxUdT3mnqaDrtBieKiPjTwf?usp=sharing) |
-|	 April 16   	|	11	|	 [Operational planning and sizing](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20241127_microgrids_optimization.pdf) 	|
+|	 April 16   	|	11	|	 [Operational planning](slides/opt_4_planning/opt_4_planning.pdf) 	|
+|	              	|	    	| [Sizing](slides/opt_5_sizing/opt_5_sizing.pdf) 	|
 |	              	|	    	|	**TO BE UPDATED** Assignment 4 statement ([description](pdf/HW4/MG_HW4_2024.pdf) and [files](pdf/HW4/HW4_2024.zip)) 	|
-|             |       |Q&A assignment 4 |
-|	              	|	    	|		|
-|	 May 7 	|	11	| Presentation of Assignment 4 by students. 	|
+|	 May 7 	|	11	| Q&A assignment 4	|
 
