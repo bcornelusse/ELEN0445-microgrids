@@ -38,7 +38,7 @@ Teaching assistant:
 |             |  | [Hands-on session](https://colab.research.google.com/drive/1lrWL7sOrazTzlapVxcxrv_ZvVUZADC0h?usp=sharing) |
 |             |  | [Real-time optimization of a microgrid](https://github.com/bcornelusse/DENSYS-school/blob/main/Lectures/densys_2-1-RTO/densys_2-1-RTO.pdf) |
 |	 April 2 	|	9	|		Work session assignemnt 3 |
-|	 April 9 	|	10	|		[Introduction to machine learning](https://github.com/bcornelusse/DENSYS-school?tab=readme-ov-file#:~:text=Introduction%20to%20machine%20learning)  |
+|	 April 9 	|	10	|		[Introduction to machine learning](https://github.com/bcornelusse/DENSYS-school/blob/main/Lectures/densys_ML/densys-ML.pdf)  |
 |             |    | [Introduction to point forecasting](slides/opt_3_forecasting/opt_3_forecasting.pdf)   |
 |             |       | [Hands on forecasting session](https://colab.research.google.com/drive/1hvI10_m99pxUdT3mnqaDrtBieKiPjTwf?usp=sharing) |
 |	 April 16   	|	11	|	 [Operational planning and sizing](https://github.com/bcornelusse/ELEN0445-microgrids/blob/master/pdf/20241127_microgrids_optimization.pdf) 	|
