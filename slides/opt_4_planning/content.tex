@@ -101,15 +101,21 @@ For computational reasons, we discretize the decisions in time
 \end{frame} 
 
 \begin{frame}{Operation as a sequential decision-making problem}
-We have a discrete-time system represented by a state $x_{t}$
-\begin{itemize}
-    \item $x=\left(x_{0}, x_{1}, \ldots, x_{T}\right)$ represents the state evolution of the system
-    \item $u=\left(u_{0}, \ldots, u_{T-1}\right)$  is a sequence of control actions (decisions)
-\end{itemize}
+  \begin{columns}
+  \begin{column}{0.45\textwidth}
+    We have a discrete-time system represented by a state $x_{t}$
+    \begin{itemize}
+        \item $x=\left(x_{0}, x_{1}, \ldots, x_{T}\right)$ represents the state evolution of the system
+        \item $u=\left(u_{0}, \ldots, u_{T-1}\right)$  is a sequence of control actions (decisions)
+    \end{itemize}  
+  \end{column}
+  \begin{column}{0.45\textwidth}
+    \begin{center}
+        \includegraphics[width=\textwidth]{state_trajectory.pdf}
+    \end{center}
+  \end{column}
+\end{columns}
 
-\begin{center}
-    \includegraphics[width=0.5\textwidth]{4f5abcf0-f301-43b5-aaf0-9e34a9c79ca8-13_736_1295_945_992}
-\end{center}
 
 \end{frame} 
 
@@ -139,17 +145,32 @@ We estimate demand, generation, availability of system components, etc. and then
 \end{itemize}
 
 \end{frame} \begin{frame}{Receding horizon approach}
-Example: demand variation or restriction on $x$ or $u$ are observed at time $t_{r}$\\
-Receding horizon approach: update the sequence of control actions
+Example: demand variation or restriction on $x$ or $u$ are observed at time $1$ \\
+\vspace{0.5cm}
 
-\begin{enumerate}
-  \item Re-estimate the parameters (demand, availabilities)
-  \item Re-solve the open-loop formulation
-\end{enumerate}
+  \begin{columns}
+  \begin{column}{0.5\textwidth}
+    Receding horizon approach: 
+    \begin{itemize}
+      \item after applying the first decision (e.g. $u_0$), you are at time $1$
+      \item update the sequence of control actions
+      \begin{enumerate}
+        \item Re-estimate the parameters (demand, availabilities) and the actual state $x_1$ reached.
+        \item Re-solve the open-loop formulation ($u', x'$) until $T+1$
+      \end{enumerate}
+      \item ...
+    \end{itemize}
+    
 
-\begin{center}
-    \includegraphics[width=0.5\textwidth]{4f5abcf0-f301-43b5-aaf0-9e34a9c79ca8-16_603_1007_1010_1067}\\
-\end{center}
+  \end{column}
+  \begin{column}{0.45\textwidth}
+    \begin{center}
+        \includegraphics[width=\textwidth]{receding_horizon.pdf}\\
+    \end{center}
+  \end{column}
+\end{columns}
+
+
 
 \end{frame} 
 
