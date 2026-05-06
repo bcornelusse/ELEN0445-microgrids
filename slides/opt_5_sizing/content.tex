@@ -2,32 +2,52 @@
 % Create title frame
 \titleframe
 
+
+
+
+% Abstract slide
+
+\begin{frame}{Questions addressed}
+
+    \begin{itemize}
+      \item Should I invest in storage and local generation?
+      \item If yes, how to size these devices?
+      \item Which grid connection should I contract?
+      \item What if I have several technological options?
+      \item How will I manage the day-to-day operations?
+      \item Is my project financially viable?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{The sizing problem addresses these questions as an extension of the operational planning problem}
+    Main steps: 
+    \begin{enumerate}
+      \item create the options and let their capacities (sizes) vary
+      \item redesign the objective function properly
+      \item extend the time horizon to capture the main events the system will face.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{What's in these slides?}
+
+    This presentation summarizes a (stochastic mixed-integer)\footnote{Stochastic means we will consider several scenarios and attempt to have a robust design. Mixed-Integer means some decisions will be binary, essentially.} \textbf{linear optimization formulation} of this sizing problem, emphasizing:
+    \begin{itemize}
+        \item generation, converter, and battery storage system \textbf{degradation}
+        \item corresponding necessary \textbf{reinvestments} along the life of the project
+        \item \textbf{connection costs} to the public grid.
+    \end{itemize}
+    
+    The resolution of this large optimization problem is facilitated by the use of \textbf{representative days}. 
+    
+    %The methodology has been applied to the real case of a company already connected to the public grid.
+\end{frame}
+
 %--------------------------------------
 % Table of contents
 \begin{frame}{Overview}
   \setbeamertemplate{section in toc}[sections numbered]
   \tableofcontents[hideallsubsections]
 \end{frame}
-
-
-% Abstract slide
-\begin{frame}{Abstract}
-    Properly sizing a microgrid is of paramount importance to reach an optimal operation during its entire lifetime. This presentation presents a (stochastic) mixed-integer linear optimization formulation of this sizing problem, emphasizing:
-    \begin{itemize}
-        \item Generation, converter, and battery storage system degradation
-        \item Corresponding necessary reinvestments along the life of the project
-        \item Connection costs to the public grid
-    \end{itemize}
-    
-    Considering the evolution of energy and component prices, two scenarios are identified (”optimistic” and ”pessimistic”). 
-    
-    The resolution of this large optimization problem is facilitated by the use of representative days. 
-    
-    %The methodology has been applied to the real case of a company already connected to the public grid.
-\end{frame}
-
-
-
 
 \section{Optimization objective}
 
@@ -55,9 +75,9 @@
     \begin{align}
       NPV(c, a) = \sum_{y=1}^{Y} \frac{- I_{y}(c) + R_{y}(c, a) - O_{y}(c, a)}{(1 + d)^{y}}
     \end{align} 
-    \item The numerator terms depend on the microgrid sizing decisions $c$ and control decisions $a$ (e will come back to this later), representing annual costs. 
-    \item $I$ stands for (re)investment costs $R$ for revenues and $O$ for overall operating costs. 
-    \item The present value of the cash flow is obtained by using a discount factor $d$ applied over the microgrid lifetime $Y$. 
+    \item The numerator terms depend on the microgrid \textbf{sizing decisions} $c$ and \textbf{control decisions} $a$ (we will come back to this later), representing annual costs. 
+    \item $I$ stands for \textbf{(re)investment costs} $R$ for \textbf{revenues} and $O$ for overall \textbf{operating costs}. 
+    \item The present value of the cash flow is obtained by using a \textbf{discount factor} $d$ applied over the \textbf{microgrid lifetime} $Y$. 
     \item Positive NPV $\implies$ Project is expected to generate more value than its costs 
     \begin{itemize}
         \item Example: solar farm, revenues from electricity produced
@@ -69,7 +89,7 @@
         \item even if negative NPV, try to find the least negative value
     \end{itemize}
     \item The NPV becomes positive when the payback period is within the lifetime of the microgrid.
-    \item A salvage value may be taken into account.
+    \item A \textbf{salvage value} may be taken into account.
   \end{itemize}
 \end{frame}
 
@@ -129,6 +149,7 @@
     \item Initial Investment (CAPEX): €1,000,000
     \item Project lifespan: 5 years
     \item Discount rate: 8\%
+    \item Remark: totally made up numbers
   \end{itemize}
 \end{frame}
 
@@ -180,16 +201,16 @@
 \end{frame}
 
 \begin{frame}{NPV Calculation}
+  \begin{align*}
+    NPV & = \sum_{y=0}^{Y} \frac{-I_y+R_y-O_y}{(1+d)^y} \\
+    &= -€1,000,000 + \frac{€230,000}{(1.08)^1} + \frac{€270,000}{(1.08)^2} + \frac{€310,000}{(1.08)^3} + \frac{€323,000}{(1.08)^4} + \frac{€445,000}{(1.08)^5}\\
+    & \approx \text{\texteuro } 231,000 
+  \end{align*}
+
+  \textbf{Conclusion}
   \begin{itemize}
-    \item NPV = $\sum_{t=0}^{n} \frac{CF_t}{(1+r)^t}$
-    \item Where:
-      \begin{itemize}
-        \item $CF_t$ = Cash flow at time t
-        \item $r$ = Discount rate (8\% or 0.08)
-        \item $n$ = Project lifespan (5 years)
-      \end{itemize}
-    \item NPV = $-€1,000,000 + \frac{€230,000}{(1.08)^1} + \frac{€270,000}{(1.08)^2} + \frac{€310,000}{(1.08)^3} + \frac{€323,000}{(1.08)^4} + \frac{€445,000}{(1.08)^5}$
-    \item NPV $\approx$ €$231,000$
+    \item The NPV of the solar farm project is approximately €231,000.
+    \item Since the NPV is positive, the project is considered financially viable at an 8\% discount rate.
   \end{itemize}
 \end{frame}
 
@@ -197,7 +218,7 @@
 \small
 \begin{tabular}{l *{5}{S[table-format=3.2E+2]}}
 \toprule
-Years & Cash flow & \multicolumn{4}{c}{Discount rate} \\
+Years & Num & \multicolumn{4}{c}{Discount rate} \\
 \cmidrule(lr){3-6}
 & & {4.00\%} & {8.00\%} & {12.00\%} & {16.00\%} \\
 \midrule
@@ -213,15 +234,9 @@ NPV & 5.78E+05 & 3.88E+05 & 2.31E+05 & 9.90E+04 & -1.22E+04 \\
 \end{tabular}
 \end{frame}
 
-\begin{frame}{Conclusion}
-  \begin{itemize}
-    \item The NPV of the solar farm project is approximately €231,000.
-    \item Since the NPV is positive, the project is considered financially viable at an 8\% discount rate.
-    \item This example demonstrates how CAPEX, OPEX, maintenance, and funding are factored into NPV calculations.
-  \end{itemize}
-\end{frame}
 
-\section{Features and constraints}
+
+\section{Mathematical model}
 
 \begin{frame}[allowframebreaks]{Setup}
 We are considering 
@@ -245,7 +260,7 @@ where $I$ is the initial investment (not subject to uncertainty), and if scenari
 \end{frame}
 
 \begin{frame}[allowframebreaks]{Sizing problem}
-In essence, the sizing problem can be seen as an operational planning problem extended over the lifetime of the project:
+The sizing problem can be seen as an operational planning problem extended over the lifetime of the project:
 \begin{align*}
     \max \quad & E_{\omega \in \Omega} [NPV] \\
     \text{s.t.} \quad & \forall p \in \mathcal{P}, \forall y \in \mathcal{Y}, \forall \omega \in \Omega \\
@@ -253,9 +268,11 @@ In essence, the sizing problem can be seen as an operational planning problem ex
                  & \quad \text{Devices capacity updates and degradation}\\
                  & \quad \text{Definition of CAPEX and OPEX}
 \end{align*}
-We let device capacities vary (instead of fixed parameters) and account for their CAPEX in the NPV.
-We optimize NPV to account for the time value of money, and consider several years to scale OPEX w.r.t. CAPEX.
-A variation of the consumption over the years can also be included.
+\begin{itemize}
+  \item We let device capacities vary (instead of fixed parameters) and account for their CAPEX in the NPV.
+  \item We optimize NPV to account for the time value of money, and consider several years to scale OPEX w.r.t. CAPEX.
+  \item A variation of the consumption over the years can also be included.
+\end{itemize}
 
 \begin{block}{Example: PV installation sizing (no reinvestment)}
 Assuming the PV generation is maximum 10 kW at time $t_1$ for a PV installation of 20 KWp, we constrain the PV power produced at $t_1$ with 
