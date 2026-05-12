@@ -9,11 +9,11 @@ Prerequisites:
  - Notions of scientific computing (we will use Python)
 
 Instructor: 
- - Bertrand CornÃ©lusse
+ - Bertrand Cornélusse
 
 Teaching assistant:
  - Thomas Stegen
- - ClÃ©ment Moureau
+ - Clément Moureau
 
 # Lectures of 2025-2026
 |	 Date 	|	 Lecture 	|	 Topic 	|
