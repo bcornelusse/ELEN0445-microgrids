@@ -9,11 +9,11 @@ Prerequisites:
  - Notions of scientific computing (we will use Python)
 
 Instructor: 
- - Bertrand Cornélusse
+ - Bertrand CornÃ©lusse
 
 Teaching assistant:
  - Thomas Stegen
- - Clément Moureau
+ - ClÃ©ment Moureau
 
 # Lectures of 2025-2026
 |	 Date 	|	 Lecture 	|	 Topic 	|
@@ -44,6 +44,6 @@ Teaching assistant:
 |	 April 16   	|	11	|	 [Operational planning](slides/opt_4_planning/opt_4_planning.pdf) 	|
 |	              	|	    	| [Sizing](slides/opt_5_sizing/opt_5_sizing.pdf) 	|
 |	  	|		| Presentation of assignment 3 (see schedule)	|
-|	              	|	    	|	Assignment 4 statement ([description](Homeworks/OPSizing/�G_Pres_HW4_1.pdf) and [files](Homeworks/OPSizing/HW4_1.zip)) 	|
+|	              	|	    	|	Assignment 4 statement ([description](Homeworks/OPSizing/µG_Pres_HW4_1.pdf) and [files](Homeworks/OPSizing/HW4_1.zip)) 	|
 |	 May 7 	|	11	| Q&A assignment 4	|
 
