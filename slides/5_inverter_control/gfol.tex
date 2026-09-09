@@ -8,7 +8,7 @@
 
 \begin{circuitikz}[scale=1, transform shape, american]
     \draw
-    (0,0) node[ground]{} to[cisourceAM, name=E] (0,4) -- ++(1.5,0) coordinate(topz) --++(1.5,0)
+    (0,0) node[ground]{} to[cI, name=E] (0,4) -- ++(1.5,0) coordinate(topz) --++(1.5,0)
     coordinate(grid+) to[open, v=$V_{g}$, o-o] ++(0,-4) node[ground]{};
     \draw(topz) to[generic,l=$Z$] ++(0,-4) node[ground]{};
     % Rectangle centered at (E.north) shifted left by 1 unit

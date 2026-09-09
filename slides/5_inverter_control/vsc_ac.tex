@@ -8,12 +8,12 @@
 
 \begin{circuitikz}[scale=1, transform shape, american]
     \draw
-    (0,0) to[cvsourceAM, l=$E$,invert] (0,4) to[L, l=$L$] ++(2.5,0)to[R, l=$R$] ++(2.5,0) coordinate(AC+) to[C, l=$C$] ++(0,-4)--(0,0);
+    (0,0) to[csV, l=$E$,invert] (0,4) to[L, l=$L$] ++(2.5,0)to[R, l=$R$] ++(2.5,0) coordinate(AC+) to[C, l=$C$] ++(0,-4)--(0,0);
     \draw(AC+) -- ++(1.5,0)coordinate(AC+bis) to [voltmeter, l=$V_a$,invert] ++(0,-4)--++(-1.5,0);
-    \draw(AC+bis) to[generic,l=$Z_g$] ++(2,0) to [vsourceAM, l=$V_g$] ++(0,-4)--++(-2,0);
+    \draw(AC+bis) to[generic,l=$Z_g$] ++(2,0) to [sV, l=$V_g$] ++(0,-4)--++(-2,0);
     % node[circ]{}
     %       to[R, l_=$R_1$] ++(-2,-2)
-    %       to[vsourceAM, l_=$V_2$] ++ (2,-2)node[circ]{}--(0,0);
+    %       to[sV, l_=$V_2$] ++ (2,-2)node[circ]{}--(0,0);
     % \draw
     % (3,4) to[R, l=$R_3$] ++(2,-2) coordinate(midright)
     %       to[R, l=$R_4$] ++(-2,-2);

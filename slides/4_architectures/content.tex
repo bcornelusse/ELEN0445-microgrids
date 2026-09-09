@@ -12,7 +12,7 @@
 %--------------------------------------
 
 \begin{frame}{Content of this lecture}
-In this lecture we review microgrids architectures, that is which components form a microgrid and how to interconnect them.
+In this lecture we review microgrid architectures, that is which components form a microgrid and how to interconnect them.
 
 \end{frame}
 
@@ -25,7 +25,7 @@ An alternating current (AC) microgrid is a microgrid where components are couple
   \item Typically, AC microgrids where the demand $>10 \mathrm{~kW}$ are three-phase!
   \begin{itemize}
     \item Required if you want to connect to the public grid (in Belgium)
-    \item Equipment in general require less components per unit of power transferred
+    \item Equipment in general requires fewer components per unit of power transferred
     \item Easy to generate a rotating field for motors
     \item (Three-phase power transfer is a constant expression, if the phases are balanced)
   \end{itemize}
@@ -99,7 +99,7 @@ Purpose: enable a controllable (bidirectional) flow between devices\\
   \begin{column}{0.55\textwidth}
     \textbf{Grid-following converters} (Fig (b)): can be represented as an ideal current source setting the active and reactive power injected into / withdrawn from the grid.
     
-    \textbf{Grid-forming converters} (Fig (a)): can be represented as an ideal AC voltage source setting the voltage amplitue and frequency of the local electrical grid.
+    \textbf{Grid-forming converters} (Fig (a)): can be represented as an ideal AC voltage source setting the voltage amplitude and frequency of the local electrical grid.
     
     \textbf{Grid-supporting converters} (Fig (c)): "inbetween the two others", implementing functions to support the grid, e.g. droop control.\\
   \end{column}
@@ -181,7 +181,7 @@ Source: website of Victron.
 \begin{itemize}
   \item The distribution system is DC
   \item Requires DC to DC converters to adapt voltage to devices
-  \item DC to AC to power AC loads, or to inject in the public grid
+  \item DC to AC to power AC loads, or to inject into the public grid
   \item AC to DC to convert AC generation to DC (e.g. from public grid to microgrid)
   \item DC microgrids are not widespread but gain some interest
 \end{itemize}
@@ -201,7 +201,7 @@ Source: website of Victron.
   \begin{itemize}
   \item DC systems enable a simpler integration of DERs, since many of them are either DC by nature or require a DC interface anyway
   \item Parallel distributed architectures are simpler to realize in DC: unnecessary frequency control and phase synchronization
-  \item Frequency control is not necessary in DC systems, unwanted harmonic content may by easier to filter too
+  \item Frequency control is not necessary in DC systems, unwanted harmonic content may be easier to filter too
   \end{itemize}
   \end{column}
   \begin{column}{0.45\textwidth}
@@ -228,7 +228,7 @@ The objectives of this document are the following:
   \item ensure proper operation of the distribution networks;
   \item improve the safety of staff active in these networks;
   \item protect the distribution network's infrastructure;
-  \item and contribut to the general system stability. "
+  \item and contribute to the general system stability. "
 \end{itemize}
 
 \end{frame}\begin{frame}{Application domain of C10/11}
@@ -256,7 +256,7 @@ A power backup system (as specified in § 4.1.9) will only operate in parallel w
 
 \begin{itemize}
   \item During tests
-  \item In case of islanding / reconnection after a network faults ("make-beforebreak")
+  \item In case of islanding / reconnection after a network fault ("make-beforebreak")
   \item ...
 \end{itemize}
 
@@ -288,7 +288,7 @@ There are maximum durations depending on the cases.\\
 \end{center}
 \end{frame}
 
-\begin{frame}{Syncrocheck}
+\begin{frame}{Synchrocheck}
 The power-generating units which synchronize with the voltage on the distribution network (such as synchronous machines, island equipment ...), have to be equipped with a synchrocheck relay (equipped with a synchroscope) of a type homologated by Synergrid.
 
 The synchrocheck is set as follows unless determined otherwise by the DSO:

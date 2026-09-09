@@ -10,3 +10,5 @@ intro_MP.md
 *.aux
 *.fdb_latexmk
 *.toc
+.venv
+*.pyc

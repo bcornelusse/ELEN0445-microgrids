@@ -1,0 +1,5 @@
+# Python requirements for ELEN0445 Microgrid Optimization Examples
+numpy>=1.22.0
+scipy>=1.9.0
+matplotlib>=3.5.0
+pandas>=1.4.0

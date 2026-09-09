@@ -230,7 +230,7 @@ Piecewise linear approximation of “true exponential model”.
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Basic bloc: two switches}
+\begin{frame}{Basic block: two switches}
   \begin{center}
     \includegraphics[width=0.8\textwidth]{images/principle_DCDC.png}
   \end{center}
@@ -269,10 +269,7 @@ Piecewise linear approximation of “true exponential model”.
   \begin{center}
     \includegraphics[width=0.3\textwidth]{images/inverters.png}
   \end{center}
-  \begin{itemize}
-    \item 
-  \end{itemize}
-    \begin{center}
+  \begin{center}
     \includegraphics[width=0.5\textwidth]{images/principle_inverter.png}
   \end{center}
 
@@ -303,7 +300,7 @@ Piecewise linear approximation of “true exponential model”.
 $$
 E_{w}=\frac{1}{2} m v^{2}
 $$
-As power is the time derivative of energy, we have, assumming the speed is constant:
+As power is the time derivative of energy, we have, assuming the speed is constant:
 $$
 P_{w}=\frac{d E_{w}}{d t}=\frac{1}{2} \frac{d m}{d t} v^{2}
 $$
@@ -313,10 +310,10 @@ $\boxed{P_{w}=\frac{1}{2} \rho A v^{3}}$.
 \end{frame}
 
 \begin{frame}{Power conversion}
-Only a fraction of the wind power is harvested by the blades. Actually, the energy harvested is function of the \textbf{speed of the air that enters the blades}, $v_{u}$, and \textbf{speed of the air that leaves the blades}, $v_{d}$ :
+Only a fraction of the wind power is harvested by the blades. Actually, the energy harvested is a function of the \textbf{speed of the air that enters the blades}, $v_{u}$, and \textbf{speed of the air that leaves the blades}, $v_{d}$ :
 $P_{b}=\frac{1}{2} \frac{d m}{d t}\left(v_{u}^{2}-v_{d}^{2}\right)$
 
-Approximating $\frac{d m}{d t}$ by $\rho A \frac{v_{u}-v_{d}}{2}$ and defining the coeffitient $\lambda_{w}$ as
+Approximating $\frac{d m}{d t}$ by $\rho A \frac{v_{u}-v_{d}}{2}$ and defining the coefficient $\lambda_{w}$ as
 $
 \lambda_{w}=\frac{v_{d}}{v_{u}}
 $, 
@@ -381,7 +378,7 @@ Those cannot be used for large size generators (> several hundreds of kW).
 \begin{frame}{Power electronics interface}
 Most of the time, and especially in microgrids operation, these generators are coupled with power electronics to generate power with an appropriate shape:
 \begin{itemize}
-  \item the output of the generator goes through a DC convertion stage (rectifier if AC generator, DC-DC if DC generator) to cope with wind speed variations
+  \item the output of the generator goes through a DC conversion stage (rectifier if AC generator, DC-DC if DC generator) to cope with wind speed variations
   \item if the distribution grid is AC , then there is an additional inverter stage.
 \end{itemize}
 \end{frame}
@@ -453,8 +450,8 @@ A PV cell is composed of semiconductor material. Photons emitted by the sun inte
 
 \begin{itemize}
   \item "It can be shown that for a high-quality solar cell (low $R_{S}$ and $I_{0}$ (diode parameter), and high $R_{S H}$ ) the short-circuit current $I_{S C} \approx I_{L}$ "
-  \item The open-circuit voltage is approximately equal to the voltage accross the diode
-  \item Both are function of irradiance and temperature
+  \item The open-circuit voltage is approximately equal to the voltage across the diode
+  \item Both are a function of irradiance and temperature
 \end{itemize}
 
 Source: \href{https://en.wikipedia.org/wiki/Theory_of_solar_cells}{Wikipedia}
@@ -474,7 +471,7 @@ PV cells are arranged into panels. PV cells are combined in series and in parall
   \item Series: same short circuit current, increased open circuit voltage, but current limited by PV panel delivering the smallest current.
 \end{itemize}
 
-Hence a shadowed or damaged panel can impact the whole array. In practice, PV panels arangement is a mix of series and parallel connections. This trade-off is also impacted by the number and types of power electronics equipment that a particular configuration requires.
+Hence a shadowed or damaged panel can impact the whole array. In practice, PV panels arrangement is a mix of series and parallel connections. This trade-off is also impacted by the number and types of power electronics equipment that a particular configuration requires.
 
 \end{frame}
 
@@ -492,7 +489,7 @@ Extreme approaches:
     \end{itemize}
   \end{column}
   \begin{column}{0.45\textwidth}
-  One interface for each PV panel (moduleintegrated):
+  One interface for each PV panel (module-integrated):
   \begin{itemize}
     \item High cost in power electronics,
     \item low cost in installation and cabling, high reliability.
@@ -526,7 +523,7 @@ Extreme approaches:
 
     \begin{enumerate}
       \item $R_{0}$ can vary in time depending on the user needs,
-      \item $R_{M P P}$ is function of irradiance and temperature.
+      \item $R_{M P P}$ is a function of irradiance and temperature.
     \end{enumerate}
   \end{column}
   \begin{column}{0.45\textwidth}
@@ -574,7 +571,7 @@ These are the most common implementation of fuel cells:
 
 \begin{itemize}
   \item the anode and cathode catalyst is platinum
-  \item the membrane is made fof Nafion
+  \item the membrane is made of Nafion
 \end{itemize}
 
 The reversible voltage is
@@ -591,7 +588,7 @@ In practice, its efficiency varies between $35 \%$ and $60 \%$. The main factor 
 
 \end{frame}\begin{frame}{Fuel cell operation}
 \begin{itemize}
-  \item Fuels cells have a MPP of operation that corresponds to a cell output voltage of approximately 0.4 V
+  \item Fuel cells have an MPP of operation that corresponds to a cell output voltage of approximately 0.4 V
   \item The power electronics interface must be designed to account for this low cell voltage, hence to provide a high input-output voltage step-up ratio
   \item Another important factor is that the cell must be operated with a relatively constant current output. Else, it can lead to a loss of performance or even to degradation of the membrane and catalysts
 \end{itemize}
@@ -636,7 +633,7 @@ In practice, its efficiency varies between $35 \%$ and $60 \%$. The main factor 
 \begin{frame}{Power electronics interface}
 The shaft rotates at a high speed, in the range 50,000 to $120,000 \mathrm{rpm}$. Hence the output voltage of the generator is in the kHz range.
 
-A microtrubines thus requires a rectifier (+ inverter if connected to an AC grid).
+A microturbine thus requires a rectifier (+ inverter if connected to an AC grid).
 
 \end{frame}
 
@@ -650,9 +647,7 @@ ICEs are widespread:
   \item low operation and maintenance costs\footnote{Fuel may nevertheless be very expensive in some parts of the world.}
   \item can be easily moved from one place to another
   \item Can be designed to work with a variety of fuels
-  \item Units of several kW to several MW.\\
-  \item 
-
+  \item Units of several kW to several MW.
 \end{itemize}
 
 \end{frame}\begin{frame}{Working principle of ICEs}

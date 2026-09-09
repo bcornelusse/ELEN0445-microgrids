@@ -119,7 +119,7 @@ For computational reasons, we discretize the decisions in time
 
 \end{frame} 
 
-\begin{frame}{Given a criterion, we can compute an openloop sequence of actions $\boldsymbol{u}^{*}$ to drive the system }
+\begin{frame}{Given a criterion, we can compute an open-loop sequence of actions $\boldsymbol{u}^{*}$ to drive the system }
 We estimate demand, generation, availability of system components, etc. and then solve\\
 \begin{center}
     \begin{minipage}{0.8\textwidth}
@@ -141,7 +141,7 @@ We estimate demand, generation, availability of system components, etc. and then
   \item the weather, which impacts renewable generation and consumption
   \item outages of steerable generation or storage
   \item Some events may thus turn the open-loop sequence $u^{*}$ suboptimal or infeasible
-  \item This can be mitigated by the a receding horizon approach
+  \item This can be mitigated by a receding horizon approach
 \end{itemize}
 
 \end{frame} \begin{frame}{Receding horizon approach}
@@ -204,7 +204,7 @@ We do not consider investment decisions
 We do not consider maintenance decisions
 \begin{itemize}
   \item Maintenance cost can be accounted for in sizing
-  \item In operation, scheduled maintenance are just extra constraints or data updates (e.g. PV is out)
+  \item In operation, scheduled maintenance is just extra constraints or data updates (e.g. PV is out)
   \item If necessary, maintenance scheduling could be stated as an extension of operational planning
 \end{itemize}
 \end{frame} 
@@ -304,13 +304,13 @@ Depending on the decision time, we can not always assume the price is known in a
 \end{frame} \begin{frame}{Minimize components' degradation}
 \begin{itemize}
   \item Generation devices, such as internal combustion machines, have a lifetime which varies significantly with the way they are used.
-  \item Batteries suffer of the same problem. However, this depends a lot with the type of battery technology.
+  \item Batteries suffer from the same problem. However, this depends a lot on the type of battery technology.
 \end{itemize}
 
 \end{frame} \begin{frame}{(Islanded mode) Ensure security of supply}
 In case of public grid service interruption, the objective of the microgrid may suddenly switch to simply keeping the critical loads powered as long as possible.
 
-\end{frame} \begin{frame}{All these objectives are (most of the time) conflictual}
+\end{frame} \begin{frame}{All these objectives are (most of the time) conflicting}
 For instance:
 \begin{itemize}
   \item Minimizing the peak can lead to opportunity losses with respect to low energy purchase prices
@@ -361,7 +361,7 @@ Hence we must reach a tradeoff between these objectives.
   \item Roh, H. T., \& Lee, J. W. (2015). Residential demand response scheduling with multiclass appliances in the smart grid. IEEE Transactions on Smart Grid, 7(1), 94-104.
 \end{itemize}
 
-\end{frame} \begin{frame}{Loads can be subdivided in 5 categories}
+\end{frame} \begin{frame}{Loads can be subdivided into 5 categories}
 \begin{itemize}
   \item Elastic / Inelastic
   \item MemoryLess, with Full Memory or Partial Memory

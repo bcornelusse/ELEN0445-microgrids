@@ -61,7 +61,7 @@ Sources and forms of energy vary widely, leading to the emergence of many differ
   \item Case / enclosure
 \end{itemize}
 
-Voltage and current rating are function of material and construction.\\
+Voltage and current rating are a function of material and construction.\\
 The surface area of each cell determines factors such as
 
 \begin{itemize}
@@ -93,14 +93,14 @@ Example: standard 12 V lead-acid battery: six 2 V cells in series within an encl
 \end{frame}
 
 \begin{frame}{What limits the cycle-life?}
-During discharge, both electrode reactions create PbSo4 (lead sulphate) that coats the electrodes
+During discharge, both electrode reactions create $\mathrm{PbSO}_4$ (lead sulphate) that coats the electrodes
 
 \begin{itemize}
   \item Lead sulphate is not totally removed when charging
   \item it accumulates with cycles
 \end{itemize}
 
-Sulfuric acid concentration dereases (as a consequence of the above phenomenon)
+Sulfuric acid concentration decreases (as a consequence of the above phenomenon)
 
 \begin{itemize}
   \item \textbf{flooded} lead-acid batteries can be replenished
@@ -126,7 +126,7 @@ $$
 Stored energy is heavily dependent not only on the molar concentration but also on the temperature.
 
 \end{frame}\begin{frame}{Efficiency}
-The overal efficiency
+The overall efficiency
 $$
 \eta=\eta_{V} \eta_{C}
 $$
@@ -181,14 +181,14 @@ The internal resistance typically varies with different discharge rates, hence t
 
 \end{frame}
 
-\section{Lithium lon batteries}
-\begin{frame}{Lithium lon batteries}
+\section{Lithium-Ion batteries}
+\begin{frame}{Lithium-Ion batteries}
 Lithium-ion (Li-ion) batteries have many advantages over lead-acid batteries:
 
 \begin{enumerate}
   \item Lighter than lead-acid batteries because lithium and carbon are lighter than lead.
   \item Do not build up deposits every charge/discharge cycle, so their efficiency is about 99\% -> cycle-life much bigger
-  \item Allow deeper discharges (although cycle-life dependes on DoD)
+  \item Allow deeper discharges (although cycle-life depends on DoD)
 \end{enumerate}
 
 Also, higher cell voltage means fewer series-connected cells for a same string voltage.
@@ -213,7 +213,7 @@ Also, higher cell voltage means fewer series-connected cells for a same string v
   \item Old BMSs used inaccurate heuristics to estimate operating parameters and stop operation if needed whereas new generations exploit - high-fidelity electrochemical models solved in real-time.
 \end{itemize}
 
-\end{frame}\begin{frame}{Comparison of Li-lon Battery Technologies}
+\end{frame}\begin{frame}{Comparison of Li-Ion Battery Technologies}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{images/comparison_Li.png}
 \end{center}
@@ -271,10 +271,10 @@ Also, higher cell voltage means fewer series-connected cells for a same string v
 
 \end{frame}\begin{frame}{Battery models in practice}
 
-Highly dependent of the application :
+Highly dependent on the application :
 \begin{itemize}
   \item for sizing or planning problems, a simple tank model may be enough (for sizing, see how to evaluate capacity degradation on the next slide)
-  \item a more detailed model can represent the current-voltage dependance and thus the efficiency as a function of the power charged or discharged:\\
+  \item a more detailed model can represent the current-voltage dependence and thus the efficiency as a function of the power charged or discharged:\\
 \end{itemize}
 \begin{columns}
   \begin{column}{0.3\textwidth}
@@ -300,12 +300,12 @@ $a$ is a parameter determined experimentally.
 
 \begin{frame}{Charging strategies}
 
-Charging strategies refer to the way current and voltage are controled over time to charge a battery.
+Charging strategies refer to the way current and voltage are controlled over time to charge a battery.
 
 Complex strategies exist to maximize the efficiency and the safety of the process
 
 \begin{itemize}
-  \item constant current CC is the simplest, but can lead to over voltage if not stopped fast enough
+  \item constant current CC is the simplest, but can lead to overvoltage if not stopped fast enough
   \item constant voltage CV is a bit more complex, but avoids over-voltages (since it is regulated). But leads to high currents when the battery is near empty and tiny currents when it is almost charged.
   \item more advanced techniques combining CC and CV or regulating a function of C and improve the process.
 \end{itemize}
@@ -313,7 +313,7 @@ Complex strategies exist to maximize the efficiency and the safety of the proces
 \end{frame}\begin{frame}{State of charge estimation}
 \begin{itemize}
   \item Coulomb counting
-  \item Voltage measurment
+  \item Voltage measurement
   \item Kalman filtering
   \item Technology specific methods.
 \end{itemize}
@@ -345,7 +345,7 @@ Complex strategies exist to maximize the efficiency and the safety of the proces
   \item Porous separator inserted between electrodes.
 \end{itemize}
 
-\end{frame}\begin{frame}{\Large Schematic \& working principle of super capacitor technology}
+\end{frame}\begin{frame}{Schematic \& working principle of supercapacitor technology}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{images/supercapacitor.png}
 \end{center}

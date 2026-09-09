@@ -8,7 +8,7 @@
 
 \begin{circuitikz}[scale=1, transform shape, american]
     \draw
-    (0,0) node[ground]{} to[cvsourceAM, invert, name=E] (0,4) to[generic, l_=$Z$] ++(3,0)
+    (0,0) node[ground]{} to[csV, invert, name=E] (0,4) to[generic, l_=$Z$] ++(3,0)
     coordinate(grid+) to[open, v=$V_{g}$, o-o] ++(0,-4) node[ground]{};
 
     % Rectangle centered at (E.north) shifted left by 1 unit
